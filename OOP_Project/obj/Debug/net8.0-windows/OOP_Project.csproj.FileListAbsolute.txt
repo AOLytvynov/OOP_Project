@@ -1,0 +1,4 @@
+D:\Мої файли\Навчання\Об'єктно-орієнтоване програмування (КП)\Проєкт\OOP_Project\OOP_Project\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Мої файли\Навчання\Об'єктно-орієнтоване програмування (КП)\Проєкт\OOP_Project\OOP_Project\obj\Debug\net8.0-windows\App.g.cs
+D:\Мої файли\Навчання\Об'єктно-орієнтоване програмування (КП)\Проєкт\OOP_Project\OOP_Project\obj\Debug\net8.0-windows\OOP_Project_MarkupCompile.cache
+D:\Мої файли\Навчання\Об'єктно-орієнтоване програмування (КП)\Проєкт\OOP_Project\OOP_Project\obj\Debug\net8.0-windows\OOP_Project_MarkupCompile.lref

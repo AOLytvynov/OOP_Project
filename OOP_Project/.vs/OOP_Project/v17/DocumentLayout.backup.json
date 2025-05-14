@@ -3,57 +3,19 @@
   "WorkspaceRootPath": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B83B4D0D-A146-4536-80DA-E43CD6D17175}|..\\TestProject\\TestProject.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\testproject\\filmtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\oop_project\\projectclassdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|solutionrelative:projectclassdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\oop_project\\models\\registereduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|solutionrelative:models\\registereduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\oop_project\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|solutionrelative:models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\oop_project\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83B4D0D-A146-4536-80DA-E43CD6D17175}|..\\TestProject\\TestProject.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\testproject\\tickettest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83B4D0D-A146-4536-80DA-E43CD6D17175}|..\\TestProject\\TestProject.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\testproject\\tickethelpertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83B4D0D-A146-4536-80DA-E43CD6D17175}|..\\TestProject\\TestProject.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\testproject\\screeningtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83B4D0D-A146-4536-80DA-E43CD6D17175}|..\\TestProject\\TestProject.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\testproject\\screeningscheduletest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83B4D0D-A146-4536-80DA-E43CD6D17175}|..\\TestProject\\TestProject.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\testproject\\registeredusertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83B4D0D-A146-4536-80DA-E43CD6D17175}|..\\TestProject\\TestProject.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\testproject\\filmtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\oop_project\\models\\screeningschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|solutionrelative:models\\screeningschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83B4D0D-A146-4536-80DA-E43CD6D17175}|..\\TestProject\\TestProject.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\testproject\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\oop_project\\models\\screening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|solutionrelative:models\\screening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\oop_project\\models\\tickethelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|solutionrelative:models\\tickethelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\oop_project\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|solutionrelative:models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\oop_project\\interfaces\\iticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|solutionrelative:interfaces\\iticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|d:\\\u043C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u043E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u043A\u043F)\\\u043F\u0440\u043E\u0454\u043A\u0442\\oop_project\\oop_project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B3AEAC-FB73-4D96-9C7C-8CAC5AC3FB49}|OOP_Project.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,204 +25,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ScreeningScheduleTest.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\ScreeningScheduleTest.cs",
-              "RelativeDocumentMoniker": "..\\TestProject\\ScreeningScheduleTest.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\ScreeningScheduleTest.cs",
-              "RelativeToolTip": "..\\TestProject\\ScreeningScheduleTest.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAA3wHgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:41:43.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TicketHelperTest.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\TicketHelperTest.cs",
-              "RelativeDocumentMoniker": "..\\TestProject\\TicketHelperTest.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\TicketHelperTest.cs",
-              "RelativeToolTip": "..\\TestProject\\TicketHelperTest.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwE8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T07:51:08.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisteredUserTest.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\RegisteredUserTest.cs",
-              "RelativeDocumentMoniker": "..\\TestProject\\RegisteredUserTest.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\RegisteredUserTest.cs",
-              "RelativeToolTip": "..\\TestProject\\RegisteredUserTest.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwEkAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:17:22.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ScreeningTest.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\ScreeningTest.cs",
-              "RelativeDocumentMoniker": "..\\TestProject\\ScreeningTest.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\ScreeningTest.cs",
-              "RelativeToolTip": "..\\TestProject\\ScreeningTest.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:43:45.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "FilmTest.cs",
               "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\FilmTest.cs",
               "RelativeDocumentMoniker": "..\\TestProject\\FilmTest.cs",
               "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\FilmTest.cs",
               "RelativeToolTip": "..\\TestProject\\FilmTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T21:19:59.581Z",
+              "WhenOpened": "2025-05-14T14:24:10.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TicketTest.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\TicketTest.cs",
-              "RelativeDocumentMoniker": "..\\TestProject\\TicketTest.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\TicketTest.cs",
-              "RelativeToolTip": "..\\TestProject\\TicketTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAASAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:45:10.505Z",
+              "WhenOpened": "2025-05-14T13:43:33.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "Models\\Admin.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\Admin.cs",
-              "RelativeToolTip": "Models\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T07:22:12.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Film.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\Film.cs",
-              "RelativeDocumentMoniker": "Models\\Film.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\Film.cs",
-              "RelativeToolTip": "Models\\Film.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAkwEQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T21:29:33.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "RegisteredUser.cs",
               "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\RegisteredUser.cs",
               "RelativeDocumentMoniker": "Models\\RegisteredUser.cs",
               "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\RegisteredUser.cs",
               "RelativeToolTip": "Models\\RegisteredUser.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:23:28.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ScreeningSchedule.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\ScreeningSchedule.cs",
-              "RelativeDocumentMoniker": "Models\\ScreeningSchedule.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\ScreeningSchedule.cs",
-              "RelativeToolTip": "Models\\ScreeningSchedule.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:42:05.348Z",
+              "WhenOpened": "2025-05-14T13:42:48.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MSTestSettings.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\MSTestSettings.cs",
-              "RelativeDocumentMoniker": "..\\TestProject\\MSTestSettings.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\TestProject\\MSTestSettings.cs",
-              "RelativeToolTip": "..\\TestProject\\MSTestSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:35:48.652Z",
+              "DocumentIndex": 1,
+              "Title": "ProjectClassDiagram.cd",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\ProjectClassDiagram.cd",
+              "RelativeDocumentMoniker": "ProjectClassDiagram.cd",
+              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\ProjectClassDiagram.cd",
+              "RelativeToolTip": "ProjectClassDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-05-14T13:39:30.586Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Screening.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\Screening.cs",
-              "RelativeDocumentMoniker": "Models\\Screening.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\Screening.cs",
-              "RelativeToolTip": "Models\\Screening.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAzwA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:51:30.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TicketHelper.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\TicketHelper.cs",
-              "RelativeDocumentMoniker": "Models\\TicketHelper.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\TicketHelper.cs",
-              "RelativeToolTip": "Models\\TicketHelper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T07:51:38.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "Models\\Ticket.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Models\\Ticket.cs",
-              "RelativeToolTip": "Models\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:46:08.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ITicket.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Interfaces\\ITicket.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ITicket.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0457 \u0444\u0430\u0439\u043B\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u041E\u0431\u0027\u0454\u043A\u0442\u043D\u043E-\u043E\u0440\u0456\u0454\u043D\u0442\u043E\u0432\u0430\u043D\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0443\u0432\u0430\u043D\u043D\u044F (\u041A\u041F)\\\u041F\u0440\u043E\u0454\u043A\u0442\\OOP_Project\\OOP_Project\\Interfaces\\ITicket.cs",
-              "RelativeToolTip": "Interfaces\\ITicket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T21:29:06.033Z"
             }
           ]
         }

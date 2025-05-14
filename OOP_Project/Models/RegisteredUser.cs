@@ -16,7 +16,7 @@ namespace OOP_Project.Models
         public override string Login
         {
             get => throw new NotImplementedException();
-            set => throw new NotImplementedException();
+            protected set => throw new NotImplementedException();
         }
 
         public override string Password

@@ -8,10 +8,10 @@ namespace OOP_Project.Models
 {
     public abstract class User
     {
-        public string Login { get; set; }
-        public string Password { get; set; }
-        public DateTime DateOfBirth { get; set; }
-        public string PhoneNumber { get; set; }
+        public abstract string Login { get; set; }
+        public abstract string Password { get; set; }
+        public abstract DateTime DateOfBirth { get; set; }
+        public abstract string PhoneNumber { get; set; }
         public abstract string GetRole();
     }
 }

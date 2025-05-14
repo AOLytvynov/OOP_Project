@@ -13,31 +13,39 @@ namespace OOP_Project.Models
         private string _phonenumber;
         private DateTime _dateOfBirth;
 
-        public string Login
+        public override string Login
         {
             get => throw new NotImplementedException();
             set => throw new NotImplementedException();
         }
 
-        public string Password
+        public override string Password
         {
             get => throw new NotImplementedException();
             set => throw new NotImplementedException();
         }
 
-        public string PhoneNumber
+        public override string PhoneNumber
         {
             get => throw new NotImplementedException(); 
             set => throw new NotImplementedException();
         }
 
-        public DateTime DateOfBirth
+        public override DateTime DateOfBirth
         {
             get => throw new NotImplementedException();
             set => throw new NotImplementedException();
         }
 
-        public List<Ticket> PurchasedTickets { get; set; } = new List<Ticket>();
+        public RegisteredUser(string login, string password, string phonenumber, DateTime dateOfBirth)
+        {
+            //Login = login;
+            //Password = password;
+            //PhoneNumber = phonenumber;
+            //DateOfBirth = dateOfBirth;
+            throw new NotImplementedException();
+        }
+        public List<Ticket> PurchasedTickets { get; set; } = new();
 
         public override string GetRole() => "RegisteredUser";
     }

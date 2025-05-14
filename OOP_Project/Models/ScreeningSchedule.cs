@@ -22,7 +22,7 @@ namespace OOP_Project.Models
             set => throw new NotImplementedException();
         }
 
-        public ScreeningSchedule() 
+        public ScreeningSchedule(Film film) 
         { 
             throw new NotImplementedException();
         }

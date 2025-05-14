@@ -13,7 +13,7 @@ namespace OOP_Project.Models
             throw new NotImplementedException();
         }
 
-        public static List<Ticket> GenerateTicketsForScreening(Screening screening, int numberOfNeededTickets, int rowNumber, int seatNumber)
+        public static List<Ticket> GenerateTicketsForScreening(Screening screening, int rowNumber, int seatNumber)
         {
             throw new NotImplementedException();
         }

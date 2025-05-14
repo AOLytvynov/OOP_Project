@@ -28,7 +28,12 @@ namespace OOP_Project.Models
             get => throw new NotImplementedException();
         }
 
-        public Screening(Film film, DateTime date, List<Ticket> tickets)
+        public void AddTickets(List<Ticket> tickets)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Screening(Film film, DateTime date)
         {
             throw new NotImplementedException();
         }

@@ -1,0 +1,65 @@
+﻿<Window x:Class="OOP_Project.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOP_Project"
+        mc:Ignorable="d"
+        Title="Вхід" Height="500" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <Style x:Key="RoundedTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border CornerRadius="10"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}">
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="0"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#FFDDDDFF">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="250" Margin="0,0,0,0">
+
+            <TextBlock Text="Логін" FontWeight="Bold" Margin="10,10,0,5" FontFamily="Georgia"/>
+            <TextBox x:Name="LoginTextBox" Height="35" Style="{StaticResource RoundedTextBoxStyle}" FontFamily="Georgia"/>
+
+            <TextBlock Text="Пароль" FontWeight="Bold" Margin="10,10,0,3" FontFamily="Georgia"/>
+            <Border CornerRadius="10" BorderBrush="Gray" BorderThickness="1" Background="White" Margin="0,5,0,5">
+                <PasswordBox x:Name="PasswordBox" Background="Transparent" BorderThickness="0" Height="35" Padding="8" FontFamily="Georgia"/>
+            </Border>
+
+            <TextBlock x:Name="ErrorText" Text="Невірний логін або пароль" Foreground="Red" FontFamily="Georgia"
+           HorizontalAlignment="Center" Visibility="Hidden" Margin="0,5,0,0"/>
+
+            <Button Content="Увійти" Height="40" Margin="0,20,0,0"  FontFamily="Georgia"
+                        BorderThickness="1" Background="#FFCCCCCC" BorderBrush="Gray">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+
+            <TextBlock Text="Увійти як гість" Foreground="Gray" HorizontalAlignment="Center" Margin="0,10,0,0"
+                       Cursor="Hand" TextDecorations="Underline" FontFamily="Georgia"/>
+
+            <TextBlock Text="Новий користувач?" HorizontalAlignment="Center" Margin="0,20,0,0"
+           Cursor="Hand" MouseLeftButtonUp="OpenRegisterWindow" FontFamily="Georgia"
+           Foreground="Gray" TextDecorations="Underline"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

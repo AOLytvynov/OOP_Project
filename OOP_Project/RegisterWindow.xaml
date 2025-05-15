@@ -1,0 +1,80 @@
+﻿<Window x:Class="OOP_Project.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOP_Project"
+        mc:Ignorable="d"
+        Title="Реєстрація" Height="600" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+  
+        <Style x:Key="RoundedTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border CornerRadius="10"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="0"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#FFDDDDFF">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="250">
+
+            <TextBlock Text="Реєстрація" FontSize="24" FontWeight="Bold" FontFamily="Georgia" 
+                       Margin="0,0,0,20" HorizontalAlignment="Center"/>
+
+            <!-- Логін -->
+            <TextBlock Text="Логін" FontWeight="Bold" Margin="10,0,0,5" FontFamily="Georgia"/>
+            <TextBox x:Name="LoginTextBox" Style="{StaticResource RoundedTextBoxStyle}" FontFamily="Georgia"/>
+            <TextBlock x:Name="LoginError" Text="" Foreground="Red" FontFamily="Georgia"
+                       Visibility="Collapsed" Margin="0,3,0,0" HorizontalAlignment="Center"/>
+
+            <!-- Пароль -->
+            <TextBlock Text="Пароль" FontWeight="Bold" Margin="10,10,0,5" FontFamily="Georgia"/>
+            <Border CornerRadius="10" BorderBrush="Gray" BorderThickness="1" Background="White" Margin="0,0,0,0">
+                <PasswordBox x:Name="PasswordBox" Background="Transparent" BorderThickness="0" Height="35" Padding="8" FontFamily="Georgia"/>
+            </Border>
+            <TextBlock x:Name="PasswordError" Text="Пароль надто короткий" Foreground="Red" FontFamily="Georgia"
+                       Visibility="Collapsed" Margin="0,3,0,0" HorizontalAlignment="Center"/>
+
+            <!-- Дата народження -->
+            <TextBlock Text="Дата народження" FontWeight="Bold" Margin="10,10,0,5" FontFamily="Georgia"/>
+            <TextBox x:Name="BirthDateTextBox" Style="{StaticResource RoundedTextBoxStyle}" FontFamily="Georgia"/>
+            <TextBlock x:Name="BirthDateError" Text="Невірний формат дати" Foreground="Red" FontFamily="Georgia"
+                       Visibility="Collapsed" Margin="0,3,0,0" HorizontalAlignment="Center"/>
+
+            <!-- Номер телефону -->
+            <TextBlock Text="Номер телефону" FontWeight="Bold" Margin="10,10,0,5" FontFamily="Georgia"/>
+            <TextBox x:Name="PhoneNumberTextBox" Style="{StaticResource RoundedTextBoxStyle}" FontFamily="Georgia"/>
+            <TextBlock x:Name="PhoneError" Text="Невірний формат номеру телефону" Foreground="Red" FontFamily="Georgia"
+                       Visibility="Collapsed" Margin="0,3,0,0" HorizontalAlignment="Center"/>
+
+            <!-- Кнопка -->
+            <Button x:Name="RegisterButton" Content="Зареєструватися" Height="40" Margin="0,30,0,0" FontFamily="Georgia"
+                    BorderThickness="1" Background="#FFCCCCCC" BorderBrush="Gray" Click="RegisterButton_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <!-- Посилання -->
+            <TextBlock Text="Є акаунт? Увійти" Foreground="Gray" HorizontalAlignment="Center" Margin="0,10,0,0"
+                       Cursor="Hand" MouseLeftButtonUp="BackToLogin_Click" TextDecorations="Underline" FontFamily="Georgia"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

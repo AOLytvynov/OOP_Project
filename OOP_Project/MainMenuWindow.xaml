@@ -1,0 +1,36 @@
+﻿<Window x:Class="OOP_Project.MainMenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOP_Project"
+        mc:Ignorable="d"
+        Title="Головне меню" Height="450" Width="800">
+    <Grid Background="#FFEEEEEE">
+        <!-- 🔝 Верхня панель -->
+        <DockPanel Background="#222222" Height="50" VerticalAlignment="Top" LastChildFill="False">
+
+            <!-- Кнопки -->
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Left" Margin="10,0,0,0">
+                <Button Content="Зараз у кіно" Margin="0,5,5,5" FontFamily="Georgia"/>
+                <Button Content="Скоро у прокаті" Margin="0,5,5,5" FontFamily="Georgia"/>
+            </StackPanel>
+
+            <!-- Пошук -->
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" Margin="0,5,10,5">
+                <TextBox Width="200" Height="30" VerticalAlignment="Center" />
+                <Button Content="🔍" Width="30" Height="30" Margin="5,0,0,0"/>
+            </StackPanel>
+
+            <!-- Іконка профілю -->
+            <Image Source="Images/user.png" Width="30" Height="30" Margin="10,10,10,10" DockPanel.Dock="Right"/>
+        </DockPanel>
+
+        <!-- 📜 Список фільмів -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="20,60,20,20">
+            <StackPanel x:Name="MovieListPanel" Orientation="Vertical" Background="White" />
+
+            <!-- Ми динамічно додаватимемо елементи сюди -->
+        </ScrollViewer>
+    </Grid>
+</Window>

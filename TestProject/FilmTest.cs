@@ -38,7 +38,7 @@ namespace TestProject
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void SetFilmWrongAgeRestrictionTest()
         {
             // Arrange & Act
@@ -49,7 +49,7 @@ namespace TestProject
 
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void SetFilmWrongYearTest()
         {
             // Arrange & Act
@@ -100,7 +100,7 @@ namespace TestProject
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void SetFilmWrongDurationTest()
         {
             // Arrange & Act
@@ -134,7 +134,7 @@ namespace TestProject
         public void SetFilmWrongDescriptionTest()
         {
             // Arrange & Act
-            Film film = new Film("Титанік", 16, 1997, "Titanic", "James Cameron", "English", "Drama", 195, "USA", "Fox", "Ship sinks");
+            Film film = new Film("Титанік", 16, 1997, "Titanic", "James Cameron", "English", "Drama", 195, "USA", "Fox", "");
 
             // Assert
         }

@@ -45,7 +45,7 @@ namespace TestProject
             var screening = new Screening(film, DateTime.Now.AddDays(1));
             int rowNumber = 5;
             int seatNumber = 5;
-            int numberOfTickets = 20;
+            int numberOfTickets = 25;
 
             // Act
             var tickets = TicketHelper.GenerateTicketsForScreening(screening, rowNumber, seatNumber);

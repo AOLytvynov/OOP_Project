@@ -45,7 +45,6 @@ namespace TestProject
             // Assert
             Assert.AreEqual(film, screening.Film);
             Assert.AreEqual(screeningDate, screening.Date);
-            Assert.IsNotNull(screening.Tickets);
             Assert.AreEqual(0, screening.Tickets.Count);
         }
 

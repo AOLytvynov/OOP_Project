@@ -9,40 +9,49 @@ namespace OOP_Project.Models
 {
     public class Screening : IScreening, IComparable<Screening>
     {
-        private readonly List<Ticket> _tickets;
+        Film _film;
+        DateTime _date;
+        private readonly List<Ticket> _tickets = new List<Ticket>();
 
         public Film Film
         {
-            get => throw new NotImplementedException();
-            private set => throw new NotImplementedException();
+            get => _film;
+            private set
+            {
+                if (value == null) throw new ArgumentNullException("Фільм не може бути null.");
+                _film = value;
+            }
         }
 
         public DateTime Date 
         {
-            get => throw new NotImplementedException(); 
-            private set=> throw new NotImplementedException();
+            get => _date;
+            private set
+            {
+                if (value < DateTime.Now)
+                    throw new ArgumentException("Дата сеансу не може бути в минулому.");
+                _date = value;
+            }
         }
 
-        public IReadOnlyList<Ticket> Tickets
-        {
-            get => throw new NotImplementedException();
-        }
+        public IReadOnlyList<Ticket> Tickets => _tickets;
 
         public void AddTickets(List<Ticket> tickets)
         {
-            throw new NotImplementedException();
+            if (tickets == null) throw new ArgumentNullException("Список квитків не може бути null.");
+            _tickets.AddRange(tickets);
         }
 
         public Screening(Film film, DateTime date)
         {
-            throw new NotImplementedException();
+            Film = film;
+            Date = date;
         }
 
         public int CompareTo(Screening other)
         {
-            throw new NotImplementedException();
-            //if (other == null) return 1;
-            //return this.Date.CompareTo(other.Date);
+            if (other == null) return 1;
+            return this.Date.CompareTo(other.Date);
         }
     }
 }

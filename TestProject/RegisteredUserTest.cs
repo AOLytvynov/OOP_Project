@@ -93,7 +93,7 @@ namespace TestProject
             DateTime invalidDob = DateTime.Parse(dateString);
 
             // Act & Assert
-            Assert.ThrowsException<ArgumentException>(() =>
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() =>
             {
                 var user = new RegisteredUser(login, password, phone, invalidDob);
             });
@@ -131,7 +131,7 @@ namespace TestProject
             DateTime dob = new DateTime(2000, 1, 1);
 
             // Act & Assert
-            Assert.ThrowsException<Exception>(() =>
+            Assert.ThrowsException<ArgumentException>(() =>
             {
                 var user = new RegisteredUser(login, password, phone, dob);
             });

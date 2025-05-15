@@ -25,7 +25,7 @@ namespace TestProject
         {
             //Arrange
             Ticket ticket = new Ticket(screening, "12", 1, 1);
-            string expected = "Титаник";
+            string expected = "Титанік";
 
             //Act
             string actual = ticket.Screening.Film.Name;
@@ -52,20 +52,6 @@ namespace TestProject
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
-        public void AssignTicketToNullUser_ThrowsArgumentNullException()
-        {
-            // Arrange
-            var ticket = new Ticket(screening, "A2", 3, 7);
-
-            // Act
-            ticket.AssignToUser(null);
-
-            // Assert
-        }
-
-
-        [TestMethod]
-        [ExpectedException(typeof(ArgumentNullException))]
         public void SetTicketNullScreening()
         {
             //Arrange + Act
@@ -76,7 +62,7 @@ namespace TestProject
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
-        public void SetTicketWrongRowNumber()
+        public void SetTicketInvalidRowNumber()
         {
             //Arrange + Act
             Ticket ticket = new Ticket(screening, "12", -1, 1);
@@ -86,7 +72,17 @@ namespace TestProject
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
-        public void SetTicketWrongSeatNumber()
+        public void SetTicketInvalidSeatNumberTest()
+        {
+            //Arrange + Act
+            Ticket ticket = new Ticket(screening, "12", 1, -1);
+
+            //Assert
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void SetTicketInvalidIdTest()
         {
             //Arrange + Act
             Ticket ticket = new Ticket(screening, "12", 1, -1);

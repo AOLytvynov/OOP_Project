@@ -29,7 +29,6 @@
         </Style>
 
     </Window.Resources>
-
     <Grid Background="#FFEEEEEE">
 
         <!-- Верхня панель -->
@@ -47,8 +46,8 @@
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" Margin="0,10,20,10" VerticalAlignment="Center">
 
                 <!-- Кнопка "Додати" -->
-                <Button x:Name="AddButton" Width="40" Height="40" Margin="5,0"
-        ToolTip="Додати сеанс"
+                <Button x:Name="AddButton" Click="AddButton_Click" Width="40" Height="40" Margin="5,0"
+        ToolTip="Додати"
         BorderThickness="0" Cursor="Hand"
         Background="#BDAAFF" Padding="0"
         HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -63,7 +62,7 @@
 
                 <!-- Кнопка "Видалити" -->
                 <Button x:Name="DeleteButton" Width="40" Height="40" Margin="5,0"
-        ToolTip="Видалити сеанс"
+        ToolTip="Видалити"
         BorderThickness="0" Cursor="Hand"
         Background="#BDAAFF" Padding="0"
         HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -164,12 +163,8 @@
                             </Button>
 
                             <!-- Кнопка "Вийти" -->
-                            <Button Content="Вийти" Click="Logout_Click"
-                    Width="120" Height="40" Margin="5"
-                    FontFamily="Georgia" FontSize="14"
-                    Background="#F8D7DA" Foreground="Black"
-                    BorderBrush="Gray" BorderThickness="1"
-                    Cursor="Hand">
+                            <Button Content="Вийти" Click="Logout_Click" Width="120" Height="40" Margin="5" FontFamily="Georgia" FontSize="14"
+                    Background="#F8D7DA" Foreground="Black" BorderBrush="Gray" BorderThickness="1" Cursor="Hand">
                                 <Button.Resources>
                                     <Style TargetType="Border">
                                         <Setter Property="CornerRadius" Value="10"/>
@@ -186,11 +181,67 @@
             </StackPanel>
         </DockPanel>
 
+        <Grid x:Name="AddMenu" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="99">
+            <Border Background="#FFF" CornerRadius="12" Width="250" Height="200"
+            VerticalAlignment="Center" HorizontalAlignment="Center"
+            Padding="20" BorderBrush="Gray" BorderThickness="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Заголовок з кнопкою закриття -->
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="Додати"
+                           FontFamily="Georgia"
+                           FontSize="20"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           Margin="0,0,0,10"/>
+                        <Button Content="✕" Width="25" Height="25" Click="CloseAddMenu_Click"
+                        FontWeight="Bold" Background="Transparent" BorderThickness="0"
+                        HorizontalAlignment="Right" VerticalAlignment="Top"
+                        Cursor="Hand"/>
+                    </Grid>
+
+                    <!-- Кнопки -->
+                    <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        
+                        <!--Додати фільм-->
+                        <Button Content="Фільм" Click="AddFilm_Click"
+                        Width="180" Height="40" Margin="0,0,0,10"
+                        FontFamily="Georgia" FontSize="14"
+                        Background="#D3D3D3" BorderBrush="Gray" BorderThickness="1">
+                            <Button.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="10"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+
+                        <!--Додати сеанс-->
+                        <Button Content="Сеанс" Click="AddScreening_Click"
+                        Width="180" Height="40"
+                        FontFamily="Georgia" FontSize="14"
+                        Background="#D3D3D3" BorderBrush="Gray" BorderThickness="1">
+                            <Button.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="10"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
 
 
         <!-- Список фільмів -->
         <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="20,80,20,20">
             <StackPanel x:Name="ScheduleListPanel" Orientation="Vertical" Background="White"/>
         </ScrollViewer>
+        
     </Grid>
 </Window>

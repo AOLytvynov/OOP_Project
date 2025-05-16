@@ -42,7 +42,7 @@ namespace OOP_Project
             string login = LoginTextBox.Text.Trim();
             string password = PasswordBox.Password.Trim();
 
-            if (login == "admin" && password == "password")
+            if (login == AppData.AdminUser.Login && password == AppData.AdminUser.Password)
             {
                 AppData.CurrentUser = AppData.AdminUser;
 

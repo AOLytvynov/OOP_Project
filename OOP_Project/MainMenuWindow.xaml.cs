@@ -62,5 +62,27 @@ namespace OOP_Project
             //var ticketsWindow = new TicketsWindow();
             //ticketsWindow.ShowDialog();
         }
+
+        private void AddButton_Click(object sender, RoutedEventArgs e)
+        {
+            AddMenu.Visibility = Visibility.Visible;
+        }
+
+        private void CloseAddMenu_Click(object sender, RoutedEventArgs e)
+        {
+            AddMenu.Visibility = Visibility.Collapsed;
+        }
+
+        private void AddFilm_Click(object sender, RoutedEventArgs e)
+        {
+            AddMenu.Visibility = Visibility.Collapsed;
+        }
+
+        private void AddScreening_Click(object sender, RoutedEventArgs e)
+        {
+            AddMenu.Visibility = Visibility.Collapsed;
+        }
+
+
     }
 }

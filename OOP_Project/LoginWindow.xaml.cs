@@ -31,5 +31,11 @@ namespace OOP_Project
             this.Close();
         }
 
+        private void GuestLogin_Click(object sender, MouseButtonEventArgs e)
+        {
+            var mainMenuWindow = new MainMenuWindow();
+            mainMenuWindow.Show();
+            this.Close();
+        }
     }
 }

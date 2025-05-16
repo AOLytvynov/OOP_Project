@@ -52,9 +52,8 @@
                 </Button.Resources>
             </Button>
 
-
             <TextBlock Text="Увійти як гість" Foreground="Gray" HorizontalAlignment="Center" Margin="0,10,0,0"
-                       Cursor="Hand" TextDecorations="Underline" FontFamily="Georgia"/>
+           Cursor="Hand" TextDecorations="Underline" FontFamily="Georgia" MouseLeftButtonUp="GuestLogin_Click"/>
 
             <TextBlock Text="Новий користувач?" HorizontalAlignment="Center" Margin="0,20,0,0"
            Cursor="Hand" MouseLeftButtonUp="OpenRegisterWindow" FontFamily="Georgia"

@@ -1,0 +1,79 @@
+[
+  {
+    "Film": {
+      "Name": "\u0406\u043D\u0442\u0435\u0440\u0441\u0442\u0435\u043B\u043B\u0430\u0440",
+      "AgeRestriction": 12,
+      "Year": 2014,
+      "OriginalTitle": "Interstellar",
+      "Director": "\u041A\u0440\u0456\u0441\u0442\u043E\u0444\u0435\u0440 \u041D\u043E\u043B\u0430\u043D",
+      "Language": "\u0410\u043D\u0433\u043B\u0456\u0439\u0441\u044C\u043A\u0430",
+      "Genre": "\u0424\u0430\u043D\u0442\u0430\u0441\u0442\u0438\u043A\u0430",
+      "Duration": 169,
+      "Production": "\u0421\u0428\u0410",
+      "Studio": "Paramount Pictures",
+      "Description": "\u041A\u043E\u0441\u043C\u0456\u0447\u043D\u0430 \u043F\u043E\u0434\u043E\u0440\u043E\u0436 \u0443 \u043F\u043E\u0448\u0443\u043A\u0430\u0445 \u043D\u043E\u0432\u043E\u0433\u043E \u0434\u043E\u043C\u0443"
+    },
+    "Screenings": [
+      {
+        "Film": {
+          "Name": "\u0406\u043D\u0442\u0435\u0440\u0441\u0442\u0435\u043B\u043B\u0430\u0440",
+          "AgeRestriction": 12,
+          "Year": 2014,
+          "OriginalTitle": "Interstellar",
+          "Director": "\u041A\u0440\u0456\u0441\u0442\u043E\u0444\u0435\u0440 \u041D\u043E\u043B\u0430\u043D",
+          "Language": "\u0410\u043D\u0433\u043B\u0456\u0439\u0441\u044C\u043A\u0430",
+          "Genre": "\u0424\u0430\u043D\u0442\u0430\u0441\u0442\u0438\u043A\u0430",
+          "Duration": 169,
+          "Production": "\u0421\u0428\u0410",
+          "Studio": "Paramount Pictures",
+          "Description": "\u041A\u043E\u0441\u043C\u0456\u0447\u043D\u0430 \u043F\u043E\u0434\u043E\u0440\u043E\u0436 \u0443 \u043F\u043E\u0448\u0443\u043A\u0430\u0445 \u043D\u043E\u0432\u043E\u0433\u043E \u0434\u043E\u043C\u0443"
+        },
+        "Date": "2025-05-17T10:00:00+03:00",
+        "Tickets": [
+          {
+            "TicketId": "T1",
+            "RowNumber": 1,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "T2",
+            "RowNumber": 1,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          }
+        ]
+      },
+      {
+        "Film": {
+          "Name": "\u0406\u043D\u0442\u0435\u0440\u0441\u0442\u0435\u043B\u043B\u0430\u0440",
+          "AgeRestriction": 12,
+          "Year": 2014,
+          "OriginalTitle": "Interstellar",
+          "Director": "\u041A\u0440\u0456\u0441\u0442\u043E\u0444\u0435\u0440 \u041D\u043E\u043B\u0430\u043D",
+          "Language": "\u0410\u043D\u0433\u043B\u0456\u0439\u0441\u044C\u043A\u0430",
+          "Genre": "\u0424\u0430\u043D\u0442\u0430\u0441\u0442\u0438\u043A\u0430",
+          "Duration": 169,
+          "Production": "\u0421\u0428\u0410",
+          "Studio": "Paramount Pictures",
+          "Description": "\u041A\u043E\u0441\u043C\u0456\u0447\u043D\u0430 \u043F\u043E\u0434\u043E\u0440\u043E\u0436 \u0443 \u043F\u043E\u0448\u0443\u043A\u0430\u0445 \u043D\u043E\u0432\u043E\u0433\u043E \u0434\u043E\u043C\u0443"
+        },
+        "Date": "2025-05-17T14:00:00+03:00",
+        "Tickets": [
+          {
+            "TicketId": "T3",
+            "RowNumber": 2,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "T4",
+            "RowNumber": 2,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          }
+        ]
+      }
+    ]
+  }
+]

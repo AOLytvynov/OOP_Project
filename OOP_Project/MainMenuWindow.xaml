@@ -117,7 +117,7 @@
                 </Border>
 
                 <!-- Іконка профілю -->
-                <Button Width="50" Height="50" Margin="15,0,0,0" BorderThickness="0" Background="Transparent" Cursor="Hand">
+                <Button x:Name="ProfileButton" Width="50" Height="50" Margin="15,0,0,0" BorderThickness="0" Background="Transparent" Cursor="Hand" Click="ProfileButton_Click">
                     <Grid Width="50" Height="50">
                         <Ellipse Fill="White" Stretch="Uniform" />
                         <Image Source="Images/user.png"
@@ -126,6 +126,63 @@
                        VerticalAlignment="Center"/>
                     </Grid>
                 </Button>
+
+                <Popup x:Name="ProfilePopup"
+       Placement="Bottom"
+       PlacementTarget="{Binding ElementName=ProfileButton}"
+       StaysOpen="False"
+       AllowsTransparency="True"
+       PopupAnimation="Fade"
+       HorizontalOffset="-50">
+
+                    <Border Background="White" CornerRadius="12" Padding="10" BorderBrush="Gray" BorderThickness="1">
+                        <StackPanel>
+
+                            <!-- Ім’я користувача -->
+                            <TextBlock x:Name="UsernameText"
+                       Text=""
+                       FontFamily="Georgia"
+                       FontWeight="Bold"
+                       FontSize="14"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,8"
+                       Foreground="Black"/>
+
+                            <!-- Кнопка "Квитки" -->
+                            <Button x:Name="TicketsButton"
+                    Content="Квитки" Click="OpenTickets_Click"
+                    Width="120" Height="40" Margin="5"
+                    FontFamily="Georgia" FontSize="14"
+                    Background="#E6E6FA" Foreground="Black"
+                    BorderBrush="Gray" BorderThickness="1"
+                    Cursor="Hand">
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="10"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+
+                            <!-- Кнопка "Вийти" -->
+                            <Button Content="Вийти" Click="Logout_Click"
+                    Width="120" Height="40" Margin="5"
+                    FontFamily="Georgia" FontSize="14"
+                    Background="#F8D7DA" Foreground="Black"
+                    BorderBrush="Gray" BorderThickness="1"
+                    Cursor="Hand">
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="10"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+
+                        </StackPanel>
+                    </Border>
+                </Popup>
+
+
+
             </StackPanel>
         </DockPanel>
 

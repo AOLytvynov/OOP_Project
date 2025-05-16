@@ -28,5 +28,39 @@ namespace OOP_Project
             AdminViewToggle.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
             AdminA.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
         }
+
+        private void ProfileButton_Click(object sender, RoutedEventArgs e)
+        {
+            var user = AppData.CurrentUser;
+
+            if (user != null)
+            {
+                UsernameText.Text = user.Login;
+                TicketsButton.IsEnabled = true;
+                TicketsButton.Opacity = 1.0;
+            }
+            else
+            {
+                UsernameText.Text = "Гість";
+                TicketsButton.IsEnabled = false;
+                TicketsButton.Opacity = 0.5;
+            }
+
+            ProfilePopup.IsOpen = true;
+        }
+
+
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            AppData.CurrentUser = null;
+            new LoginWindow().Show();
+            this.Close();
+        }
+
+        private void OpenTickets_Click(object sender, RoutedEventArgs e)
+        {
+            //var ticketsWindow = new TicketsWindow();
+            //ticketsWindow.ShowDialog();
+        }
     }
 }

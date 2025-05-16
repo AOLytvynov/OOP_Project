@@ -15,7 +15,6 @@
     <None Remove="Images\plus.png" />
     <None Remove="Images\search.png" />
     <None Remove="Images\tickets.png" />
-    <None Remove="Images\trush.png" />
     <None Remove="Images\user.png" />
   </ItemGroup>
 
@@ -38,7 +37,7 @@
     <Resource Include="Images\tickets.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Images\trush.png">
+    <Resource Include="Images\trash.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Images\user.png">

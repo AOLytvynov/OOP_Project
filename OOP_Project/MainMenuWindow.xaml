@@ -1,14 +1,15 @@
-﻿<Window x:Class="OOP_Project.MainMenuWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:av="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="av" x:Class="OOP_Project.MainMenuWindow"
         Title="Головне меню" Height="576" Width="1024" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
 
     <Window.Resources>
 
-        <Style x:Key="RoundedToggleButton" TargetType="ToggleButton">
+        <Style x:Key="RoundedToggleButton" TargetType="{x:Type ToggleButton}">
             <Setter Property="Template">
                 <Setter.Value>
-                    <ControlTemplate TargetType="ToggleButton">
+                    <ControlTemplate TargetType="{x:Type ToggleButton}">
                         <Border Background="{TemplateBinding Background}"
                                 CornerRadius="10"
                                 BorderBrush="{TemplateBinding BorderBrush}"
@@ -37,25 +38,85 @@
             <!-- Кнопки навігації -->
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Left" Margin="20,10,0,10">
                 <ToggleButton x:Name="NowShowingButton" Content="Зараз у кіно"
-                              Style="{StaticResource RoundedToggleButton}" Width="160"  Background="#D5CEFA" Foreground="#222"/>
+                      Style="{StaticResource RoundedToggleButton}" Width="160" Background="#D5CEFA" Foreground="#222"/>
                 <ToggleButton x:Name="ComingSoonButton" Content="Скоро у прокаті"
-                              Style="{StaticResource RoundedToggleButton}" Width="160"  Background="#8A79C7" Foreground="White"/>
+                      Style="{StaticResource RoundedToggleButton}" Width="160" Background="#8A79C7" Foreground="#222"/>
             </StackPanel>
 
-            <!-- Профіль + Пошук -->
+            <!-- Профіль + Пошук + Кнопки адміністратора -->
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" Margin="0,10,20,10" VerticalAlignment="Center">
 
+                <!-- Кнопка "Додати" -->
+                <Button x:Name="AddButton" Width="40" Height="40" Margin="5,0"
+        ToolTip="Додати сеанс"
+        BorderThickness="0" Cursor="Hand"
+        Background="#BDAAFF" Padding="0"
+        HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border CornerRadius="10" Background="{TemplateBinding Background}" BorderThickness="1" BorderBrush="Gray">
+                                <Image Source="Images/plus.png" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+
+                <!-- Кнопка "Видалити" -->
+                <!-- Кнопка "Видалити" -->
+                <Button x:Name="DeleteButton" Width="40" Height="40" Margin="5,0"
+        ToolTip="Видалити сеанс"
+        BorderThickness="0" Cursor="Hand"
+        Background="#BDAAFF" Padding="0"
+        HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border CornerRadius="10" Background="{TemplateBinding Background}" BorderThickness="1" BorderBrush="Gray">
+                                <Image Source="Images/trash.png" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+
+                <!-- Перемикач "Адмін" у стилі Android -->
+                <!-- Індикатор + Перемикач "Адмін" у стилі Android -->
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="5,0">
+                    <!-- Червона літера "А" -->
+                    <TextBlock Text="А" Foreground="Red" FontWeight="Bold" FontSize="20" Margin="0,0,5,0" VerticalAlignment="Center"/>
+
+                    <!-- Сам перемикач -->
+                    <ToggleButton x:Name="AdminViewToggle" Width="60" Height="30"
+                  ToolTip="Режим адміністратора" Background="#DDD" BorderThickness="0" Cursor="Hand">
+                        <ToggleButton.Template>
+                            <ControlTemplate TargetType="{x:Type ToggleButton}">
+                                <Grid>
+                                    <Border x:Name="SwitchBackground" Background="White" CornerRadius="15"/>
+                                    <Ellipse x:Name="SwitchThumb" Width="26" Height="26" Fill="#4ADEDE" Margin="2,2,32,2" />
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsChecked" Value="True">
+                                        <Setter TargetName="SwitchBackground" Property="Background" Value="#8A79C7"/>
+                                        <Setter TargetName="SwitchThumb" Property="Margin" Value="32,2,2,2"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </ToggleButton.Template>
+                    </ToggleButton>
+                </StackPanel>
+
+
                 <!-- Поле пошуку -->
-                <Border Background="White" CornerRadius="10" Width="250" Height="40">
+                <Border Background="White" CornerRadius="10" Width="250" Height="40" Margin="10,0,0,0">
                     <Grid>
                         <TextBox x:Name="SearchBox"
-                                 Margin="0" Padding="10,5,30,5"
-                                 Background="Transparent" BorderThickness="0"
-                                 FontFamily="Georgia" FontSize="14"
-                                 VerticalContentAlignment="Center"/>
+                         Margin="0" Padding="10,5,30,5"
+                         Background="Transparent" BorderThickness="0"
+                         FontFamily="Georgia" FontSize="14"
+                         VerticalContentAlignment="Center"/>
                         <Image Source="Images/search.png" Width="16" Height="16"
-                               HorizontalAlignment="Right" VerticalAlignment="Center"
-                               Margin="0,0,10,0"/>
+                       HorizontalAlignment="Right" VerticalAlignment="Center"
+                       Margin="0,0,10,0"/>
                     </Grid>
                 </Border>
 
@@ -64,18 +125,19 @@
                     <Grid Width="50" Height="50">
                         <Ellipse Fill="White" Stretch="Uniform" />
                         <Image Source="Images/user.png"
-               Width="30" Height="30"
-               HorizontalAlignment="Center"
-               VerticalAlignment="Center"/>
+                       Width="30" Height="30"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
                     </Grid>
                 </Button>
-
             </StackPanel>
         </DockPanel>
 
+
+
         <!-- 📜 Список фільмів -->
         <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="20,80,20,20">
-            <StackPanel x:Name="MovieListPanel" Orientation="Vertical" Background="White"/>
+            <StackPanel x:Name="ScheduleListPanel" Orientation="Vertical" Background="White"/>
         </ScrollViewer>
     </Grid>
 </Window>

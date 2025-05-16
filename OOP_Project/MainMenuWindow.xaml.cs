@@ -22,6 +22,11 @@ namespace OOP_Project
         public MainMenuWindow()
         {
             InitializeComponent();
+            bool isAdmin = AppData.CurrentUser?.GetRole() == "Admin";
+            AddButton.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
+            DeleteButton.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
+            AdminViewToggle.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
+            AdminA.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
         }
     }
 }

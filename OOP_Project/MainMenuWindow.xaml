@@ -61,8 +61,6 @@
                     </Button.Template>
                 </Button>
 
-
-                <!-- Кнопка "Видалити" -->
                 <!-- Кнопка "Видалити" -->
                 <Button x:Name="DeleteButton" Width="40" Height="40" Margin="5,0"
         ToolTip="Видалити сеанс"
@@ -79,11 +77,9 @@
                 </Button>
 
 
-                <!-- Перемикач "Адмін" у стилі Android -->
-                <!-- Індикатор + Перемикач "Адмін" у стилі Android -->
+                <!-- Перемикач "Адмін" -->
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="5,0">
-                    <!-- Червона літера "А" -->
-                    <TextBlock Text="А" Foreground="Red" FontWeight="Bold" FontSize="20" Margin="0,0,5,0" VerticalAlignment="Center"/>
+                    <TextBlock x:Name ="AdminA" Text="А" Foreground="Red" FontWeight="Bold" FontSize="20" Margin="0,0,5,0" VerticalAlignment="Center"/>
 
                     <!-- Сам перемикач -->
                     <ToggleButton x:Name="AdminViewToggle" Width="60" Height="30"
@@ -135,7 +131,7 @@
 
 
 
-        <!-- 📜 Список фільмів -->
+        <!-- Список фільмів -->
         <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="20,80,20,20">
             <StackPanel x:Name="ScheduleListPanel" Orientation="Vertical" Background="White"/>
         </ScrollViewer>

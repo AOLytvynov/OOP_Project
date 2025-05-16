@@ -11,9 +11,6 @@ namespace OOP_Project.Models
         public Admin(string login, string password, string phonenumber, DateTime dateOfBirth)
         : base(login, password, phonenumber, dateOfBirth) { }
 
-        public override string GetRole()
-        {
-            throw new NotImplementedException();
-        }
+        public override string GetRole() => "Admin";
     }
 }

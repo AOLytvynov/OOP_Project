@@ -21,7 +21,7 @@ namespace OOP_Project.Models
             protected set
             {
                 if (string.IsNullOrEmpty(value)) throw new ArgumentException("Логін не може бути порожнім.");
-                if (value.Length <= 5 || value.Length >= 32) throw new ArgumentException("Довжина логіну повинна бути від 5 до 32 символів.");
+                if (value.Length < 5 || value.Length > 32) throw new ArgumentException("Довжина логіну повинна бути від 5 до 32 символів.");
                 if (value.Any(c => !((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || char.IsDigit(c) || c == '-' || c == '.' || c == '_')))
                     throw new ArgumentException("Для логіну допустимі тільки малі латинські літери, цифри та символи «-», «.», «_».");
                 _login = value;

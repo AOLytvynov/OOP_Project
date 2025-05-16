@@ -9,9 +9,11 @@ namespace OOP_Project
 {
     public static class AppData
     {
+        public static Admin AdminUser { get; } = new Admin("admin", "password", "0000000000", new DateTime(1990, 1, 1));
+
         public static List<RegisteredUser> Users { get; set; } = new();
 
-        public static User? CurrentUser { get; set; }
+        public static RegisteredUser? CurrentUser { get; set; }
 
         public static List<ScreeningSchedule> Schedules { get; set; } = new();
     }

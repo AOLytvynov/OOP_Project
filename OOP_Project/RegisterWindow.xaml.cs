@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using OOP_Project.DTO;
 using OOP_Project.Models;
 
 namespace OOP_Project
@@ -133,11 +134,28 @@ namespace OOP_Project
 
             if (!hasError)
             {
-                MessageBox.Show("Успішна реєстрація!");
-                // TODO: зберегти користувача, відкрити головне вікно тощо
-            }
-        }
+                if (AppData.Users.Any(u => u.Login == login))
+                {
+                    LoginError.Text = "Користувач з таким логіном вже існує";
+                    LoginError.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    var newUser = new RegisteredUser(login, password, phone, parsedDate);
+                    AppData.Users.Add(newUser);
+                    AppData.CurrentUser = newUser;
 
+                    JsonStorage.SaveUsers(AppData.Users);
+
+                    MessageBox.Show("Реєстрація успішна!", "Успіх", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                    var mainMenu = new MainMenuWindow();
+                    mainMenu.Show();
+                    this.Close();
+                }
+            }
+
+        }
 
         private void BackToLogin_Click(object sender, MouseButtonEventArgs e)
         {

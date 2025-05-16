@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using OOP_Project.DTO;
 
 namespace OOP_Project
 {
@@ -22,6 +23,9 @@ namespace OOP_Project
         public LoginWindow()
         {
             InitializeComponent();
+            AppData.Users = JsonStorage.LoadUsers();
+            AppData.Schedules = JsonStorage.LoadSchedules();
+
         }
 
         private void OpenRegisterWindow(object sender, MouseButtonEventArgs e)
@@ -31,8 +35,43 @@ namespace OOP_Project
             this.Close();
         }
 
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            ErrorText.Visibility = Visibility.Hidden;
+
+            string login = LoginTextBox.Text.Trim();
+            string password = PasswordBox.Password.Trim();
+
+            if (login == "admin" && password == "password")
+            {
+                AppData.CurrentUser = AppData.AdminUser;
+
+                var mainMenu = new MainMenuWindow();
+                mainMenu.Show();
+                this.Close();
+                return;
+            }
+
+            var user = AppData.Users.FirstOrDefault(u => u.Login == login);
+
+            if (user != null && user.Password == password)
+            {
+                AppData.CurrentUser = user;
+
+                var mainMenu = new MainMenuWindow();
+                mainMenu.Show();
+                this.Close();
+            }
+            else
+            {
+                ErrorText.Visibility = Visibility.Visible;
+            }
+        }
+
+
         private void GuestLogin_Click(object sender, MouseButtonEventArgs e)
         {
+            AppData.CurrentUser = null;
             var mainMenuWindow = new MainMenuWindow();
             mainMenuWindow.Show();
             this.Close();

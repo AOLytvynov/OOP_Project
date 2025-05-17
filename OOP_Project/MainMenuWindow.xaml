@@ -75,32 +75,6 @@
                     </Button.Template>
                 </Button>
 
-
-                <!-- Перемикач "Адмін" -->
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="5,0">
-                    <TextBlock x:Name ="AdminA" Text="А" Foreground="Red" FontWeight="Bold" FontSize="20" Margin="0,0,5,0" VerticalAlignment="Center"/>
-
-                    <!-- Сам перемикач -->
-                    <ToggleButton x:Name="AdminViewToggle" Width="60" Height="30"
-                  ToolTip="Режим адміністратора" Background="#DDD" BorderThickness="0" Cursor="Hand">
-                        <ToggleButton.Template>
-                            <ControlTemplate TargetType="{x:Type ToggleButton}">
-                                <Grid>
-                                    <Border x:Name="SwitchBackground" Background="White" CornerRadius="15"/>
-                                    <Ellipse x:Name="SwitchThumb" Width="26" Height="26" Fill="#4ADEDE" Margin="2,2,32,2" />
-                                </Grid>
-                                <ControlTemplate.Triggers>
-                                    <Trigger Property="IsChecked" Value="True">
-                                        <Setter TargetName="SwitchBackground" Property="Background" Value="#8A79C7"/>
-                                        <Setter TargetName="SwitchThumb" Property="Margin" Value="32,2,2,2"/>
-                                    </Trigger>
-                                </ControlTemplate.Triggers>
-                            </ControlTemplate>
-                        </ToggleButton.Template>
-                    </ToggleButton>
-                </StackPanel>
-
-
                 <!-- Поле пошуку -->
                 <Border Background="White" CornerRadius="10" Width="250" Height="40" Margin="10,0,0,0">
                     <Grid>
@@ -237,11 +211,225 @@
             </Border>
         </Grid>
 
+            <!-- Вікно для додавання фільму -->
+            <Grid x:Name="AddFilmModal" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="100">
+                <Border Background="#F0F0F0" CornerRadius="12" Padding="20" BorderBrush="Gray" BorderThickness="1"
+                    Width="750" Height="470"
+                    VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
 
-        <!-- Список фільмів -->
-        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="20,80,20,20">
-            <StackPanel x:Name="ScheduleListPanel" Orientation="Vertical" Background="White"/>
-        </ScrollViewer>
-        
-    </Grid>
+                        <!-- Заголовок і кнопка закриття -->
+                        <Grid Grid.Row="0">
+                            <TextBlock Text="Додати фільм" FontFamily="Georgia" FontSize="22" FontWeight="Bold"
+                                   HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,10" TextAlignment="Center"/>
+                            <Button Content="✕" Width="25" Height="25" Click="CloseAddFilmModal_Click"
+                                FontWeight="Bold" Background="Transparent" BorderThickness="0"
+                                HorizontalAlignment="Right" VerticalAlignment="Top" Cursor="Hand"/>
+                        </Grid>
+
+                        <!-- Поля вводу -->
+                        <Grid Grid.Row="1" Margin="0,20,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                            <!-- Ліва колонка -->
+                        <TextBox x:Name="NameTextBox" Grid.Row="0" Grid.Column="0" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Назва Фільму" Text="Назва Фільму"/>
+                        <TextBox x:Name="YearTextBox" Grid.Row="1" Grid.Column="0" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Рік" Text="Рік"/>
+                        <TextBox x:Name="DirectorTextBox" Grid.Row="2" Grid.Column="0" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Режисер" Text="Режисер"/>
+                        <TextBox x:Name="LanguageTextBox" Grid.Row="3" Grid.Column="0" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Мова" Text="Мова"/>
+                        <TextBox x:Name="DurationTextBox" Grid.Row="4" Grid.Column="0" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Тривалість" Text="Тривалість"/>
+                        <TextBox x:Name="OriginalTitleTextBox" Grid.Row="5" Grid.Column="0" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Оригінальна Назва" Text="Оригінальна Назва"/>
+
+                        <!-- Права колонка -->
+                        <TextBox x:Name="ProductionTextBox" Grid.Row="0" Grid.Column="1" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Виробництво" Text="Виробництво"/>
+                        <TextBox x:Name="StudioTextBox" Grid.Row="1" Grid.Column="1" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Студія" Text="Студія"/>
+                        <TextBox x:Name="AgeRestrictionTextBox" Grid.Row="2" Grid.Column="1" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Вікові обмеження" Text="Вікові обмеження"/>
+                        <TextBox x:Name="GenreTextBox" Grid.Row="3" Grid.Column="1" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Жанр" Text="Жанр"/>
+                        <TextBox x:Name="DescriptionTextBox" Grid.Row="4" Grid.Column="1" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Опис" Text="Опис"/>
+                        </Grid>
+
+                        <!-- Текст помилки -->
+                        <TextBlock x:Name="AddFilmErrorText" Grid.Row="2" Margin="0,0,0,10"
+                               Foreground="Red" FontFamily="Georgia" FontSize="14"
+                               Text="" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+
+                        <!-- Кнопка додавання -->
+                        <Button Grid.Row="3" Content="Додати фільм" Width="200" Height="45" Margin="0,0,0,0"
+                            HorizontalAlignment="Center" FontFamily="Georgia" FontSize="16" FontWeight="Bold"
+                            Background="#D3D3D3" BorderBrush="Gray" BorderThickness="1" Click="ConfirmAddFilm_Click">
+                            <Button.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="10"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                    </Grid>
+                </Border>
+            </Grid>
+
+        <!-- Вікно для додавання сеансу -->
+        <Grid x:Name="AddScreeningModal" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="100">
+            <Border Background="#F0F0F0" CornerRadius="12" Padding="20" BorderBrush="Gray" BorderThickness="1"
+            Width="280" Height="300" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Заголовок і кнопка закриття -->
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="Додати сеанс" FontFamily="Georgia" FontSize="20" FontWeight="Bold"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,10"/>
+                        <Button Content="✕" Width="25" Height="25" Click="CloseAddScreeningModal_Click"
+                        FontWeight="Bold" Background="Transparent" BorderThickness="0"
+                        HorizontalAlignment="Right" VerticalAlignment="Top" Cursor="Hand"/>
+                    </Grid>
+
+                    <!-- Поля для введення -->
+                    <StackPanel Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0">
+                        <ComboBox x:Name="FilmComboBox" Width="200" Height="30" Margin="0,0,0,10"
+                          FontFamily="Georgia" FontSize="14" ToolTip="Оберіть фільм"
+                          HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+
+                        <TextBox x:Name="DateTextBox" Width="200" Height="28" Margin="0,10,0,15"
+                         FontFamily="Georgia" FontSize="14" ToolTip="Дата" Text="Дата"/>
+
+                        <TextBox x:Name="TimeTextBox" Width="200" Height="28"
+                         FontFamily="Georgia" FontSize="14" ToolTip="Час" Text="Час"/>
+                    </StackPanel>
+
+                    <!-- Повідомлення про помилку -->
+                    <TextBlock x:Name="AddScreeningErrorText" Grid.Row="2" Margin="0,10,0,5"
+                       Foreground="Red" FontFamily="Georgia" FontSize="13"
+                       Text="" TextWrapping="Wrap" HorizontalAlignment="Center" Visibility="Collapsed"/>
+
+                    <!-- Кнопка додавання сеансу -->
+                    <Button Grid.Row="3" Content="Додати сеанс" Width="200" Height="40"
+                    HorizontalAlignment="Center" FontFamily="Georgia" FontSize="16" FontWeight="Bold"
+                    Background="#D3D3D3" BorderBrush="Gray" BorderThickness="1" Click="ConfirmAddScreening_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="10"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <Grid x:Name="FilmInfoModal" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="100">
+            <Border Background="#F0F0F0" CornerRadius="12" Padding="20"
+            BorderBrush="Gray" BorderThickness="1"
+            Width="500" Height="300"
+            VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Заголовок + кнопка закриття -->
+                    <Grid Grid.Row="0">
+                        <TextBlock x:Name="FilmTitleText" FontFamily="Georgia" FontSize="22" FontWeight="Bold"
+                           HorizontalAlignment="Left" Margin="0,0,0,10"/>
+                        <Button Content="✕" Width="25" Height="25" Click="CloseFilmInfoModal_Click"
+                        FontWeight="Bold" Background="Transparent" BorderThickness="0"
+                        HorizontalAlignment="Right" VerticalAlignment="Top" Cursor="Hand"/>
+                    </Grid>
+
+                    <!-- Інформація про фільм -->
+                    <StackPanel Grid.Row="1" Margin="0,10,0,0">
+                        <Grid Grid.Row="1" Margin="0,10,0,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="180"/>
+                                <!-- Для назв полів -->
+                                <ColumnDefinition Width="*"/>
+                                <!-- Для значень -->
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Вікові обмеження -->
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Вікові обмеження:" FontWeight="Bold" FontFamily="Georgia"/>
+                            <TextBlock Grid.Row="0" Grid.Column="1" x:Name="AgeText" FontFamily="Georgia"/>
+
+                            <!-- Рік -->
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="Рік:" FontWeight="Bold" FontFamily="Georgia"/>
+                            <TextBlock Grid.Row="1" Grid.Column="1" x:Name="YearText" FontFamily="Georgia"/>
+
+                            <!-- Оригінальна назва -->
+                            <TextBlock Grid.Row="2" Grid.Column="0" Text="Оригінальна назва:" FontWeight="Bold" FontFamily="Georgia"/>
+                            <TextBlock Grid.Row="2" Grid.Column="1" x:Name="OriginalTitleText" FontFamily="Georgia"/>
+
+                            <!-- Режисер -->
+                            <TextBlock Grid.Row="3" Grid.Column="0" Text="Режисер:" FontWeight="Bold" FontFamily="Georgia"/>
+                            <TextBlock Grid.Row="3" Grid.Column="1" x:Name="DirectorText" FontFamily="Georgia"/>
+
+                            <!-- Мова -->
+                            <TextBlock Grid.Row="4" Grid.Column="0" Text="Мова:" FontWeight="Bold" FontFamily="Georgia"/>
+                            <TextBlock Grid.Row="4" Grid.Column="1" x:Name="LanguageText" FontFamily="Georgia"/>
+
+                            <!-- Жанр -->
+                            <TextBlock Grid.Row="5" Grid.Column="0" Text="Жанр:" FontWeight="Bold" FontFamily="Georgia"/>
+                            <TextBlock Grid.Row="5" Grid.Column="1" x:Name="GenreText" FontFamily="Georgia"/>
+
+                            <!-- Тривалість -->
+                            <TextBlock Grid.Row="6" Grid.Column="0" Text="Тривалість:" FontWeight="Bold" FontFamily="Georgia"/>
+                            <TextBlock Grid.Row="6" Grid.Column="1" x:Name="DurationText" FontFamily="Georgia"/>
+
+                            <!-- Виробництво -->
+                            <TextBlock Grid.Row="7" Grid.Column="0" Text="Виробництво:" FontWeight="Bold" FontFamily="Georgia"/>
+                            <TextBlock Grid.Row="7" Grid.Column="1" x:Name="ProductionText" FontFamily="Georgia"/>
+
+                            <!-- Студія -->
+                            <TextBlock Grid.Row="8" Grid.Column="0" Text="Студія:" FontWeight="Bold" FontFamily="Georgia"/>
+                            <TextBlock Grid.Row="8" Grid.Column="1" x:Name="StudioText" FontFamily="Georgia"/>
+
+                            <!-- Опис -->
+                            <TextBlock Grid.Row="9" Grid.Column="0" Text="Опис:" FontWeight="Bold" FontFamily="Georgia"/>
+                            <TextBlock Grid.Row="9" Grid.Column="1" x:Name="DescriptionText" FontFamily="Georgia" TextWrapping="Wrap"/>
+                        </Grid>
+
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+
+
+
+
+        <!-- ScrollViewer з фільмами -->
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="20,80,20,20">
+                <StackPanel x:Name="ScheduleListPanel" Orientation="Vertical" Background="White"/>
+            </ScrollViewer>
+        </Grid>
 </Window>

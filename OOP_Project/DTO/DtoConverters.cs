@@ -65,13 +65,19 @@ namespace OOP_Project.DTO
         {
             var film = dto.Film.FromDto();
             var schedule = new ScreeningSchedule(film);
+
             foreach (var screeningDto in dto.Screenings)
             {
-                var screening = screeningDto.FromDto();
-                schedule.Add(screening);
+                if (screeningDto.Date >= DateTime.Now)
+                {
+                    var screening = screeningDto.FromDto();
+                    schedule.Add(screening);
+                }
             }
+
             return schedule;
         }
+
 
         public static RegisteredUserDto ToDto(this RegisteredUser user) => new RegisteredUserDto
         {

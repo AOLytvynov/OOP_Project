@@ -11,6 +11,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using OOP_Project.DTO;
+using OOP_Project.Models;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OOP_Project
 {
@@ -25,8 +28,7 @@ namespace OOP_Project
             bool isAdmin = AppData.CurrentUser?.GetRole() == "Admin";
             AddButton.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
             DeleteButton.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
-            AdminViewToggle.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
-            AdminA.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
+            DisplaySchedules();
         }
 
         private void ProfileButton_Click(object sender, RoutedEventArgs e)
@@ -76,13 +78,358 @@ namespace OOP_Project
         private void AddFilm_Click(object sender, RoutedEventArgs e)
         {
             AddMenu.Visibility = Visibility.Collapsed;
+            AddFilmModal.Visibility = Visibility.Visible;
+        }
+
+
+        private void CloseAddFilmModal_Click(object sender, RoutedEventArgs e)
+        {
+            AddFilmModal.Visibility = Visibility.Collapsed;
+        }
+
+        private void ConfirmAddFilm_Click(object sender, RoutedEventArgs e)
+        {
+            AddFilmErrorText.Text = "";
+            AddFilmErrorText.Visibility = Visibility.Collapsed;
+            bool hasError = false;
+
+            string name = NameTextBox.Text;
+            string yearText = YearTextBox.Text;
+            string director = DirectorTextBox.Text;
+            string language = LanguageTextBox.Text;
+            string durationText = DurationTextBox.Text;
+            string originalTitle = OriginalTitleTextBox.Text;
+            string production = ProductionTextBox.Text;
+            string studio = StudioTextBox.Text;
+            string ageRestrictionText = AgeRestrictionTextBox.Text;
+            string genre = GenreTextBox.Text;
+            string description = DescriptionTextBox.Text;
+
+            int year = 0;
+            int ageRestriction = 0;
+            int duration = 0;
+
+            if (string.IsNullOrEmpty(name))
+            {
+                AddFilmErrorText.Text = "Назва фільму не може бути порожньою.";
+                hasError = true;
+            }
+            else if (!int.TryParse(yearText, out year))
+            {
+                AddFilmErrorText.Text = "Рік має бути цілим числом.";
+                hasError = true;
+            }
+            else if (year < 1900)
+            {
+                AddFilmErrorText.Text = "Рік не може бути раніше 1900.";
+                hasError = true;
+            }
+            else if (string.IsNullOrEmpty(director))
+            {
+                AddFilmErrorText.Text = "Режисер не може бути порожнім.";
+                hasError = true;
+            }
+            else if (string.IsNullOrEmpty(language))
+            {
+                AddFilmErrorText.Text = "Мова не може бути порожньою.";
+                hasError = true;
+            }
+            else if (!int.TryParse(durationText, out duration))
+            {
+                AddFilmErrorText.Text = "Тривалість має бути цілим числом.";
+                hasError = true;
+            }
+            else if (duration <= 0)
+            {
+                AddFilmErrorText.Text = "Тривалість має бути більшою за 0.";
+                hasError = true;
+            }
+            else if (string.IsNullOrEmpty(originalTitle))
+            {
+                AddFilmErrorText.Text = "Студія не може бути порожньою.";
+                hasError = true;
+            }
+            else if (string.IsNullOrEmpty(production))
+            {
+                AddFilmErrorText.Text = "Виробництво не може бути порожнім.";
+                hasError = true;
+            }
+
+            else if (string.IsNullOrEmpty(studio))
+            {
+                AddFilmErrorText.Text = "Студія не може бути порожньою.";
+                hasError = true;
+            }
+
+            else if (!int.TryParse(ageRestrictionText, out ageRestriction))
+            {
+                AddFilmErrorText.Text = "Вікові обмеження мають бути числом.";
+                hasError = true;
+            }
+            else if (ageRestriction < 0 || ageRestriction > 100)
+            {
+                AddFilmErrorText.Text = "Вікові обмеження мають бути в межах від 0 до 100.";
+                hasError = true;
+            }
+
+            else if (string.IsNullOrEmpty(genre))
+            {
+                AddFilmErrorText.Text = "Жанр не може бути порожнім.";
+                hasError = true;
+            }
+
+            else if (string.IsNullOrEmpty(description))
+            {
+                AddFilmErrorText.Text = "Опис не може бути порожнім.";
+                hasError = true;
+            }
+
+            if (hasError)
+            {
+                AddFilmErrorText.Visibility = Visibility.Visible;
+                return;
+            }
+            Film newFilm = new Film(name, ageRestriction, year, originalTitle, director, language, genre, duration, production, studio, description);
+            ScreeningSchedule newSchedule = new ScreeningSchedule(newFilm);
+            AppData.Schedules.Add(newSchedule);
+            JsonStorage.SaveSchedules(AppData.Schedules);
+            AddFilmModal.Visibility = Visibility.Collapsed;
+
+            NameTextBox.Text = "Назва Фільму";
+            YearTextBox.Text = "Рік";
+            DirectorTextBox.Text = "Режисер";
+            LanguageTextBox.Text = "Мова";
+            DurationTextBox.Text = "Тривалість";
+            ProductionTextBox.Text = "Виробництво";
+            StudioTextBox.Text = "Студія";
+            AgeRestrictionTextBox.Text = "Вікові обмеження";
+            GenreTextBox.Text = "Жанр";
+            DescriptionTextBox.Text = "Опис";
         }
 
         private void AddScreening_Click(object sender, RoutedEventArgs e)
         {
             AddMenu.Visibility = Visibility.Collapsed;
+            AddScreeningModal.Visibility = Visibility.Visible;
+
+            FilmComboBox.ItemsSource = AppData.Schedules.Select(s => s.Film).ToList();
+            FilmComboBox.DisplayMemberPath = "Name";
+            FilmComboBox.SelectedIndex = -1;
         }
 
+        private void CloseAddScreeningModal_Click(object sender, RoutedEventArgs e)
+        {
+            AddScreeningModal.Visibility = Visibility.Collapsed;
+        }
 
+        private void ConfirmAddScreening_Click(object sender, RoutedEventArgs e)
+        {
+            AddScreeningErrorText.Visibility = Visibility.Collapsed;
+            AddScreeningErrorText.Text = "";
+            bool hasError = false;
+
+            Film selectedFilm = null;
+            DateTime date = default;
+            TimeSpan time = default;
+
+            if (FilmComboBox.SelectedItem is not Film selected)
+            {
+                AddScreeningErrorText.Text = "Фільм не було обрано";
+                hasError = true;
+            }
+            else
+            {
+                selectedFilm = selected;
+            }
+
+            if (!hasError && !DateTime.TryParse(DateTextBox.Text, out date))
+            {
+                AddScreeningErrorText.Text = "Неправильний формат введення дати";
+                hasError = true;
+            }
+
+            if (!hasError && !TimeSpan.TryParse(TimeTextBox.Text, out time))
+            {
+                AddScreeningErrorText.Text = "Неправильний формат введення часу";
+                hasError = true;
+            }
+
+            else if (date.Date + time <= DateTime.Now)
+            {
+                AddScreeningErrorText.Text = "Сеанс не може бути в минулому.";
+                hasError = true;
+            }
+            else if ((date.Date + time) > DateTime.Now.AddYears(1))
+            {
+                AddScreeningErrorText.Text = "Сеанс не може бути пізніше ніж через рік.";
+                hasError = true;
+            }
+
+
+            if (hasError)
+            {
+                AddScreeningErrorText.Visibility = Visibility.Visible;
+                return;
+            }
+
+            DateTime fullDateTime = date.Date + time;
+            var schedule = AppData.Schedules.FirstOrDefault(s => s.Film == selectedFilm);
+
+            if (schedule != null)
+            {
+                foreach (var existing in schedule.Screenings)
+                {
+                    var startExisting = existing.Date;
+                    var endExisting = startExisting.AddMinutes(existing.Film.Duration);
+
+                    var startNew = fullDateTime.AddMinutes(-15);
+                    var endNew = fullDateTime.AddMinutes(selectedFilm.Duration + 15);
+
+                    if (startNew < endExisting && endNew > startExisting)
+                    {
+                        AddScreeningErrorText.Text = "Сеанс перетинається з іншим або не має 15 хвилин буфера.";
+                        AddScreeningErrorText.Visibility = Visibility.Visible;
+                        return;
+                    }
+                }
+            }
+
+            var screening = new Screening(selectedFilm, fullDateTime);
+            var tickets = TicketHelper.GenerateTicketsForScreening(screening, 5, 10);
+            screening.AddTickets(tickets);
+            schedule?.Add(screening);
+            JsonStorage.SaveSchedules(AppData.Schedules);
+
+            AddScreeningModal.Visibility = Visibility.Collapsed;
+            FilmComboBox.SelectedItem = null;
+            DateTextBox.Text = "Дата";
+            TimeTextBox.Text = "Час";
+            AddScreeningErrorText.Text = "";
+        }
+
+        private void DisplaySchedules()
+        {
+            ScheduleListPanel.Children.Clear();
+
+            foreach (var schedule in AppData.Schedules.Where(s => s.Screenings.Count > 0))
+            {
+                var panel = new Border
+                {
+                    Margin = new Thickness(10),
+                    CornerRadius = new CornerRadius(10),
+                    Background = Brushes.GhostWhite,
+                    Padding = new Thickness(10),
+                    BorderThickness = new Thickness(1),
+                    BorderBrush = Brushes.Gray
+                };
+
+                var grid = new Grid();
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+
+                // Кнопка замовлення
+                var orderButton = new Button
+                {
+                    Content = "Замовити",
+                    FontFamily = new FontFamily("Georgia"),
+                    FontWeight = FontWeights.Bold,
+                    Padding = new Thickness(10, 5, 10, 5),
+                    BorderThickness = new Thickness(1),
+                    BorderBrush = Brushes.Gray,
+                    Background = Brushes.White,
+                    Cursor = Cursors.Hand
+                };
+                orderButton.Resources.Add(typeof(Border), new Style(typeof(Border))
+                {
+                    Setters = { new Setter(Border.CornerRadiusProperty, new CornerRadius(8)) }
+                });
+
+                // Центр: інформація про фільм
+                var centerStack = new StackPanel
+                {
+                    Orientation = Orientation.Vertical,
+                    Margin = new Thickness(20, 0, 20, 0),
+                    VerticalAlignment = VerticalAlignment.Center
+                };
+
+                var titleText = new TextBlock
+                {
+                    Text = schedule.Film.Name,
+                    FontFamily = new FontFamily("Georgia"),
+                    FontWeight = FontWeights.Bold,
+                    FontSize = 16
+                };
+
+                string dateText = schedule.Screenings.Count > 0
+                    ? $"Прем’єра - {schedule.Screenings.Min(s => s.Date).ToString("dd.MM")}"
+                    : "Сеансів немає";
+
+                var premiereText = new TextBlock
+                {
+                    Text = dateText,
+                    FontFamily = new FontFamily("Georgia"),
+                    FontSize = 14
+                };
+
+                centerStack.Children.Add(titleText);
+                centerStack.Children.Add(premiereText);
+
+                // Кнопка "Про фільм"
+                var aboutButton = new Button
+                {
+                    Content = "Про фільм",
+                    FontFamily = new FontFamily("Georgia"),
+                    FontSize = 14,
+                    Padding = new Thickness(10, 5, 10, 5),
+                    BorderThickness = new Thickness(1),
+                    BorderBrush = Brushes.Gray,
+                    Background = Brushes.White,
+                    Cursor = Cursors.Hand
+                };
+                aboutButton.Resources.Add(typeof(Border), new Style(typeof(Border))
+                {
+                    Setters = { new Setter(Border.CornerRadiusProperty, new CornerRadius(8)) }
+                });
+
+                // Події
+                aboutButton.Click += (s, e) =>
+                {
+                    FilmTitleText.Text = schedule.Film.Name;
+                    AgeText.Text = $"{schedule.Film.AgeRestriction}+";
+                    YearText.Text = schedule.Film.Year.ToString();
+                    OriginalTitleText.Text = schedule.Film.OriginalTitle;
+                    DirectorText.Text = schedule.Film.Director;
+                    LanguageText.Text = schedule.Film.Language;
+                    GenreText.Text = schedule.Film.Genre;
+                    DurationText.Text = $"{schedule.Film.Duration / 60}:{schedule.Film.Duration % 60:D2}";
+                    ProductionText.Text = schedule.Film.Production;
+                    StudioText.Text = schedule.Film.Studio;
+                    DescriptionText.Text = schedule.Film.Description;
+
+                    FilmInfoModal.Visibility = Visibility.Visible;
+                };
+
+
+
+                // Додавання в Grid
+                Grid.SetColumn(orderButton, 0);
+                Grid.SetColumn(centerStack, 1);
+                Grid.SetColumn(aboutButton, 2);
+
+                grid.Children.Add(orderButton);
+                grid.Children.Add(centerStack);
+                grid.Children.Add(aboutButton);
+
+                panel.Child = grid;
+                ScheduleListPanel.Children.Add(panel);
+            }
+        }
+
+        private void CloseFilmInfoModal_Click(object sender, RoutedEventArgs e)
+        {
+            FilmInfoModal.Visibility = Visibility.Collapsed;
+        }
     }
+
 }

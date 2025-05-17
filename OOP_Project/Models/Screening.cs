@@ -53,5 +53,11 @@ namespace OOP_Project.Models
             if (other == null) return 1;
             return this.Date.CompareTo(other.Date);
         }
+
+        public override string ToString()
+        {
+            return $"{Film.Name} — {Date:dd.MM.yyyy HH:mm}";
+        }
+
     }
 }

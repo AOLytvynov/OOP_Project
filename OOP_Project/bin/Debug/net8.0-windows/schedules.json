@@ -1,1 +1,2012 @@
-[]
+[
+  {
+    "Film": {
+      "Name": "\u041C\u0456\u0441\u0456\u044F \u043D\u0435\u043C\u043E\u0436\u043B\u0438\u0432\u0430: \u0424\u0456\u043D\u0430\u043B\u044C\u043D\u0430 \u0440\u043E\u0437\u043F\u043B\u0430\u0442\u0430",
+      "AgeRestriction": 12,
+      "Year": 2025,
+      "OriginalTitle": "Mission: Impossible - The Final Reckoning",
+      "Director": "\u041A\u0440\u0456\u0441\u0442\u043E\u0444\u0435\u0440 \u041C\u0430\u043A\u043A\u0432\u043E\u0440\u0440\u0456",
+      "Language": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430",
+      "Genre": "\u0415\u043A\u0448\u043D, \u041F\u0440\u0438\u0433\u043E\u0434\u0438 ",
+      "Duration": 169,
+      "Production": "\u0421\u0428\u0410",
+      "Studio": "Paramount Pictures",
+      "Description": "\u0410\u0433\u0435\u043D\u0442 \u0441\u0435\u043A\u0440\u0435\u0442\u043D\u043E\u0457 \u0441\u043B\u0443\u0436\u0431\u0438, \u044F\u043A\u0430 \u0441\u043F\u0435\u0446\u0456\u0430\u043B\u0456\u0437\u0443\u0454\u0442\u044C\u0441\u044F \u043D\u0430 \u043D\u0435\u043C\u043E\u0436\u043B\u0438\u0432\u0438\u0445 \u043C\u0456\u0441\u0456\u044F\u0445, \u0406\u0442\u0430\u043D \u0413\u0430\u043D\u0442 (\u0422\u043E\u043C \u041A\u0440\u0443\u0437) \u0433\u043E\u0442\u0443\u0454\u0442\u044C\u0441\u044F \u0434\u043E \u043D\u043E\u0432\u043E\u0433\u043E \u0437\u0430\u0432\u0434\u0430\u043D\u043D\u044F. \u0412\u043F\u043B\u0438\u0432\u043E\u0432\u0438\u0439 \u0437\u043B\u043E\u0432\u043C\u0438\u0441\u043D\u0438\u043A \u043F\u043B\u0430\u043D\u0443\u0454 \u0437\u0430\u0432\u043E\u043B\u043E\u0434\u0456\u0442\u0438 \u0434\u043E\u0441\u0442\u0443\u043F\u043E\u043C \u0434\u043E \u0448\u0442\u0443\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u043B\u0435\u043A\u0442\u0443, \u044F\u043A\u0438\u0439 \u0437\u0434\u0430\u0442\u0435\u043D \u0437\u043C\u0456\u043D\u0438\u0442\u0438 \u0432\u0435\u0441\u044C \u043F\u043E\u0440\u044F\u0434\u043E\u043A \u0443 \u0441\u0432\u0456\u0442\u0456. \u041F\u0435\u0440\u0435\u0448\u043A\u043E\u0434\u0438\u0442\u0438 \u0439\u043E\u0433\u043E \u043F\u043B\u0430\u043D\u0430\u043C \u043D\u0435\u043C\u043E\u0436\u043B\u0438\u0432\u043E. \u041E\u0434\u043D\u0430\u043A \u0441\u0430\u043C\u0435 \u0434\u043B\u044F \u0442\u0430\u043A\u0438\u0445 \u0441\u0438\u0442\u0443\u0430\u0446\u0456\u0439 \u0456 \u0456\u0441\u043D\u0443\u0454 \u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u0406\u0442\u0430\u043D\u0430 \u0413\u0430\u043D\u0442\u0430, \u0437 \u044F\u043A\u043E\u044E \u0432\u0456\u043D \u0432\u0438\u0440\u0443\u0448\u0430\u0454 \u0443 \u0447\u0435\u0440\u0433\u043E\u0432\u0443 \u043C\u0456\u0441\u0456\u044E."
+    },
+    "Screenings": [
+      {
+        "Film": {
+          "Name": "\u041C\u0456\u0441\u0456\u044F \u043D\u0435\u043C\u043E\u0436\u043B\u0438\u0432\u0430: \u0424\u0456\u043D\u0430\u043B\u044C\u043D\u0430 \u0440\u043E\u0437\u043F\u043B\u0430\u0442\u0430",
+          "AgeRestriction": 12,
+          "Year": 2025,
+          "OriginalTitle": "Mission: Impossible - The Final Reckoning",
+          "Director": "\u041A\u0440\u0456\u0441\u0442\u043E\u0444\u0435\u0440 \u041C\u0430\u043A\u043A\u0432\u043E\u0440\u0440\u0456",
+          "Language": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430",
+          "Genre": "\u0415\u043A\u0448\u043D, \u041F\u0440\u0438\u0433\u043E\u0434\u0438 ",
+          "Duration": 169,
+          "Production": "\u0421\u0428\u0410",
+          "Studio": "Paramount Pictures",
+          "Description": "\u0410\u0433\u0435\u043D\u0442 \u0441\u0435\u043A\u0440\u0435\u0442\u043D\u043E\u0457 \u0441\u043B\u0443\u0436\u0431\u0438, \u044F\u043A\u0430 \u0441\u043F\u0435\u0446\u0456\u0430\u043B\u0456\u0437\u0443\u0454\u0442\u044C\u0441\u044F \u043D\u0430 \u043D\u0435\u043C\u043E\u0436\u043B\u0438\u0432\u0438\u0445 \u043C\u0456\u0441\u0456\u044F\u0445, \u0406\u0442\u0430\u043D \u0413\u0430\u043D\u0442 (\u0422\u043E\u043C \u041A\u0440\u0443\u0437) \u0433\u043E\u0442\u0443\u0454\u0442\u044C\u0441\u044F \u0434\u043E \u043D\u043E\u0432\u043E\u0433\u043E \u0437\u0430\u0432\u0434\u0430\u043D\u043D\u044F. \u0412\u043F\u043B\u0438\u0432\u043E\u0432\u0438\u0439 \u0437\u043B\u043E\u0432\u043C\u0438\u0441\u043D\u0438\u043A \u043F\u043B\u0430\u043D\u0443\u0454 \u0437\u0430\u0432\u043E\u043B\u043E\u0434\u0456\u0442\u0438 \u0434\u043E\u0441\u0442\u0443\u043F\u043E\u043C \u0434\u043E \u0448\u0442\u0443\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u043B\u0435\u043A\u0442\u0443, \u044F\u043A\u0438\u0439 \u0437\u0434\u0430\u0442\u0435\u043D \u0437\u043C\u0456\u043D\u0438\u0442\u0438 \u0432\u0435\u0441\u044C \u043F\u043E\u0440\u044F\u0434\u043E\u043A \u0443 \u0441\u0432\u0456\u0442\u0456. \u041F\u0435\u0440\u0435\u0448\u043A\u043E\u0434\u0438\u0442\u0438 \u0439\u043E\u0433\u043E \u043F\u043B\u0430\u043D\u0430\u043C \u043D\u0435\u043C\u043E\u0436\u043B\u0438\u0432\u043E. \u041E\u0434\u043D\u0430\u043A \u0441\u0430\u043C\u0435 \u0434\u043B\u044F \u0442\u0430\u043A\u0438\u0445 \u0441\u0438\u0442\u0443\u0430\u0446\u0456\u0439 \u0456 \u0456\u0441\u043D\u0443\u0454 \u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u0406\u0442\u0430\u043D\u0430 \u0413\u0430\u043D\u0442\u0430, \u0437 \u044F\u043A\u043E\u044E \u0432\u0456\u043D \u0432\u0438\u0440\u0443\u0448\u0430\u0454 \u0443 \u0447\u0435\u0440\u0433\u043E\u0432\u0443 \u043C\u0456\u0441\u0456\u044E."
+        },
+        "Date": "2025-05-18T12:50:00",
+        "Tickets": [
+          {
+            "TicketId": "669OJHL5XKXKWDP964DT",
+            "RowNumber": 1,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "CLA1928T4JCCP3LL8OPW",
+            "RowNumber": 1,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "JCA3NK12MGOK0GS6CX4P",
+            "RowNumber": 1,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "IBV84SRC43FDN5U7UIW1",
+            "RowNumber": 1,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "9VEX3YNUMIQA1M1JC59W",
+            "RowNumber": 1,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "698ZRVHJWQCZQ97PVDI3",
+            "RowNumber": 1,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "0GOJUVMVZ35KW20K6RO3",
+            "RowNumber": 1,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "KUSGBX2JADOYXUSH73Y6",
+            "RowNumber": 1,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "K8JUHMWJ6RMFJ4LEZ87V",
+            "RowNumber": 1,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "ALWCTFSY3A5DGGEIKROU",
+            "RowNumber": 1,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "OKTL36JHDO4FNVUM1P8V",
+            "RowNumber": 2,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "3VPY9V248N7DVGSRHL3T",
+            "RowNumber": 2,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "JEQXX8JCP5QB0O6ROOMI",
+            "RowNumber": 2,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "OE2DBU58GAFYG13DYN6T",
+            "RowNumber": 2,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "YGVGQXA9TBSYWD78KZH2",
+            "RowNumber": 2,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "8A5KE652SW3DJ2YIIF4V",
+            "RowNumber": 2,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "AQBYBSL7TC7OD84QUPFZ",
+            "RowNumber": 2,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "7RRVX9ZQQT1UVQDCQ2M3",
+            "RowNumber": 2,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "7RQV4BMAJ56GM98VVRQM",
+            "RowNumber": 2,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "GLFJRVR5660F2K02I54U",
+            "RowNumber": 2,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "UQ5FN2Z893PKZOFH2Q42",
+            "RowNumber": 3,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "TNKAOIWYS8DD7O2KIYD4",
+            "RowNumber": 3,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "MPUB9X33HXIAWBJYWBD1",
+            "RowNumber": 3,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "M1J1239L49HVBM4320TS",
+            "RowNumber": 3,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "TPK5JL67ES7HIJJZIW8L",
+            "RowNumber": 3,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "P6DWI3CCJZB2UY9GTA6N",
+            "RowNumber": 3,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "YEEAXK9L82TLEWIPXVPH",
+            "RowNumber": 3,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "J4YOGMDWTYFWTRGQEL7X",
+            "RowNumber": 3,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "2TCPE3FZYE9WYNBPFFGO",
+            "RowNumber": 3,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "353EGCYD6FQ4PAL4W3EJ",
+            "RowNumber": 3,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "R0B30AP4CIAB6LNPSM19",
+            "RowNumber": 4,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "UM6O1Y9SWW1QUTIPDJPI",
+            "RowNumber": 4,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "5S19BJHA0MIXNBRR59F8",
+            "RowNumber": 4,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "0YYSM8ZP6D46JOB8XMRJ",
+            "RowNumber": 4,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "KJ5XTRSK28W6FJN37HNE",
+            "RowNumber": 4,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "4D6CVGDDOPUBT5Y6BXFM",
+            "RowNumber": 4,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "7C9DK68XYZR26KUS4YBR",
+            "RowNumber": 4,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "FAZA6BJ3AMUCGLHHIJX5",
+            "RowNumber": 4,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "VIKVEN3U7VWU4DNGQEZM",
+            "RowNumber": 4,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "IFU4X7WAQ2Y8ZYAYWNQ6",
+            "RowNumber": 4,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "2UHXRT1T0EI7C4N48GKM",
+            "RowNumber": 5,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "N3DNU9FCPM96G56L1HO0",
+            "RowNumber": 5,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "F26DYJVWE7SL7U7KER40",
+            "RowNumber": 5,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "82Q920SZSUQWY8FL21Q5",
+            "RowNumber": 5,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "O0U9NWV6TZD069FL1YPR",
+            "RowNumber": 5,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "5FMKSTHJ9EDOZSOGYHOV",
+            "RowNumber": 5,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "MA3HFPSAERYXNJDLNA4F",
+            "RowNumber": 5,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "KTBDRGQK33TU8Z4132YA",
+            "RowNumber": 5,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "9UGIW5MKRVX54SOA6X8F",
+            "RowNumber": 5,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "BSKFFPBUR0FC7Q0EYTH1",
+            "RowNumber": 5,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Film": {
+      "Name": "\u0411\u0430\u043B\u0435\u0440\u0438\u043D\u0430",
+      "AgeRestriction": 16,
+      "Year": 2025,
+      "OriginalTitle": "Ballerina",
+      "Director": "\u041B\u0435\u043D \u0412\u0430\u0439\u0437\u043C\u0430\u043D",
+      "Language": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430",
+      "Genre": "\u0415\u043A\u0448\u043D",
+      "Duration": 125,
+      "Production": "\u0421\u0428\u0410",
+      "Studio": "Lionsgate, Thunder Road Films, 87eleven Production",
+      "Description": "\u0022\u0411\u0430\u043B\u0435\u0440\u0438\u043D\u0430\u0022 - \u0441\u043F\u0456\u043D-\u043E\u0444\u0444 \u043D\u0430\u0439\u043A\u0440\u0443\u0442\u0456\u0448\u043E\u0457 \u0444\u0440\u0430\u043D\u0448\u0438\u0437\u0438 \u043F\u0440\u043E \u043D\u0435\u043F\u0435\u0440\u0435\u043C\u043E\u0436\u043D\u043E\u0433\u043E \u0430\u0441\u0430\u0441\u0456\u043D\u0430 \u0022\u0414\u0436\u043E\u043D \u0412\u0456\u043A\u0022. \u0412 \u0446\u0435\u043D\u0442\u0440\u0456 \u0441\u044E\u0436\u0435\u0442\u0443 - \u0404\u0432\u0430 (\u0410\u043D\u0430 \u0434\u0435 \u0410\u0440\u043C\u0430\u0441), \u0441\u0442\u0430\u0440\u0430\u043D\u043D\u0430 \u0443\u0447\u0435\u043D\u0438\u0446\u044F \u0431\u0430\u043B\u0435\u0442\u043D\u043E\u0457 \u0448\u043A\u043E\u043B\u0438, \u0430 \u0442\u0430\u043A\u043E\u0436 \u0431\u0435\u0437\u0436\u0430\u043B\u044C\u043D\u0430 \u0432\u0431\u0438\u0432\u0446\u044F \u0437 \u043A\u0440\u0438\u043C\u0456\u043D\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0433\u0440\u0443\u043F\u0443\u0432\u0430\u043D\u043D\u044F \u0420\u0443\u0441\u044C\u043A\u0430 \u0420\u043E\u043C\u0430. \u0412\u0438\u043A\u043E\u043D\u0443\u044E\u0447\u0438 \u0437\u0430\u0432\u0434\u0430\u043D\u043D\u044F \u0432\u0456\u0434 \u0441\u0432\u043E\u0454\u0457 \u0414\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u043A\u0438 (\u0410\u043D\u0436\u0435\u043B\u0456\u043A\u0430 \u0413\u02BC\u044E\u0441\u0442\u043E\u043D), \u0404\u0432\u0430 \u0434\u0456\u0437\u043D\u0430\u0454\u0442\u044C\u0441\u044F \u0442\u0430\u0454\u043C\u043D\u0438\u0446\u044E \u0432\u0431\u0438\u0432\u0441\u0442\u0432\u0430 \u0441\u0432\u043E\u0433\u043E \u0431\u0430\u0442\u044C\u043A\u0430 \u0442\u0430 \u0432\u0441\u0442\u0430\u0454 \u043D\u0430 \u0448\u043B\u044F\u0445 \u043F\u043E\u043C\u0441\u0442\u0438, \u0434\u0435 \u043F\u0435\u0440\u0435\u0442\u0438\u043D\u0430\u0454\u0442\u044C\u0441\u044F \u0456\u0437 \u0441\u0430\u043C\u0438\u043C \u0414\u0436\u043E\u043D\u043E\u043C \u0412\u0456\u043A\u043E\u043C (\u041A\u0456\u0430\u043D\u0443 \u0420\u0456\u0432\u0437)."
+    },
+    "Screenings": [
+      {
+        "Film": {
+          "Name": "\u0411\u0430\u043B\u0435\u0440\u0438\u043D\u0430",
+          "AgeRestriction": 16,
+          "Year": 2025,
+          "OriginalTitle": "Ballerina",
+          "Director": "\u041B\u0435\u043D \u0412\u0430\u0439\u0437\u043C\u0430\u043D",
+          "Language": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430",
+          "Genre": "\u0415\u043A\u0448\u043D",
+          "Duration": 125,
+          "Production": "\u0421\u0428\u0410",
+          "Studio": "Lionsgate, Thunder Road Films, 87eleven Production",
+          "Description": "\u0022\u0411\u0430\u043B\u0435\u0440\u0438\u043D\u0430\u0022 - \u0441\u043F\u0456\u043D-\u043E\u0444\u0444 \u043D\u0430\u0439\u043A\u0440\u0443\u0442\u0456\u0448\u043E\u0457 \u0444\u0440\u0430\u043D\u0448\u0438\u0437\u0438 \u043F\u0440\u043E \u043D\u0435\u043F\u0435\u0440\u0435\u043C\u043E\u0436\u043D\u043E\u0433\u043E \u0430\u0441\u0430\u0441\u0456\u043D\u0430 \u0022\u0414\u0436\u043E\u043D \u0412\u0456\u043A\u0022. \u0412 \u0446\u0435\u043D\u0442\u0440\u0456 \u0441\u044E\u0436\u0435\u0442\u0443 - \u0404\u0432\u0430 (\u0410\u043D\u0430 \u0434\u0435 \u0410\u0440\u043C\u0430\u0441), \u0441\u0442\u0430\u0440\u0430\u043D\u043D\u0430 \u0443\u0447\u0435\u043D\u0438\u0446\u044F \u0431\u0430\u043B\u0435\u0442\u043D\u043E\u0457 \u0448\u043A\u043E\u043B\u0438, \u0430 \u0442\u0430\u043A\u043E\u0436 \u0431\u0435\u0437\u0436\u0430\u043B\u044C\u043D\u0430 \u0432\u0431\u0438\u0432\u0446\u044F \u0437 \u043A\u0440\u0438\u043C\u0456\u043D\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0433\u0440\u0443\u043F\u0443\u0432\u0430\u043D\u043D\u044F \u0420\u0443\u0441\u044C\u043A\u0430 \u0420\u043E\u043C\u0430. \u0412\u0438\u043A\u043E\u043D\u0443\u044E\u0447\u0438 \u0437\u0430\u0432\u0434\u0430\u043D\u043D\u044F \u0432\u0456\u0434 \u0441\u0432\u043E\u0454\u0457 \u0414\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u043A\u0438 (\u0410\u043D\u0436\u0435\u043B\u0456\u043A\u0430 \u0413\u02BC\u044E\u0441\u0442\u043E\u043D), \u0404\u0432\u0430 \u0434\u0456\u0437\u043D\u0430\u0454\u0442\u044C\u0441\u044F \u0442\u0430\u0454\u043C\u043D\u0438\u0446\u044E \u0432\u0431\u0438\u0432\u0441\u0442\u0432\u0430 \u0441\u0432\u043E\u0433\u043E \u0431\u0430\u0442\u044C\u043A\u0430 \u0442\u0430 \u0432\u0441\u0442\u0430\u0454 \u043D\u0430 \u0448\u043B\u044F\u0445 \u043F\u043E\u043C\u0441\u0442\u0438, \u0434\u0435 \u043F\u0435\u0440\u0435\u0442\u0438\u043D\u0430\u0454\u0442\u044C\u0441\u044F \u0456\u0437 \u0441\u0430\u043C\u0438\u043C \u0414\u0436\u043E\u043D\u043E\u043C \u0412\u0456\u043A\u043E\u043C (\u041A\u0456\u0430\u043D\u0443 \u0420\u0456\u0432\u0437)."
+        },
+        "Date": "2025-05-18T17:10:00",
+        "Tickets": [
+          {
+            "TicketId": "PQGCGF263M2G154CRUXV",
+            "RowNumber": 1,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "JO7PS7HR3M65SBIEZC6H",
+            "RowNumber": 1,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "SV6QBMSREM6WBNL9AB4O",
+            "RowNumber": 1,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "B84GF1YTHF7PPUHMJFX6",
+            "RowNumber": 1,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "1LFZED2R4HHDUA757UYC",
+            "RowNumber": 1,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "FN9E5C95LTZV11DSHZN8",
+            "RowNumber": 1,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "LHG1QVJ4E5OEJISPJYL7",
+            "RowNumber": 1,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "XIA2HX8ZCXNMNP7X9FUJ",
+            "RowNumber": 1,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "5KGG0E5NOW13FZ6MDQKE",
+            "RowNumber": 1,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "GID4MD5E072A77TB39AR",
+            "RowNumber": 1,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "U95USKJ0S8S9RH1P22TZ",
+            "RowNumber": 2,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "MNFCLKW0XXDF6797M6OG",
+            "RowNumber": 2,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "SDNA7IQI6VXCAWELYLB4",
+            "RowNumber": 2,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "7P1A5S4224F7BHI1A3O7",
+            "RowNumber": 2,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "V0GPGB8HA6R0N9WN5FQ9",
+            "RowNumber": 2,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "T7OCFW80KOS81C55BJ6S",
+            "RowNumber": 2,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "FPH6Q1UWZEH2H3JGOLU7",
+            "RowNumber": 2,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "M91LPM3UUEV8FHBMSQSG",
+            "RowNumber": 2,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "NJKUFZTUT9UIP1BNTTG7",
+            "RowNumber": 2,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "3DEP377K1D973RROYHG3",
+            "RowNumber": 2,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "Y4H636HN5JY2NTLICSI9",
+            "RowNumber": 3,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "TYCB34JKHQP9JG0ZS5TI",
+            "RowNumber": 3,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "ODFRPL9TA5IOG6U17M2D",
+            "RowNumber": 3,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "P9EVAJT8ZD227NKKXW8A",
+            "RowNumber": 3,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "FQRS2KMVAHCEWKNUM0OA",
+            "RowNumber": 3,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "LMYMJV0MD1507H0PV56E",
+            "RowNumber": 3,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "3GFIGVGBAXGOKKKR0NES",
+            "RowNumber": 3,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "JT9PACWFYEVHL07O1JQM",
+            "RowNumber": 3,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "F0E7GORDH2KA8O5P1GV3",
+            "RowNumber": 3,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "KOQOKSN41V3SEJK7YT2S",
+            "RowNumber": 3,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "P1K5QMSAZ19Y8D327FOG",
+            "RowNumber": 4,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "MBM5Q8TINMH0RU0BFCOE",
+            "RowNumber": 4,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "E3HLYXR189YI335KX6ZG",
+            "RowNumber": 4,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "SN6JRQ9RBT39G0B1FUE7",
+            "RowNumber": 4,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "3IYGWKB5PBZ7LH4Y30QT",
+            "RowNumber": 4,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "04JSCPU0URBEQIQ1BWWL",
+            "RowNumber": 4,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "TIBVW2T34URBONUJJTWF",
+            "RowNumber": 4,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "5WNGA0SFKRS2ZIQW0QO6",
+            "RowNumber": 4,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "AJBII9KNLN2LY3ZHL1RA",
+            "RowNumber": 4,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "8HQAKKA61RGAT2054PEU",
+            "RowNumber": 4,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "LFYQC3YC4BJCFYUFP1AI",
+            "RowNumber": 5,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "E1MAFTLOL4AD9BNIA70M",
+            "RowNumber": 5,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "RRWLFVMT3CNY6CLXGJN3",
+            "RowNumber": 5,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "CJ2MGJ06W4RB0IL5S6JD",
+            "RowNumber": 5,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "W1R65INYET6HQB0JMKBU",
+            "RowNumber": 5,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "KCD7KINCPQ4Z8C96FVO8",
+            "RowNumber": 5,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "Z88MEBOT1WZI4R5838ZH",
+            "RowNumber": 5,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "TN1XOUOS6UMQ9P1W1ENX",
+            "RowNumber": 5,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "DEVJVTGSTJLDSVFC96T4",
+            "RowNumber": 5,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "RH13KGJGUFI70NDBFAMY",
+            "RowNumber": 5,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Film": {
+      "Name": "\u041F\u0443\u043D\u043A\u0442 \u043F\u0440\u0438\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F: \u0420\u043E\u0434\u043E\u0432\u0435 \u043F\u0440\u043E\u043A\u043B\u044F\u0442\u0442\u044F ",
+      "AgeRestriction": 18,
+      "Year": 2025,
+      "OriginalTitle": "Final Destination: Bloodlines",
+      "Director": "\u0410\u0434\u0430\u043C \u0421\u0442\u0430\u0439\u043D, \u0417\u0430\u043A \u041B\u0456\u043F\u043E\u0432\u0441\u044C\u043A\u0438",
+      "Language": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430",
+      "Genre": "\u0416\u0430\u0445\u0438, \u0422\u0440\u0438\u043B\u0435\u0440 ",
+      "Duration": 110,
+      "Production": "\u0421\u0428\u0410",
+      "Studio": "New Line Cinema ",
+      "Description": "\u041B\u0435\u0433\u0435\u043D\u0434\u0430\u0440\u043D\u0430 \u0444\u0440\u0430\u043D\u0448\u0438\u0437\u0430 \u0432\u0456\u0434 New Line Cinema \u043F\u043E\u0432\u0435\u0440\u0442\u0430\u0454\u0442\u044C\u0441\u044F! "
+    },
+    "Screenings": [
+      {
+        "Film": {
+          "Name": "\u041F\u0443\u043D\u043A\u0442 \u043F\u0440\u0438\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F: \u0420\u043E\u0434\u043E\u0432\u0435 \u043F\u0440\u043E\u043A\u043B\u044F\u0442\u0442\u044F ",
+          "AgeRestriction": 18,
+          "Year": 2025,
+          "OriginalTitle": "Final Destination: Bloodlines",
+          "Director": "\u0410\u0434\u0430\u043C \u0421\u0442\u0430\u0439\u043D, \u0417\u0430\u043A \u041B\u0456\u043F\u043E\u0432\u0441\u044C\u043A\u0438",
+          "Language": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430",
+          "Genre": "\u0416\u0430\u0445\u0438, \u0422\u0440\u0438\u043B\u0435\u0440 ",
+          "Duration": 110,
+          "Production": "\u0421\u0428\u0410",
+          "Studio": "New Line Cinema ",
+          "Description": "\u041B\u0435\u0433\u0435\u043D\u0434\u0430\u0440\u043D\u0430 \u0444\u0440\u0430\u043D\u0448\u0438\u0437\u0430 \u0432\u0456\u0434 New Line Cinema \u043F\u043E\u0432\u0435\u0440\u0442\u0430\u0454\u0442\u044C\u0441\u044F! "
+        },
+        "Date": "2025-05-18T17:15:00",
+        "Tickets": [
+          {
+            "TicketId": "CJWQT3IUQU2Y7SPJ0GQC",
+            "RowNumber": 1,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "NN9OLD3MG7ZL541V51L7",
+            "RowNumber": 1,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "W10K60W12DPZQM0XT9JZ",
+            "RowNumber": 1,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "PR8GLTL6MX15W2P9NPJ0",
+            "RowNumber": 1,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "OSC42LRPE2851HOTY0P2",
+            "RowNumber": 1,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "RJ9AU90EPQI8UTA1G697",
+            "RowNumber": 1,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "UANZNZCH200TTG22U2TR",
+            "RowNumber": 1,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "ICW7VQWP41DQ8VRTLUGC",
+            "RowNumber": 1,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "IJKTLWHF3FDOF3P24SLE",
+            "RowNumber": 1,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "5ITQ7JH6EBK7G5I5NORT",
+            "RowNumber": 1,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "YBCXUO17MP6LAUICMO80",
+            "RowNumber": 2,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "39T3ZPH8I5VLB473NSPA",
+            "RowNumber": 2,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "NN0HARRGE1Z06SEPOEUV",
+            "RowNumber": 2,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "HKE75UWZYZWSLQAZD5L3",
+            "RowNumber": 2,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "AHOKPOBLOPXAWH3Y6I61",
+            "RowNumber": 2,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "FNL9X0EJACZMXSTMI7GL",
+            "RowNumber": 2,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "DC4QNUU2GMKU3P7GMJ3S",
+            "RowNumber": 2,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "NBKYITKPQB2OTEJNS46U",
+            "RowNumber": 2,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "R5OUO7NLGY4IJNERI0ES",
+            "RowNumber": 2,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "5JNGU38ECUJDW7PMR6CF",
+            "RowNumber": 2,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "EPR54CR71Z248Q6A5LXU",
+            "RowNumber": 3,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "Y4AP0PPF3LC14OCC7OJI",
+            "RowNumber": 3,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "77JRGRBNK5DRL5S4SR0H",
+            "RowNumber": 3,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "E8QJKZAD8BFX1XBLTSP4",
+            "RowNumber": 3,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "74ZFLMBDSV7P6BGIYDGZ",
+            "RowNumber": 3,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "WY4FBIJ8YWHEMCI552CW",
+            "RowNumber": 3,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "ZAGE5WGGIJ140FOTNHJG",
+            "RowNumber": 3,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "OCRECQWUGY39ZRLV4YXA",
+            "RowNumber": 3,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "G1OL3EC48YQ54DW45GHF",
+            "RowNumber": 3,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "FQIZE043EJONV0MNUV5Y",
+            "RowNumber": 3,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "VUIXN3K0FT2RBP9BHZGJ",
+            "RowNumber": 4,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "0UX683MH2CE5RWHR6CQJ",
+            "RowNumber": 4,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "9HCP765SY5769ZI1AELD",
+            "RowNumber": 4,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "VEICO3H0QLP9NM0SXFK0",
+            "RowNumber": 4,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "U1ADL8KCLCRQPY51ANBO",
+            "RowNumber": 4,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "04APS8TESAC9PIE612AL",
+            "RowNumber": 4,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "XW0L5H8X406OLV0ANSMH",
+            "RowNumber": 4,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "2SUYFYLYHY6SH1WADAOD",
+            "RowNumber": 4,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "2XOEW3PC8Q7573AXC960",
+            "RowNumber": 4,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "AHE4BDVJYAANCULCLIFH",
+            "RowNumber": 4,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "NCR908RXDROSX8EXTDN7",
+            "RowNumber": 5,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "ETH7Q1QNDJONIS85Z5SO",
+            "RowNumber": 5,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "UZ3YUKVL4I08765EXA00",
+            "RowNumber": 5,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "UM3A0YM2MYV4D719H9YS",
+            "RowNumber": 5,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "3BKQUUXN45B120L8H1TM",
+            "RowNumber": 5,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "EF1EDO82IDTDNKDBUONK",
+            "RowNumber": 5,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "5DR74ZZOEX0ZBXDZ9IEW",
+            "RowNumber": 5,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "S2NTCG0AY4E1W52ILVFX",
+            "RowNumber": 5,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "SPILXEQ4D6C6H15JJJZD",
+            "RowNumber": 5,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "N2L8FAZXHYZUQZEM0XH4",
+            "RowNumber": 5,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Film": {
+      "Name": "\u041B\u0456\u043B\u043E \u0456 \u0421\u0442\u0456\u0447",
+      "AgeRestriction": 0,
+      "Year": 2025,
+      "OriginalTitle": "Lilo \u0026 Stitch",
+      "Director": "\u0414\u0456\u043D \u0424\u043B\u0435\u0439\u0448\u0435\u0440 \u041A\u0435\u043C\u043F",
+      "Language": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430",
+      "Genre": " \u041F\u0440\u0438\u0433\u043E\u0434\u0438, \u0410\u043D\u0456\u043C\u0430\u0446\u0456\u044F, \u041A\u043E\u043C\u0435\u0434\u0456\u044F, \u0424\u0435\u043D\u0442\u0435\u0437\u0456, \u0421\u0456\u043C\u0435\u0439\u043D\u0438\u0439",
+      "Duration": 98,
+      "Production": "\u0421\u0428\u0410",
+      "Studio": "Walt Disney Pictures, Rideback",
+      "Description": "6-\u0440\u0456\u0447\u043D\u0430 \u0433\u0430\u0432\u0430\u0439\u0441\u044C\u043A\u0430 \u0434\u0456\u0432\u0447\u0438\u043D\u043A\u0430 \u041B\u0456\u043B\u043E (\u041C\u0430\u0439\u044F \u041A\u0435\u0430\u043B\u043E\u0445\u0430) \u0432\u0456\u0434\u0447\u0443\u0432\u0430\u0454 \u0441\u0435\u0431\u0435 \u0432\u043A\u0440\u0430\u0439 \u0441\u0430\u043C\u043E\u0442\u043D\u044C\u043E\u044E. \u0412\u043E\u043D\u0430 \u0436\u0438\u0432\u0435 \u0440\u0430\u0437\u043E\u043C \u0437\u0456 \u0441\u0442\u0430\u0440\u0448\u043E\u044E \u0441\u0435\u0441\u0442\u0440\u043E\u044E \u041D\u0430\u043D\u0456 (\u0421\u0456\u0434\u043D\u0456 \u0410\u0433\u0443\u0434\u043E\u043D\u0433), \u044F\u043A\u0430 \u0454 \u0457\u0457 \u043E\u043F\u0456\u043A\u0443\u043D\u043A\u043E\u044E \u043F\u0456\u0441\u043B\u044F \u0441\u043C\u0435\u0440\u0442\u0456 \u0431\u0430\u0442\u044C\u043A\u0456\u0432. \u042F\u043A\u043E\u0441\u044C \u041B\u0456\u043B\u043E \u0437\u0430\u0445\u043E\u0442\u0456\u043B\u0430 \u0432\u0437\u044F\u0442\u0438 \u0437 \u043F\u0440\u0438\u0442\u0443\u043B\u043A\u0443 \u043F\u0435\u0441\u0438\u043A\u0430. \u041D\u0438\u043C \u0432\u0438\u044F\u0432\u0438\u0432\u0441\u044F \u043F\u0440\u0438\u0431\u0443\u043B\u0435\u0446\u044C \u0456\u0437 \u043A\u043E\u0441\u043C\u043E\u0441\u0443, \u0441\u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0439 \u044F\u043A \u043D\u0435\u0431\u0435\u0437\u043F\u0435\u0447\u043D\u0430 \u0437\u0431\u0440\u043E\u044F \u0443 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u0456 \u043D\u0435\u0441\u0430\u043D\u043A\u0446\u0456\u043E\u043D\u043E\u0432\u0430\u043D\u0438\u0439 \u0433\u0435\u043D\u0435\u0442\u0438\u0447\u043D\u0438\u0445 \u043C\u0443\u0442\u0430\u0446\u0456\u0439. \u0412\u0456\u043D \u0432\u0442\u0456\u043A \u0432\u0456\u0434 \u0441\u0432\u043E\u0457\u0445 \u0442\u0432\u043E\u0440\u0446\u0456\u0432 \u0442\u0430 \u043E\u043F\u0438\u043D\u0438\u0432\u0441\u044F \u043D\u0430 \u0413\u0430\u0432\u0430\u044F\u0445, \u0434\u0435 \u0439\u043E\u0433\u043E \u0439 \u0437\u043D\u0430\u0439\u0448\u043B\u0430 \u041B\u0456\u043B\u043E. \u0421\u0432\u043E\u0433\u043E \u0443\u043B\u044E\u0431\u043B\u0435\u043D\u0446\u044F \u0432\u043E\u043D\u0430 \u043D\u0430\u0437\u0432\u0430\u043B\u0430 \u0421\u0442\u0456\u0447 \u0442\u0430 \u043F\u0435\u0440\u0448\u0438\u0439 \u0447\u0430\u0441 \u0432\u0432\u0430\u0436\u0430\u043B\u0430, \u0449\u043E \u0432\u0456\u043D \u0441\u043E\u0431\u0430\u043A\u0430."
+    },
+    "Screenings": [
+      {
+        "Film": {
+          "Name": "\u041B\u0456\u043B\u043E \u0456 \u0421\u0442\u0456\u0447",
+          "AgeRestriction": 0,
+          "Year": 2025,
+          "OriginalTitle": "Lilo \u0026 Stitch",
+          "Director": "\u0414\u0456\u043D \u0424\u043B\u0435\u0439\u0448\u0435\u0440 \u041A\u0435\u043C\u043F",
+          "Language": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430",
+          "Genre": " \u041F\u0440\u0438\u0433\u043E\u0434\u0438, \u0410\u043D\u0456\u043C\u0430\u0446\u0456\u044F, \u041A\u043E\u043C\u0435\u0434\u0456\u044F, \u0424\u0435\u043D\u0442\u0435\u0437\u0456, \u0421\u0456\u043C\u0435\u0439\u043D\u0438\u0439",
+          "Duration": 98,
+          "Production": "\u0421\u0428\u0410",
+          "Studio": "Walt Disney Pictures, Rideback",
+          "Description": "6-\u0440\u0456\u0447\u043D\u0430 \u0433\u0430\u0432\u0430\u0439\u0441\u044C\u043A\u0430 \u0434\u0456\u0432\u0447\u0438\u043D\u043A\u0430 \u041B\u0456\u043B\u043E (\u041C\u0430\u0439\u044F \u041A\u0435\u0430\u043B\u043E\u0445\u0430) \u0432\u0456\u0434\u0447\u0443\u0432\u0430\u0454 \u0441\u0435\u0431\u0435 \u0432\u043A\u0440\u0430\u0439 \u0441\u0430\u043C\u043E\u0442\u043D\u044C\u043E\u044E. \u0412\u043E\u043D\u0430 \u0436\u0438\u0432\u0435 \u0440\u0430\u0437\u043E\u043C \u0437\u0456 \u0441\u0442\u0430\u0440\u0448\u043E\u044E \u0441\u0435\u0441\u0442\u0440\u043E\u044E \u041D\u0430\u043D\u0456 (\u0421\u0456\u0434\u043D\u0456 \u0410\u0433\u0443\u0434\u043E\u043D\u0433), \u044F\u043A\u0430 \u0454 \u0457\u0457 \u043E\u043F\u0456\u043A\u0443\u043D\u043A\u043E\u044E \u043F\u0456\u0441\u043B\u044F \u0441\u043C\u0435\u0440\u0442\u0456 \u0431\u0430\u0442\u044C\u043A\u0456\u0432. \u042F\u043A\u043E\u0441\u044C \u041B\u0456\u043B\u043E \u0437\u0430\u0445\u043E\u0442\u0456\u043B\u0430 \u0432\u0437\u044F\u0442\u0438 \u0437 \u043F\u0440\u0438\u0442\u0443\u043B\u043A\u0443 \u043F\u0435\u0441\u0438\u043A\u0430. \u041D\u0438\u043C \u0432\u0438\u044F\u0432\u0438\u0432\u0441\u044F \u043F\u0440\u0438\u0431\u0443\u043B\u0435\u0446\u044C \u0456\u0437 \u043A\u043E\u0441\u043C\u043E\u0441\u0443, \u0441\u0442\u0432\u043E\u0440\u0435\u043D\u0438\u0439 \u044F\u043A \u043D\u0435\u0431\u0435\u0437\u043F\u0435\u0447\u043D\u0430 \u0437\u0431\u0440\u043E\u044F \u0443 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u0456 \u043D\u0435\u0441\u0430\u043D\u043A\u0446\u0456\u043E\u043D\u043E\u0432\u0430\u043D\u0438\u0439 \u0433\u0435\u043D\u0435\u0442\u0438\u0447\u043D\u0438\u0445 \u043C\u0443\u0442\u0430\u0446\u0456\u0439. \u0412\u0456\u043D \u0432\u0442\u0456\u043A \u0432\u0456\u0434 \u0441\u0432\u043E\u0457\u0445 \u0442\u0432\u043E\u0440\u0446\u0456\u0432 \u0442\u0430 \u043E\u043F\u0438\u043D\u0438\u0432\u0441\u044F \u043D\u0430 \u0413\u0430\u0432\u0430\u044F\u0445, \u0434\u0435 \u0439\u043E\u0433\u043E \u0439 \u0437\u043D\u0430\u0439\u0448\u043B\u0430 \u041B\u0456\u043B\u043E. \u0421\u0432\u043E\u0433\u043E \u0443\u043B\u044E\u0431\u043B\u0435\u043D\u0446\u044F \u0432\u043E\u043D\u0430 \u043D\u0430\u0437\u0432\u0430\u043B\u0430 \u0421\u0442\u0456\u0447 \u0442\u0430 \u043F\u0435\u0440\u0448\u0438\u0439 \u0447\u0430\u0441 \u0432\u0432\u0430\u0436\u0430\u043B\u0430, \u0449\u043E \u0432\u0456\u043D \u0441\u043E\u0431\u0430\u043A\u0430."
+        },
+        "Date": "2025-06-17T16:40:00",
+        "Tickets": [
+          {
+            "TicketId": "U4FEN8TF101YBU6UJSKF",
+            "RowNumber": 1,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "T9AKXAAVWEKBUR7IH7ZM",
+            "RowNumber": 1,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "8ANDBYHVVW1YD6QEKFCR",
+            "RowNumber": 1,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "927RW4WETHZX5MSMDRT4",
+            "RowNumber": 1,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "MTVAETZDH3QPBQIN63GN",
+            "RowNumber": 1,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "2QSCDWE26UG6Y1W2OSXU",
+            "RowNumber": 1,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "HWEBUC96AGOYAODGYH1S",
+            "RowNumber": 1,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "1SKT7IU74SR53Y3QMUBI",
+            "RowNumber": 1,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "ZYZUUPMFAT71PVJ2QM1H",
+            "RowNumber": 1,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "10K45FC9BI6IWO0K5ZBX",
+            "RowNumber": 1,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "MZPMP0EIQ1X058QUTL2C",
+            "RowNumber": 2,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "CBI7RIYB8PDOF6JIVYTU",
+            "RowNumber": 2,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "WNY6ONHLDDDAZKFEEFTB",
+            "RowNumber": 2,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "IBK1LG69KWM7JSL6OQ8L",
+            "RowNumber": 2,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "WDE107QRAX8PV9EN77WT",
+            "RowNumber": 2,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "Z0BVGW30J8CADJ97LESZ",
+            "RowNumber": 2,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "K0J0CPDD14XT87S9KSWU",
+            "RowNumber": 2,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "JS3DAFPI0XKI7IKQ6NKU",
+            "RowNumber": 2,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "24RJGW7CZW8GGOVAOVZE",
+            "RowNumber": 2,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "WMRHY11NUT4B5E85YGZH",
+            "RowNumber": 2,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "W95DZTG36XF6TZZN0AE0",
+            "RowNumber": 3,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "8159WYI5VZ8IN5CDMNPO",
+            "RowNumber": 3,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "M7EH9A9XM2FGANQWYW69",
+            "RowNumber": 3,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "JEOV6WZGYPZV56CD4V2J",
+            "RowNumber": 3,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "V3N6T3M3GFVOI59US551",
+            "RowNumber": 3,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "QE8B62OXW663LRQTKJZB",
+            "RowNumber": 3,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "DEFIGT2PZSD4YCDKFT01",
+            "RowNumber": 3,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "KMJ2ZAMXS4KT69WM3FLW",
+            "RowNumber": 3,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "OR09P7O3MY76AYDE2T62",
+            "RowNumber": 3,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "4SEIB25NYJA5I1EANQXV",
+            "RowNumber": 3,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "C1VA6VP4DM3P8N68JDQN",
+            "RowNumber": 4,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "Z4CC4GTT5WJATHDI54Z7",
+            "RowNumber": 4,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "B9NLB5ESDAJPSURAFNC8",
+            "RowNumber": 4,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "GDS26NN32KFZXM6T7R68",
+            "RowNumber": 4,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "CMYKE2XYM1K1HPYW881B",
+            "RowNumber": 4,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "9XT7M6A3XO0A6DY1BB4O",
+            "RowNumber": 4,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "3U3W4H48CHB5S43TNOD6",
+            "RowNumber": 4,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "7PE5H6QUPJDF1DWFIG6B",
+            "RowNumber": 4,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "47C51EV4FNVY152BI5W2",
+            "RowNumber": 4,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "91Y3WYC6N520RCW5RS86",
+            "RowNumber": 4,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "N4UOCTU1RHX2BCKX9FE9",
+            "RowNumber": 5,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "S6UXHFXEVDJ7HXPQTBF4",
+            "RowNumber": 5,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "0B9GYDE524OFG0RICXJZ",
+            "RowNumber": 5,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "8BRRQDYNCJK2GG8TY02B",
+            "RowNumber": 5,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "F1V8F3VTLZBB7LKONERM",
+            "RowNumber": 5,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "KG8LNZ0I6C77NYPL28RO",
+            "RowNumber": 5,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "262XP02WWU8B9BCFRFAR",
+            "RowNumber": 5,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "3IDLAUE15BQ5RWDD6GH6",
+            "RowNumber": 5,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "MOKOUFCV117WMZ9IC8MU",
+            "RowNumber": 5,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "GAUAXPPVZLM88ENOS3CV",
+            "RowNumber": 5,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Film": {
+      "Name": "\u0413\u0440\u043E\u043C\u043E\u0432\u0435\u0440\u0436\u0446\u0456*",
+      "AgeRestriction": 12,
+      "Year": 2025,
+      "OriginalTitle": "Thunderbolts*",
+      "Director": "\u0414\u0436\u0435\u043A \u0428\u0440\u0435\u0454\u0440",
+      "Language": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430",
+      "Genre": "\u0415\u043A\u0448\u043D, \u0424\u0430\u043D\u0442\u0430\u0441\u0442\u0438\u043A\u0430 ",
+      "Duration": 126,
+      "Production": "\u0421\u0428\u0410",
+      "Studio": "Marvel Studios",
+      "Description": "\u0423 \u0441\u0442\u0440\u0456\u0447\u0446\u0456 \u00AB\u0413\u0440\u043E\u043C\u043E\u0432\u0435\u0440\u0436\u0446\u0456*\u00BB \u0441\u0442\u0443\u0434\u0456\u044F Marvel \u0437\u0431\u0438\u0440\u0430\u0454 \u043D\u0435\u0441\u0442\u0430\u043D\u0434\u0430\u0440\u0442\u043D\u0443 \u043A\u043E\u043C\u0430\u043D\u0434\u0443 \u0430\u043D\u0442\u0438\u0433\u0435\u0440\u043E\u0457\u0432: \u0404\u043B\u0435\u043D\u0443 \u0411\u0454\u043B\u043E\u0432\u0443, \u0411\u0430\u043A\u0456 \u0411\u0430\u0440\u043D\u0441\u0430, \u0427\u0435\u0440\u0432\u043E\u043D\u043E\u0433\u043E \u0417\u0430\u0445\u0438\u0441\u043D\u0438\u043A\u0430, \u041F\u0440\u0438\u043C\u0430\u0440\u0443, \u0422\u0430\u0441\u043A\u043C\u0430\u0441\u0442\u0435\u0440\u0430 \u0442\u0430 \u0414\u0436\u043E\u043D\u0456 \u0412\u043E\u043A\u0435\u0440\u0430. \u041E\u043F\u0438\u043D\u0438\u0432\u0448\u0438\u0441\u044C \u0443 \u0441\u043C\u0435\u0440\u0442\u0435\u043B\u044C\u043D\u0456\u0439 \u043F\u0430\u0441\u0442\u0446\u0456, \u0432\u043B\u0430\u0448\u0442\u043E\u0432\u0430\u043D\u0456\u0439 \u0412\u0430\u043B\u0435\u043D\u0442\u0438\u043D\u043E\u044E \u0410\u043B\u043B\u0435\u0491\u0440\u043E\u044E \u0434\u0435 \u0424\u043E\u043D\u0442\u0435\u0439\u043D, \u0446\u0456 \u0437\u043D\u0435\u0434\u043E\u043B\u0435\u043D\u0456 \u0430\u0443\u0442\u0441\u0430\u0439\u0434\u0435\u0440\u0438 \u0432\u0438\u0440\u0443\u0448\u0430\u044E\u0442\u044C \u043D\u0430 \u043D\u0435\u0431\u0435\u0437\u043F\u0435\u0447\u043D\u0443 \u043C\u0456\u0441\u0456\u044E, \u0449\u043E \u0437\u043C\u0443\u0441\u0438\u0442\u044C \u0457\u0445 \u0437\u0456\u0442\u043A\u043D\u0443\u0442\u0438\u0441\u044F \u0437 \u043D\u0430\u0439\u0442\u0435\u043C\u043D\u0456\u0448\u0438\u043C\u0438 \u0442\u0456\u043D\u044F\u043C\u0438 \u0432\u043B\u0430\u0441\u043D\u043E\u0433\u043E \u043C\u0438\u043D\u0443\u043B\u043E\u0433\u043E. \u0427\u0438 \u0440\u043E\u0437\u043F\u0430\u0434\u0435\u0442\u044C\u0441\u044F \u0446\u044F \u0445\u0430\u043E\u0442\u0438\u0447\u043D\u0430 \u043A\u043E\u043C\u0430\u043D\u0434\u0430, \u0447\u0438 \u0437\u043C\u043E\u0436\u0435 \u0437\u043D\u0430\u0439\u0442\u0438 \u0441\u043F\u043E\u043A\u0443\u0442\u0443 \u0442\u0430 \u043E\u0431\u2019\u0454\u0434\u043D\u0430\u0442\u0438\u0441\u044F \u0443 \u0449\u043E\u0441\u044C \u0431\u0456\u043B\u044C\u0448\u0435, \u043F\u0435\u0440\u0448 \u043D\u0456\u0436 \u0441\u0442\u0430\u043D\u0435 \u0437\u0430\u043F\u0456\u0437\u043D\u043E?"
+    },
+    "Screenings": [
+      {
+        "Film": {
+          "Name": "\u0413\u0440\u043E\u043C\u043E\u0432\u0435\u0440\u0436\u0446\u0456*",
+          "AgeRestriction": 12,
+          "Year": 2025,
+          "OriginalTitle": "Thunderbolts*",
+          "Director": "\u0414\u0436\u0435\u043A \u0428\u0440\u0435\u0454\u0440",
+          "Language": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430",
+          "Genre": "\u0415\u043A\u0448\u043D, \u0424\u0430\u043D\u0442\u0430\u0441\u0442\u0438\u043A\u0430 ",
+          "Duration": 126,
+          "Production": "\u0421\u0428\u0410",
+          "Studio": "Marvel Studios",
+          "Description": "\u0423 \u0441\u0442\u0440\u0456\u0447\u0446\u0456 \u00AB\u0413\u0440\u043E\u043C\u043E\u0432\u0435\u0440\u0436\u0446\u0456*\u00BB \u0441\u0442\u0443\u0434\u0456\u044F Marvel \u0437\u0431\u0438\u0440\u0430\u0454 \u043D\u0435\u0441\u0442\u0430\u043D\u0434\u0430\u0440\u0442\u043D\u0443 \u043A\u043E\u043C\u0430\u043D\u0434\u0443 \u0430\u043D\u0442\u0438\u0433\u0435\u0440\u043E\u0457\u0432: \u0404\u043B\u0435\u043D\u0443 \u0411\u0454\u043B\u043E\u0432\u0443, \u0411\u0430\u043A\u0456 \u0411\u0430\u0440\u043D\u0441\u0430, \u0427\u0435\u0440\u0432\u043E\u043D\u043E\u0433\u043E \u0417\u0430\u0445\u0438\u0441\u043D\u0438\u043A\u0430, \u041F\u0440\u0438\u043C\u0430\u0440\u0443, \u0422\u0430\u0441\u043A\u043C\u0430\u0441\u0442\u0435\u0440\u0430 \u0442\u0430 \u0414\u0436\u043E\u043D\u0456 \u0412\u043E\u043A\u0435\u0440\u0430. \u041E\u043F\u0438\u043D\u0438\u0432\u0448\u0438\u0441\u044C \u0443 \u0441\u043C\u0435\u0440\u0442\u0435\u043B\u044C\u043D\u0456\u0439 \u043F\u0430\u0441\u0442\u0446\u0456, \u0432\u043B\u0430\u0448\u0442\u043E\u0432\u0430\u043D\u0456\u0439 \u0412\u0430\u043B\u0435\u043D\u0442\u0438\u043D\u043E\u044E \u0410\u043B\u043B\u0435\u0491\u0440\u043E\u044E \u0434\u0435 \u0424\u043E\u043D\u0442\u0435\u0439\u043D, \u0446\u0456 \u0437\u043D\u0435\u0434\u043E\u043B\u0435\u043D\u0456 \u0430\u0443\u0442\u0441\u0430\u0439\u0434\u0435\u0440\u0438 \u0432\u0438\u0440\u0443\u0448\u0430\u044E\u0442\u044C \u043D\u0430 \u043D\u0435\u0431\u0435\u0437\u043F\u0435\u0447\u043D\u0443 \u043C\u0456\u0441\u0456\u044E, \u0449\u043E \u0437\u043C\u0443\u0441\u0438\u0442\u044C \u0457\u0445 \u0437\u0456\u0442\u043A\u043D\u0443\u0442\u0438\u0441\u044F \u0437 \u043D\u0430\u0439\u0442\u0435\u043C\u043D\u0456\u0448\u0438\u043C\u0438 \u0442\u0456\u043D\u044F\u043C\u0438 \u0432\u043B\u0430\u0441\u043D\u043E\u0433\u043E \u043C\u0438\u043D\u0443\u043B\u043E\u0433\u043E. \u0427\u0438 \u0440\u043E\u0437\u043F\u0430\u0434\u0435\u0442\u044C\u0441\u044F \u0446\u044F \u0445\u0430\u043E\u0442\u0438\u0447\u043D\u0430 \u043A\u043E\u043C\u0430\u043D\u0434\u0430, \u0447\u0438 \u0437\u043C\u043E\u0436\u0435 \u0437\u043D\u0430\u0439\u0442\u0438 \u0441\u043F\u043E\u043A\u0443\u0442\u0443 \u0442\u0430 \u043E\u0431\u2019\u0454\u0434\u043D\u0430\u0442\u0438\u0441\u044F \u0443 \u0449\u043E\u0441\u044C \u0431\u0456\u043B\u044C\u0448\u0435, \u043F\u0435\u0440\u0448 \u043D\u0456\u0436 \u0441\u0442\u0430\u043D\u0435 \u0437\u0430\u043F\u0456\u0437\u043D\u043E?"
+        },
+        "Date": "2025-06-19T11:30:00",
+        "Tickets": [
+          {
+            "TicketId": "NZ479QM8A0TAK1AXGGNL",
+            "RowNumber": 1,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "OUD9WWA2R4LAVTQ869EI",
+            "RowNumber": 1,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "KNTKV69MFJZW65G1TKQF",
+            "RowNumber": 1,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "694GH72DCKU1I4ZKYZT2",
+            "RowNumber": 1,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "K2ZO9Y5AGI2E8EFTE6VB",
+            "RowNumber": 1,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "2DCLCGKJN9HQRI0SWDIW",
+            "RowNumber": 1,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "1G9CMWQ0CAHCHQDD9H57",
+            "RowNumber": 1,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "MRSY57LR8OS4FBSN61SC",
+            "RowNumber": 1,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "Z3Y3FD57BQHL6SKXJMT1",
+            "RowNumber": 1,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "XQL3HJQXL4P6U7264AYI",
+            "RowNumber": 1,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "VJV7Y8OA64NPQ6WXJ63H",
+            "RowNumber": 2,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "JOLDCWWIJOXC63BX5Y4F",
+            "RowNumber": 2,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "EEV1Q4T2YJ1CCOXCPAAO",
+            "RowNumber": 2,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "0Q6MR5FMIVG4ELWHEH8B",
+            "RowNumber": 2,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "TWLC6KHKOW66OVZIXGKX",
+            "RowNumber": 2,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "W0FVGBM9HRVSZ3VYB290",
+            "RowNumber": 2,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "ULU7GE1JTJX0I45OCUBT",
+            "RowNumber": 2,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "W4QD3SHG0TNZT3D92LDV",
+            "RowNumber": 2,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "GY58NFGHB39Q7JAY0MR6",
+            "RowNumber": 2,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "P2V54RH4JH93KKB92N5U",
+            "RowNumber": 2,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "R6AMO74I81BVFB3E707O",
+            "RowNumber": 3,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "VG5YL0HF3NU9KRV2J07Y",
+            "RowNumber": 3,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "98FM360CIGADN8S8A7JW",
+            "RowNumber": 3,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "5UHS8GR0MFZD5L5VOAG5",
+            "RowNumber": 3,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "OD059GSLD92HYV61GZKY",
+            "RowNumber": 3,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "7IRSUU7M30RYD1WYCE3K",
+            "RowNumber": 3,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "35UN7CBP9QUE8CP5YIMX",
+            "RowNumber": 3,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "W6WFHO5HN2ATR4SNCXW5",
+            "RowNumber": 3,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "8Q8EWVAXQE8IKFRJ4PUM",
+            "RowNumber": 3,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "HSJXB1W5O6BXTJTA6NB7",
+            "RowNumber": 3,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "FPRTXIGAA8D0JO6VTBMM",
+            "RowNumber": 4,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "M0T9ZHV3PXQX7061ZSWJ",
+            "RowNumber": 4,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "2B5UOVWCMBFW056WXC7W",
+            "RowNumber": 4,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "SPI5O7VBASDKXG05B8GH",
+            "RowNumber": 4,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "KNRMN9HZRNJV8E5BYXJ4",
+            "RowNumber": 4,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "Q5RTD1ZM9SCR1LAOKP6W",
+            "RowNumber": 4,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "2XEHRVMECH5ZYMEIHES5",
+            "RowNumber": 4,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "AH2F95QJH6CSCXLJPUU2",
+            "RowNumber": 4,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "R8RHGPQK6MS6QVDYBKSL",
+            "RowNumber": 4,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "LW0Q2SUSMAPBT1HQ7AUS",
+            "RowNumber": 4,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "D2RN7VVAYTL4VRVAFLND",
+            "RowNumber": 5,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "T5XDY0DSLFXUN11A4KYX",
+            "RowNumber": 5,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "6XJZGNES0OEFBA7KWLTD",
+            "RowNumber": 5,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "4U4IKSJ5DL890VUQEPN3",
+            "RowNumber": 5,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "FO04A9UY6D1SWN4GA44J",
+            "RowNumber": 5,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "I1NLXEBAN5OWTVBOX0WA",
+            "RowNumber": 5,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "YFC8D9JDEEHMCJ2EPRUL",
+            "RowNumber": 5,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "737LYB9LYN7588D22V84",
+            "RowNumber": 5,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "YJZDUEIY3NMP4GVOTTXE",
+            "RowNumber": 5,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "7FGJKPFGTS821GFPS7X5",
+            "RowNumber": 5,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Film": {
+      "Name": "\u0423\u0440\u043E\u043A\u0438 \u043C\u0456\u0441\u0442\u0435\u0440\u0430 \u041F\u0456\u043D\u0433\u0432\u0456\u043D\u0430",
+      "AgeRestriction": 12,
+      "Year": 2025,
+      "OriginalTitle": "The Penguin Lessons",
+      "Director": "\u041F\u0456\u0442\u0435\u0440 \u041A\u0430\u0442\u0442\u0430\u043D\u0435\u043E",
+      "Language": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430",
+      "Genre": "\u041A\u043E\u043C\u0435\u0434\u0456\u044F, \u0414\u0440\u0430\u043C\u0430 ",
+      "Duration": 91,
+      "Production": "\u0421\u0428\u0410, \u0412\u0435\u043B\u0438\u043A\u0430 \u0411\u0440\u0438\u0442\u0430\u043D\u0456\u044F, \u0406\u0441\u043F\u0430\u043D\u0456\u044F, \u0406\u0440\u043B\u0430\u043D\u0434\u0456\u044F",
+      "Studio": "Sony Pictures Classics",
+      "Description": "\u0420\u0435\u0430\u043B\u044C\u043D\u0430 \u0456\u0441\u0442\u043E\u0440\u0456\u044F \u043F\u0440\u043E \u043F\u0456\u043D\u0433\u0432\u0456\u043D\u0430, \u044F\u043A\u0438\u0439 \u0434\u043E\u043F\u043E\u043C\u0430\u0433\u0430\u0432 \u0432\u0438\u043A\u043B\u0430\u0434\u0430\u0442\u0438 \u0430\u043D\u0433\u043B\u0456\u0439\u0441\u044C\u043A\u0443 \u0432 \u0435\u043B\u0456\u0442\u043D\u0456\u0439 \u0448\u043A\u043E\u043B\u0456 \u0440\u043E\u0437\u0431\u0430\u043B\u0443\u0432\u0430\u043D\u0438\u043C \u0443\u0447\u043D\u044F\u043C. \u0423 \u0433\u043E\u043B\u043E\u0432\u043D\u0456\u0439 \u0440\u043E\u043B\u0456 \u043E\u0441\u043A\u0430\u0440\u0456\u0432\u0441\u044C\u043A\u0438\u0439 \u043D\u043E\u043C\u0456\u043D\u0430\u043D\u0442 - \u0421\u0442\u0456\u0432 \u041A\u0443\u0491\u0430\u043D. "
+    },
+    "Screenings": [
+      {
+        "Film": {
+          "Name": "\u0423\u0440\u043E\u043A\u0438 \u043C\u0456\u0441\u0442\u0435\u0440\u0430 \u041F\u0456\u043D\u0433\u0432\u0456\u043D\u0430",
+          "AgeRestriction": 12,
+          "Year": 2025,
+          "OriginalTitle": "The Penguin Lessons",
+          "Director": "\u041F\u0456\u0442\u0435\u0440 \u041A\u0430\u0442\u0442\u0430\u043D\u0435\u043E",
+          "Language": "\u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430",
+          "Genre": "\u041A\u043E\u043C\u0435\u0434\u0456\u044F, \u0414\u0440\u0430\u043C\u0430 ",
+          "Duration": 91,
+          "Production": "\u0421\u0428\u0410, \u0412\u0435\u043B\u0438\u043A\u0430 \u0411\u0440\u0438\u0442\u0430\u043D\u0456\u044F, \u0406\u0441\u043F\u0430\u043D\u0456\u044F, \u0406\u0440\u043B\u0430\u043D\u0434\u0456\u044F",
+          "Studio": "Sony Pictures Classics",
+          "Description": "\u0420\u0435\u0430\u043B\u044C\u043D\u0430 \u0456\u0441\u0442\u043E\u0440\u0456\u044F \u043F\u0440\u043E \u043F\u0456\u043D\u0433\u0432\u0456\u043D\u0430, \u044F\u043A\u0438\u0439 \u0434\u043E\u043F\u043E\u043C\u0430\u0433\u0430\u0432 \u0432\u0438\u043A\u043B\u0430\u0434\u0430\u0442\u0438 \u0430\u043D\u0433\u043B\u0456\u0439\u0441\u044C\u043A\u0443 \u0432 \u0435\u043B\u0456\u0442\u043D\u0456\u0439 \u0448\u043A\u043E\u043B\u0456 \u0440\u043E\u0437\u0431\u0430\u043B\u0443\u0432\u0430\u043D\u0438\u043C \u0443\u0447\u043D\u044F\u043C. \u0423 \u0433\u043E\u043B\u043E\u0432\u043D\u0456\u0439 \u0440\u043E\u043B\u0456 \u043E\u0441\u043A\u0430\u0440\u0456\u0432\u0441\u044C\u043A\u0438\u0439 \u043D\u043E\u043C\u0456\u043D\u0430\u043D\u0442 - \u0421\u0442\u0456\u0432 \u041A\u0443\u0491\u0430\u043D. "
+        },
+        "Date": "2025-06-14T12:15:00",
+        "Tickets": [
+          {
+            "TicketId": "AHU1GX0E7ICTRP90HPKC",
+            "RowNumber": 1,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "X3B8MGO5KUVT1F7AZYGC",
+            "RowNumber": 1,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "JZ58EZWXGSG4GUU7GLUM",
+            "RowNumber": 1,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "FVCHH4GHNWO9DWIRQ2UA",
+            "RowNumber": 1,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "WXRYZ3KMME7MZNZJZO91",
+            "RowNumber": 1,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "PLA04LJV7YRC7Y7Z44AA",
+            "RowNumber": 1,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "TOWMVVI24IB1WD40T0TP",
+            "RowNumber": 1,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "W5FMC8YO4ZRFGZ88KIX4",
+            "RowNumber": 1,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "R6E4UQO4P4X6IY0P0XZS",
+            "RowNumber": 1,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "MJLJSPW0ASSCBZ3J63MQ",
+            "RowNumber": 1,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "825044L0LWEIPHIW1FFJ",
+            "RowNumber": 2,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "5AXTBJNN0VDNMURI4YOD",
+            "RowNumber": 2,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "A9F5TWY21H6ZVSM4TVBZ",
+            "RowNumber": 2,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "TGCXJFQ0DWXYDQU8M2BB",
+            "RowNumber": 2,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "RQNZGPT84XA3DKGJBAKU",
+            "RowNumber": 2,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "3XY95MV35O47EQ23LGPM",
+            "RowNumber": 2,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "QLHH113QICNBDYPZ3WOT",
+            "RowNumber": 2,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "XWSQZ9P4G45NVH5AZL92",
+            "RowNumber": 2,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "6F0JZ2OGUYNPZOUCHQ72",
+            "RowNumber": 2,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "WNHN6GMYGVYG9UZQANNW",
+            "RowNumber": 2,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "2NFX1J6B5AAIYGAG5OW2",
+            "RowNumber": 3,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "0Z6L0GB6THXAZRZP4QH1",
+            "RowNumber": 3,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "0DRMKKYMP6PZDIMD2TIB",
+            "RowNumber": 3,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "6M8D0C081JMM1LQQT1P9",
+            "RowNumber": 3,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "R5PB4VZ14KBYXDC7LC6O",
+            "RowNumber": 3,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "2BZTEF3KX02T66NTPWEX",
+            "RowNumber": 3,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "V1SI1YQ4HJGZR0EKADIN",
+            "RowNumber": 3,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "8QYKQWZVD3KVISDTK9RZ",
+            "RowNumber": 3,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "BXD3PTA95R02LZC3YEXG",
+            "RowNumber": 3,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "YP7FQPV2MIJ88NWOR7FI",
+            "RowNumber": 3,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "F4RDL501QVQW9OBX7XFQ",
+            "RowNumber": 4,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "Z53P7AKVJ0FHELODV7V3",
+            "RowNumber": 4,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "N0EZ8KFV00GT7HJV2WYA",
+            "RowNumber": 4,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "HQOLIW4PGP15836EM8E6",
+            "RowNumber": 4,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "WZGQ00TPLJJQO6ZERBU0",
+            "RowNumber": 4,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "EF9O9A1NXVISLJPYVQX6",
+            "RowNumber": 4,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "5DSTIYMN1CSRZQSMB1X6",
+            "RowNumber": 4,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "1BNE1427EE7UBFSDWB1O",
+            "RowNumber": 4,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "T7K2KZR056IFSAKRP9G0",
+            "RowNumber": 4,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "A11LEKHEKHZSNTLLELWQ",
+            "RowNumber": 4,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "1LXSEROQI846OPI43RKI",
+            "RowNumber": 5,
+            "SeatNumber": 1,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "7UBHE8BMFTU6X05L3DVI",
+            "RowNumber": 5,
+            "SeatNumber": 2,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "BOO1XCKHFXRNG2MZ5Q1N",
+            "RowNumber": 5,
+            "SeatNumber": 3,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "NC6RQYMOAJ9OSDUO6V4I",
+            "RowNumber": 5,
+            "SeatNumber": 4,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "5IEGP8Y41KTOHMIEAOUV",
+            "RowNumber": 5,
+            "SeatNumber": 5,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "B2QENMXHL9CUN0XJAUUM",
+            "RowNumber": 5,
+            "SeatNumber": 6,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "QYUQ63F2TRKM48YUX9HM",
+            "RowNumber": 5,
+            "SeatNumber": 7,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "G3XINB4L5A0ZX0VLRV9C",
+            "RowNumber": 5,
+            "SeatNumber": 8,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "V6TVDJPIJC27W3DPZIE2",
+            "RowNumber": 5,
+            "SeatNumber": 9,
+            "OwnerLogin": null
+          },
+          {
+            "TicketId": "GSNCSZP12T2Q1KQIE582",
+            "RowNumber": 5,
+            "SeatNumber": 10,
+            "OwnerLogin": null
+          }
+        ]
+      }
+    ]
+  }
+]

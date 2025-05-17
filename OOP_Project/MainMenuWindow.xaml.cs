@@ -13,7 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using OOP_Project.DTO;
 using OOP_Project.Models;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OOP_Project
 {
@@ -200,6 +199,7 @@ namespace OOP_Project
             DirectorTextBox.Text = "Режисер";
             LanguageTextBox.Text = "Мова";
             DurationTextBox.Text = "Тривалість";
+            OriginalTitleTextBox.Text = "Оригінальна Назва";
             ProductionTextBox.Text = "Виробництво";
             StudioTextBox.Text = "Студія";
             AgeRestrictionTextBox.Text = "Вікові обмеження";
@@ -335,12 +335,16 @@ namespace OOP_Project
         {
             DeleteMenu.Visibility = Visibility.Collapsed;
         }
-
         private void DeleteScreening_Click(object sender, RoutedEventArgs e)
         {
             DeleteMenu.Visibility = Visibility.Collapsed;
-            // Вікно або логіка видалення сеансу
-            MessageBox.Show("Видалення сеансу - ще не реалізовано.");
+            DeleteScreeningModal.Visibility = Visibility.Visible;
+
+            var allScreenings = AppData.Schedules.SelectMany(s => s.Screenings).ToList();
+
+            DeleteScreeningComboBox.ItemsSource = allScreenings;
+            DeleteScreeningComboBox.SelectedIndex = -1;
+
         }
 
         private void DeleteFilm_Click(object sender, RoutedEventArgs e)
@@ -399,6 +403,42 @@ namespace OOP_Project
 
             DeleteFilmModal.Visibility = Visibility.Collapsed;
         }
+
+        private void CloseDeleteScreeningModal_Click(object sender, RoutedEventArgs e)
+        {
+            DeleteScreeningModal.Visibility = Visibility.Collapsed;
+            DeleteScreeningErrorText.Text = "";
+            DeleteScreeningErrorText.Visibility = Visibility.Collapsed;
+        }
+
+        private void ConfirmDeleteScreening_Click(object sender, RoutedEventArgs e)
+        {
+            DeleteScreeningErrorText.Text = "";
+            DeleteScreeningErrorText.Visibility = Visibility.Collapsed;
+
+            if (DeleteScreeningComboBox.SelectedItem is not Screening selectedScreening)
+            {
+                DeleteScreeningErrorText.Text = "Сеанс не обрано.";
+                DeleteScreeningErrorText.Visibility = Visibility.Visible;
+                return;
+            }
+
+            bool hasPurchasedTickets = selectedScreening.Tickets.Any(t => t.Owner != null);
+            if (hasPurchasedTickets)
+            {
+                DeleteScreeningErrorText.Text = "Неможливо видалити — квитки вже куплені.";
+                DeleteScreeningErrorText.Visibility = Visibility.Visible;
+                return;
+            }
+
+            var schedule = AppData.Schedules.FirstOrDefault(s => s.Film == selectedScreening.Film);
+            schedule?.Remove(selectedScreening);
+
+            JsonStorage.SaveSchedules(AppData.Schedules);
+            DisplaySchedules();
+            DeleteScreeningModal.Visibility = Visibility.Collapsed;
+        }
+
 
         private void DisplaySchedules()
         {

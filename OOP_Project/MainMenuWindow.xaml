@@ -38,8 +38,6 @@
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Left" Margin="20,10,0,10">
                 <ToggleButton x:Name="NowShowingButton" Content="Зараз у кіно"
                       Style="{StaticResource RoundedToggleButton}" Width="160" Background="#D5CEFA" Foreground="#222"/>
-                <ToggleButton x:Name="ComingSoonButton" Content="Скоро у прокаті"
-                      Style="{StaticResource RoundedToggleButton}" Width="160" Background="#8A79C7" Foreground="#222"/>
             </StackPanel>
 
             <!-- Профіль + Пошук + Кнопки адміністратора -->
@@ -439,10 +437,58 @@
             </Border>
         </Grid>
 
+        <Grid x:Name="DeleteScreeningModal" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="100">
+            <Border Background="#F0F0F0" CornerRadius="12" Padding="20" BorderBrush="Gray" BorderThickness="1"
+            Width="400" Height="250" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Заголовок -->
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="Видалити сеанс" FontFamily="Georgia" FontSize="20" FontWeight="Bold"
+                           HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                        <Button Content="✕" Width="25" Height="25" Click="CloseDeleteScreeningModal_Click"
+                        FontWeight="Bold" Background="Transparent" BorderThickness="0"
+                        HorizontalAlignment="Right" VerticalAlignment="Top" Cursor="Hand"/>
+                    </Grid>
+
+                    <!-- ComboBox + Текст помилки -->
+                    <StackPanel Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0">
+                        <TextBlock Text="Оберіть сеанс для видалення:" 
+                           FontFamily="Georgia" FontSize="14" FontWeight="Bold" Margin="0,0,0,5"/>
+
+                        <ComboBox x:Name="DeleteScreeningComboBox" Width="320" Height="30"
+                          FontFamily="Georgia" FontSize="14"
+                          HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+
+                        <TextBlock x:Name="DeleteScreeningErrorText" Margin="0,10,0,0" Foreground="Red"
+                           FontFamily="Georgia" FontSize="13" Visibility="Collapsed"/>
+                    </StackPanel>
+
+                    <!-- Кнопка підтвердження -->
+                    <Button Grid.Row="2" Content="Видалити сеанс" Width="200" Height="40" Margin="0,10,0,0"
+                    HorizontalAlignment="Center" FontFamily="Georgia" FontSize="16" FontWeight="Bold"
+                    Background="#D3D3D3" BorderBrush="Gray" BorderThickness="1" Click="ConfirmDeleteScreening_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="10"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </Grid>
+            </Border>
+        </Grid>
+
+
+
         <Grid x:Name="FilmInfoModal" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="100">
             <Border Background="#F0F0F0" CornerRadius="12" Padding="20"
             BorderBrush="Gray" BorderThickness="1"
-            Width="500" Height="300"
+            Width="500" Height="400"
             VerticalAlignment="Center" HorizontalAlignment="Center">
                 <Grid>
                     <Grid.RowDefinitions>
@@ -526,9 +572,6 @@
                 </Grid>
             </Border>
         </Grid>
-
-
-
 
         <!-- ScrollViewer з фільмами -->
             <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="20,80,20,20">

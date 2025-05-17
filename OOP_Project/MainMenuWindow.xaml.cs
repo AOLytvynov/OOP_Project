@@ -205,6 +205,7 @@ namespace OOP_Project
             AgeRestrictionTextBox.Text = "Вікові обмеження";
             GenreTextBox.Text = "Жанр";
             DescriptionTextBox.Text = "Опис";
+            DisplaySchedules();
         }
 
         private void AddScreening_Click(object sender, RoutedEventArgs e)
@@ -254,17 +255,35 @@ namespace OOP_Project
                 hasError = true;
             }
 
-            else if (date.Date + time <= DateTime.Now)
+            DateTime fullDateTime = date.Date + time;
+
+            if (!hasError && fullDateTime <= DateTime.Now)
             {
                 AddScreeningErrorText.Text = "Сеанс не може бути в минулому.";
                 hasError = true;
             }
-            else if ((date.Date + time) > DateTime.Now.AddYears(1))
+            else if (!hasError && fullDateTime > DateTime.Now.AddYears(1))
             {
                 AddScreeningErrorText.Text = "Сеанс не може бути пізніше ніж через рік.";
                 hasError = true;
             }
 
+            TimeSpan openingTime = new TimeSpan(9, 0, 0);   // 09:00
+            TimeSpan closingTime = new TimeSpan(22, 0, 0);  // 22:00
+
+            TimeSpan screeningStart = time;
+            TimeSpan screeningEnd = time.Add(TimeSpan.FromMinutes(selectedFilm.Duration));
+
+            if (!hasError && screeningStart < openingTime)
+            {
+                AddScreeningErrorText.Text = "Кінотеатр відкривається о 09:00. Сеанс не може початися раніше.";
+                hasError = true;
+            }
+            else if (!hasError && screeningEnd > closingTime)
+            {
+                AddScreeningErrorText.Text = $"Кінотеатр закривається о 22:00. Оберіть раніший час.";
+                hasError = true;
+            }
 
             if (hasError)
             {
@@ -272,7 +291,6 @@ namespace OOP_Project
                 return;
             }
 
-            DateTime fullDateTime = date.Date + time;
             var schedule = AppData.Schedules.FirstOrDefault(s => s.Film == selectedFilm);
 
             if (schedule != null)
@@ -305,6 +323,81 @@ namespace OOP_Project
             DateTextBox.Text = "Дата";
             TimeTextBox.Text = "Час";
             AddScreeningErrorText.Text = "";
+            DisplaySchedules();
+        }
+
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            DeleteMenu.Visibility = Visibility.Visible;
+        }
+
+        private void CloseDeleteMenu_Click(object sender, RoutedEventArgs e)
+        {
+            DeleteMenu.Visibility = Visibility.Collapsed;
+        }
+
+        private void DeleteScreening_Click(object sender, RoutedEventArgs e)
+        {
+            DeleteMenu.Visibility = Visibility.Collapsed;
+            // Вікно або логіка видалення сеансу
+            MessageBox.Show("Видалення сеансу - ще не реалізовано.");
+        }
+
+        private void DeleteFilm_Click(object sender, RoutedEventArgs e)
+        {
+            DeleteMenu.Visibility = Visibility.Collapsed;
+
+            DeleteFilmComboBox.ItemsSource = AppData.Schedules.Select(s => s.Film).ToList();
+            DeleteFilmComboBox.DisplayMemberPath = "Name";
+            DeleteFilmComboBox.SelectedIndex = -1;
+
+            DeleteFilmModal.Visibility = Visibility.Visible;
+        }
+
+        private void CloseDeleteFilmModal_Click(object sender, RoutedEventArgs e)
+        {
+            DeleteFilmModal.Visibility = Visibility.Collapsed;
+        }
+
+        private void ConfirmDeleteFilm_Click(object sender, RoutedEventArgs e)
+        {
+            DeleteFilmErrorText.Visibility = Visibility.Collapsed;
+            DeleteFilmErrorText.Text = "";
+
+            if (DeleteFilmComboBox.SelectedItem is not Film filmToDelete)
+                return;
+
+            var schedule = AppData.Schedules.FirstOrDefault(s => s.Film == filmToDelete);
+            if (schedule == null)
+                return;
+
+            bool hasPurchasedTickets = schedule.Screenings
+                .SelectMany(s => s.Tickets)
+                .Any(t => t.Owner != null);
+
+            if (hasPurchasedTickets)
+            {
+                DeleteFilmErrorText.Text = "Неможливо видалити фільм, бо є куплені квитки на сеанси.";
+                DeleteFilmErrorText.Visibility = Visibility.Visible;
+                return;
+            }
+
+            foreach (var screening in schedule.Screenings.ToList())
+            {
+                if (screening.Tickets is List<Ticket> ticketList)
+                    ticketList.Clear();
+            }
+
+            if (schedule.Screenings is List<Screening> screeningList)
+                screeningList.Clear();
+
+
+            AppData.Schedules.Remove(schedule);
+
+            JsonStorage.SaveSchedules(AppData.Schedules);
+            DisplaySchedules();
+
+            DeleteFilmModal.Visibility = Visibility.Collapsed;
         }
 
         private void DisplaySchedules()
@@ -345,7 +438,6 @@ namespace OOP_Project
                     Setters = { new Setter(Border.CornerRadiusProperty, new CornerRadius(8)) }
                 });
 
-                // Центр: інформація про фільм
                 var centerStack = new StackPanel
                 {
                     Orientation = Orientation.Vertical,
@@ -410,9 +502,6 @@ namespace OOP_Project
                     FilmInfoModal.Visibility = Visibility.Visible;
                 };
 
-
-
-                // Додавання в Grid
                 Grid.SetColumn(orderButton, 0);
                 Grid.SetColumn(centerStack, 1);
                 Grid.SetColumn(aboutButton, 2);

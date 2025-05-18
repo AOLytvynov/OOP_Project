@@ -76,7 +76,7 @@
                 <!-- Поле пошуку -->
                 <Border Background="White" CornerRadius="10" Width="250" Height="40" Margin="10,0,0,0">
                     <Grid>
-                        <TextBox x:Name="SearchBox"
+                        <TextBox x:Name="SearchBox" TextChanged="SearchBox_TextChanged"
                          Margin="0" Padding="10,5,30,5"
                          Background="Transparent" BorderThickness="0"
                          FontFamily="Georgia" FontSize="14"

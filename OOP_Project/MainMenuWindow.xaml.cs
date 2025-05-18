@@ -28,7 +28,7 @@ namespace OOP_Project
             AddButton.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
             DeleteButton.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
             DisplaySchedules();
-            this.Closing += (s, e) => Application.Current.Shutdown();
+            this.SearchBox.TextChanged += SearchBox_TextChanged;
         }
 
         private void ProfileButton_Click(object sender, RoutedEventArgs e)
@@ -309,7 +309,7 @@ namespace OOP_Project
                 }
 
                 var screening = new Screening(selectedFilm, fullDateTime);
-                var tickets = TicketHelper.GenerateTicketsForScreening(screening, 5, 10);
+                var tickets = TicketHelper.GenerateTicketsForScreening(screening, 7, 15);
                 screening.AddTickets(tickets);
                 schedule.Add(screening);
 
@@ -445,11 +445,13 @@ namespace OOP_Project
         }
 
 
-        private void DisplaySchedules()
+        private void DisplaySchedules(List<ScreeningSchedule>? filtered = null)
         {
             ScheduleListPanel.Children.Clear();
 
-            foreach (var schedule in AppData.Schedules.Where(s => s.Screenings.Count > 0))
+            var schedulesToShow = (filtered ?? AppData.Schedules).Where(s => s.Screenings.Count > 0);
+
+            foreach (var schedule in schedulesToShow)
             {
                 var panel = new Border
                 {
@@ -593,7 +595,7 @@ namespace OOP_Project
             SelectScreeningModal.Visibility = Visibility.Collapsed;
 
             var ticketWindow = new TicketSelectionWindow(selectedScreening, this);
-            this.Hide(); 
+            this.Hide();
             ticketWindow.Show();
         }
 
@@ -675,7 +677,22 @@ namespace OOP_Project
             TicketsModal.Visibility = Visibility.Visible;
         }
 
+        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string query = SearchBox.Text.Trim().ToLower();
 
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                DisplaySchedules();
+            }
+            else
+            {
+                var filtered = AppData.Schedules
+                    .Where(s => s.Film.Name.ToLower().StartsWith(query))
+                    .ToList();
+
+                DisplaySchedules(filtered);
+            }
+        }
     }
-
 }

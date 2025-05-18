@@ -132,6 +132,7 @@ namespace OOP_Project
             foreach (var (row, seat) in selectedSeats)
             {
                 var ticket = _screening.Tickets.FirstOrDefault(t => t.Row == row && t.Seat == seat);
+
                 if (ticket != null && ticket.Owner == null)
                 {
                     ticket.AssignToUser(AppData.CurrentUser);
@@ -145,6 +146,61 @@ namespace OOP_Project
 
             _mainMenu.Show();
         }
+
+        //private void ConfirmOrder_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (AppData.CurrentUser == null)
+        //    {
+        //        MessageBox.Show("Гість не може купувати квитки. Будь ласка, увійдіть у систему.", "Помилка", MessageBoxButton.OK, MessageBoxImage.Warning);
+        //        return;
+        //    }
+
+        //    int successCount = 0;
+        //    int failCount = 0;
+        //    StringBuilder errorMessages = new();
+
+        //    foreach (var (row, seat) in selectedSeats)
+        //    {
+        //        var ticket = _screening.Tickets.FirstOrDefault(t => t.Row == row && t.Seat == seat);
+
+        //        if (ticket == null)
+        //        {
+        //            failCount++;
+        //            errorMessages.AppendLine($"Квиток не знайдено: ряд {row}, місце {seat}");
+        //            continue;
+        //        }
+
+        //        if (ticket.Owner != null)
+        //        {
+        //            failCount++;
+        //            errorMessages.AppendLine($"Місце вже зайняте: ряд {row}, місце {seat}");
+        //            continue;
+        //        }
+
+        //        // Все добре — купуємо
+        //        ticket.AssignToUser(AppData.CurrentUser);
+        //        successCount++;
+        //    }
+
+        //    JsonStorage.SaveSchedules(AppData.Schedules);
+        //    JsonStorage.SaveUsers(AppData.Users);
+
+        //    if (failCount == 0)
+        //    {
+        //        MessageBox.Show("Квитки успішно замовлено!", "Вітаємо", MessageBoxButton.OK, MessageBoxImage.Information);
+        //    }
+        //    else if (successCount > 0)
+        //    {
+        //        MessageBox.Show($"Куплено {successCount} квитків.\nДеякі квитки не були куплені:\n\n{errorMessages}", "Частковий успіх", MessageBoxButton.OK, MessageBoxImage.Warning);
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show($"Жоден квиток не був куплений:\n\n{errorMessages}", "Помилка", MessageBoxButton.OK, MessageBoxImage.Error);
+        //    }
+
+        //    this.Close();
+        //    _mainMenu.Show();
+        //}
 
 
         private void CloseWindow_Click(object sender, RoutedEventArgs e)

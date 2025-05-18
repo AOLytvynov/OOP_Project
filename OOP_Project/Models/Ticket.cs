@@ -75,7 +75,8 @@ namespace OOP_Project.Models
         public void AssignToUser(RegisteredUser user)
         {
             if (user == null) return;
-            user.PurchasedTickets.Add(this);
+            if (!user.PurchasedTickets.Contains(this))
+                user.PurchasedTickets.Add(this);
             Owner = user;
         }
     }

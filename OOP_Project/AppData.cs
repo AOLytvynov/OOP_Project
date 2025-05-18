@@ -10,7 +10,7 @@ namespace OOP_Project
 {
     public static class AppData
     {
-        public static Admin AdminUser { get; set; } = new Admin("admin", "12121212", "0000000000", new DateTime(1990, 1, 1));
+        public static Admin AdminUser { get; set; }
 
         public static List<RegisteredUser> Users { get; set; } = new();
 
@@ -23,20 +23,25 @@ namespace OOP_Project
             Schedules = JsonStorage.LoadSchedules();
             Users = JsonStorage.LoadUsers();
 
-            // Знаходимо адміністратора серед завантажених користувачів
             var loadedAdmin = Users.FirstOrDefault(u => u.Login == "admin");
 
             if (loadedAdmin is Admin realAdmin)
             {
                 AdminUser = realAdmin;
             }
-            else if (loadedAdmin == null)
+            else
             {
-                // Якщо адміністратора немає — додаємо вручну
-                AdminUser = new Admin("admin", "12121212", "0000000000", new DateTime(1990, 1, 1));
-                Users.Add(AdminUser);
-                JsonStorage.SaveUsers(Users); // зберігаємо одразу
+                if (loadedAdmin != null)
+                    Users.Remove(loadedAdmin);
+
+                var newAdmin = new Admin("admin", "12121212", "0000000000", new DateTime(1990, 1, 1));
+                Users.Add(newAdmin);
+                AdminUser = newAdmin;
+
+                JsonStorage.SaveUsers(Users);
             }
         }
+
+
     }
 }

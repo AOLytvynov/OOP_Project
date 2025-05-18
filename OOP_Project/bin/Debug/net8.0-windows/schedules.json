@@ -2,13 +2,13 @@
   {
     "Film": {
       "Name": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-      "AgeRestriction": 19,
-      "Year": 2005,
+      "AgeRestriction": 12,
+      "Year": 2004,
       "OriginalTitle": "\u041E\u0440\u0438\u0433\u0456\u043D\u0430\u043B\u044C\u043D\u0430 \u041D\u0430\u0437\u0432\u0430",
       "Director": "\u0420\u0435\u0436\u0438\u0441\u0435\u0440",
       "Language": "\u041C\u043E\u0432\u0430",
       "Genre": "\u0416\u0430\u043D\u0440",
-      "Duration": 90,
+      "Duration": 89,
       "Production": "\u0412\u0438\u0440\u043E\u0431\u043D\u0438\u0446\u0442\u0432\u043E",
       "Studio": "\u0421\u0442\u0443\u0434\u0456\u044F",
       "Description": "\u041E\u043F\u0438\u0441"
@@ -17,858 +17,858 @@
       {
         "Film": {
           "Name": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-          "AgeRestriction": 19,
-          "Year": 2005,
+          "AgeRestriction": 12,
+          "Year": 2004,
           "OriginalTitle": "\u041E\u0440\u0438\u0433\u0456\u043D\u0430\u043B\u044C\u043D\u0430 \u041D\u0430\u0437\u0432\u0430",
           "Director": "\u0420\u0435\u0436\u0438\u0441\u0435\u0440",
           "Language": "\u041C\u043E\u0432\u0430",
           "Genre": "\u0416\u0430\u043D\u0440",
-          "Duration": 90,
+          "Duration": 89,
           "Production": "\u0412\u0438\u0440\u043E\u0431\u043D\u0438\u0446\u0442\u0432\u043E",
           "Studio": "\u0421\u0442\u0443\u0434\u0456\u044F",
           "Description": "\u041E\u043F\u0438\u0441"
         },
-        "Date": "2025-06-18T16:00:00",
+        "Date": "2025-07-16T15:50:00",
         "Tickets": [
           {
-            "TicketId": "NS5G368WAJ2DCD0KAW5Q",
+            "TicketId": "IV8XZJSXUQTN3B932LPM",
             "RowNumber": 1,
             "SeatNumber": 1,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "XST3FTI7JLQIEM1G0463",
+            "TicketId": "8JZVA5BGGIMAANVLW0JO",
             "RowNumber": 1,
-            "SeatNumber": 2,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "C91RI8IEJBMV3TQOSLIS",
-            "RowNumber": 1,
-            "SeatNumber": 3,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "86WWZZ8FSWS6Y2TZG4G0",
-            "RowNumber": 1,
-            "SeatNumber": 4,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "6A4XTZ33WOS1M9ALGCS8",
-            "RowNumber": 1,
-            "SeatNumber": 5,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "RLFY2RFO45ZJ17E185WD",
-            "RowNumber": 1,
-            "SeatNumber": 6,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "FBP3W1299KYGS7RLKHOH",
-            "RowNumber": 1,
-            "SeatNumber": 7,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "M1TBA5SZQE7ITXEHR65R",
-            "RowNumber": 1,
-            "SeatNumber": 8,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "QCJNGHBHK3V9NGL15JBI",
-            "RowNumber": 1,
-            "SeatNumber": 9,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "TDBIYB34Z6LZAGSH6RO4",
-            "RowNumber": 1,
-            "SeatNumber": 10,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "POLSCENH0UD85152SBON",
-            "RowNumber": 1,
-            "SeatNumber": 11,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "U380KABWYK08J7PXSRE6",
-            "RowNumber": 1,
-            "SeatNumber": 12,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "KD0YU8X3KPNPHUP4714J",
-            "RowNumber": 1,
-            "SeatNumber": 13,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "221N0GQ22VYLM81D6TN3",
-            "RowNumber": 1,
-            "SeatNumber": 14,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "0P9IO8J1SWTLEDR2AGSU",
-            "RowNumber": 1,
-            "SeatNumber": 15,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "SVTWKJZ76NZPE313V7QN",
-            "RowNumber": 2,
-            "SeatNumber": 1,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "IX92L05X51NRN1CKNPT7",
-            "RowNumber": 2,
             "SeatNumber": 2,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "QWXVT5IX9XE1L6PB25KS",
-            "RowNumber": 2,
+            "TicketId": "G47YBPTXZTHIIMU593SX",
+            "RowNumber": 1,
             "SeatNumber": 3,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "51H3LYMMBZBWBVAYO1FP",
-            "RowNumber": 2,
+            "TicketId": "CZXPSWP9PJ8ISU9YD848",
+            "RowNumber": 1,
             "SeatNumber": 4,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "LSCIN5244XX2YJR7ZXAO",
-            "RowNumber": 2,
+            "TicketId": "ONL2DIYW4XDH0HJ9L2TZ",
+            "RowNumber": 1,
             "SeatNumber": 5,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "802H0RP6Z87OH7V45MEJ",
-            "RowNumber": 2,
+            "TicketId": "CCW5ETUIU02CNA9NXCIP",
+            "RowNumber": 1,
             "SeatNumber": 6,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "4CXHYIN7DIRYDUQZV9Q3",
-            "RowNumber": 2,
+            "TicketId": "YQ874FX64ITHOWRU27GL",
+            "RowNumber": 1,
             "SeatNumber": 7,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "M9PCIJFWKGSIS9VL3L52",
-            "RowNumber": 2,
+            "TicketId": "EPQKEJ1U1QVEPD9XM81L",
+            "RowNumber": 1,
             "SeatNumber": 8,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "ZPX8U337SQ74SZ592KA8",
-            "RowNumber": 2,
+            "TicketId": "7CJ3I9P7VCO7TW383MEA",
+            "RowNumber": 1,
             "SeatNumber": 9,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "FPE2NJJY8ZWZ4QGMOH9K",
-            "RowNumber": 2,
+            "TicketId": "NQH0V9MGL1Q0Q0JQB315",
+            "RowNumber": 1,
             "SeatNumber": 10,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "OEFUBE3SL8V5KLV7IC53",
-            "RowNumber": 2,
+            "TicketId": "QQZXPN8PLJCBUEQ8CEE8",
+            "RowNumber": 1,
             "SeatNumber": 11,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "QH4DR80LFEC6C3NGNQWS",
-            "RowNumber": 2,
+            "TicketId": "1H4WT77YQSJ3Y1MUL7DA",
+            "RowNumber": 1,
             "SeatNumber": 12,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "MPG5IFAZWC04FG6KLHGQ",
-            "RowNumber": 2,
+            "TicketId": "CVPDJIH6Y2R0CPP4OB2W",
+            "RowNumber": 1,
             "SeatNumber": 13,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "3VLCJH3DP5ZLEIKPBF3Z",
-            "RowNumber": 2,
+            "TicketId": "GDMJ6613C4APXKI6GBBS",
+            "RowNumber": 1,
             "SeatNumber": 14,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "JZ90FPG2X0SPJPC6P9RR",
+            "TicketId": "INJSCBA0POI9T7Z73CJ0",
+            "RowNumber": 1,
+            "SeatNumber": 15,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "2AFHNZY328UWM3VXRHUR",
             "RowNumber": 2,
-            "SeatNumber": 15,
-            "OwnerLogin": null,
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "3UK60XS68A97VGYFY8QA",
-            "RowNumber": 3,
             "SeatNumber": 1,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "PV4CYK4D9GAJ1U76FB7G",
-            "RowNumber": 3,
-            "SeatNumber": 2,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "RNPFY1YM9T0P29S3OXZC",
-            "RowNumber": 3,
-            "SeatNumber": 3,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "LORNUS2V9QTTRJPH5SIH",
-            "RowNumber": 3,
-            "SeatNumber": 4,
-            "OwnerLogin": null,
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "26ZJVY4EX9MEYY0MOOWT",
-            "RowNumber": 3,
-            "SeatNumber": 5,
-            "OwnerLogin": null,
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "5BXIWGJT641XFE8LVGZ5",
-            "RowNumber": 3,
-            "SeatNumber": 6,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "E4MLZXUD2GB0G4K5UIRX",
-            "RowNumber": 3,
-            "SeatNumber": 7,
-            "OwnerLogin": null,
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "Z33EKENEHNSI5UG1W6Z3",
-            "RowNumber": 3,
-            "SeatNumber": 8,
-            "OwnerLogin": null,
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "SC6LKZEZ2KZPW6X0R60L",
-            "RowNumber": 3,
-            "SeatNumber": 9,
-            "OwnerLogin": null,
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "R4UPWD9ESDJB2UQY0PNX",
-            "RowNumber": 3,
-            "SeatNumber": 10,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "14T4TLMTVPDZ23QRMU27",
-            "RowNumber": 3,
-            "SeatNumber": 11,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "05CGI3KOODGLQA35TM2O",
-            "RowNumber": 3,
-            "SeatNumber": 12,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "BQT7SHJYDBP1UBULY3MH",
-            "RowNumber": 3,
-            "SeatNumber": 13,
-            "OwnerLogin": null,
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "RKCUKOJKP3QTB7DBDROG",
-            "RowNumber": 3,
-            "SeatNumber": 14,
-            "OwnerLogin": null,
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "Q48RE541FA3LZDZX8W57",
-            "RowNumber": 3,
-            "SeatNumber": 15,
-            "OwnerLogin": null,
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "BF6V2NMXEHS0OQR8GT1Z",
-            "RowNumber": 4,
-            "SeatNumber": 1,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "7I6JSO7PZ679D5LQHEZ0",
-            "RowNumber": 4,
+            "TicketId": "O8PDO37DFOOZK6JKZ0O2",
+            "RowNumber": 2,
             "SeatNumber": 2,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "LGJNHX2RIO9ITIRAMHAE",
+            "TicketId": "QE6NZQG77L7ULVXKOPVB",
+            "RowNumber": 2,
+            "SeatNumber": 3,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "0528ZHTSWJKP6KHHRBFX",
+            "RowNumber": 2,
+            "SeatNumber": 4,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "D94HIUUUME8B519SMVTC",
+            "RowNumber": 2,
+            "SeatNumber": 5,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "GLVE7ZVOVGZNEHXRR20C",
+            "RowNumber": 2,
+            "SeatNumber": 6,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "6584M5QSLY01L5R7K4Y3",
+            "RowNumber": 2,
+            "SeatNumber": 7,
+            "OwnerLogin": "user123",
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "KHPGX0BSGS1WO92S1S1D",
+            "RowNumber": 2,
+            "SeatNumber": 8,
+            "OwnerLogin": "user123",
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "XA6R71M5DM9M1FOT564F",
+            "RowNumber": 2,
+            "SeatNumber": 9,
+            "OwnerLogin": "user123",
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "CB9X1W5D1JO630EBIW92",
+            "RowNumber": 2,
+            "SeatNumber": 10,
+            "OwnerLogin": "user123",
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "2F2P9MRBGZGYGKHVWLO4",
+            "RowNumber": 2,
+            "SeatNumber": 11,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "3I49G2GDZGPCE92EDKYO",
+            "RowNumber": 2,
+            "SeatNumber": 12,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "XPWC8ZWT49S2Y6RIP98B",
+            "RowNumber": 2,
+            "SeatNumber": 13,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "91KIJK3OCAWUTCQKOCX9",
+            "RowNumber": 2,
+            "SeatNumber": 14,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "HHXNPQ4EON81ZQ09CILJ",
+            "RowNumber": 2,
+            "SeatNumber": 15,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "2XIYI4SUS70OIHRFB99T",
+            "RowNumber": 3,
+            "SeatNumber": 1,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "80A3P3VY2SXFK8G2C7NS",
+            "RowNumber": 3,
+            "SeatNumber": 2,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "VLP14T4384MMTPD79LYQ",
+            "RowNumber": 3,
+            "SeatNumber": 3,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "7O87AJUUWXFUEKYFTTH5",
+            "RowNumber": 3,
+            "SeatNumber": 4,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "EH1VYSMTJW4T235BASS9",
+            "RowNumber": 3,
+            "SeatNumber": 5,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "H5RYPV6WVRKWUFR5YFJF",
+            "RowNumber": 3,
+            "SeatNumber": 6,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "XY5A2TALII0JDASFITQL",
+            "RowNumber": 3,
+            "SeatNumber": 7,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "18CFBSEJ33DKS0JGO2H3",
+            "RowNumber": 3,
+            "SeatNumber": 8,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "5R2C1KEI10G0ND8VFDT9",
+            "RowNumber": 3,
+            "SeatNumber": 9,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "LODVSD8381S8YPBLAO8N",
+            "RowNumber": 3,
+            "SeatNumber": 10,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "Z4P3YF7O5VCL3PX9R8TO",
+            "RowNumber": 3,
+            "SeatNumber": 11,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "YBEVBUSV42TMWHM6ZWXI",
+            "RowNumber": 3,
+            "SeatNumber": 12,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "OQYMILBPPRA723ZBF0XZ",
+            "RowNumber": 3,
+            "SeatNumber": 13,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "OGJ7U28SZKDZ6PRHA5HE",
+            "RowNumber": 3,
+            "SeatNumber": 14,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "X6T8J8LSADPDTXP4NUVW",
+            "RowNumber": 3,
+            "SeatNumber": 15,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "42KK9Z2D9GSQFNAZFGV6",
+            "RowNumber": 4,
+            "SeatNumber": 1,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "6NGVCDXHODZAI3YQ7APV",
+            "RowNumber": 4,
+            "SeatNumber": 2,
+            "OwnerLogin": null,
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "SZ9EMP0G6FGB5SG2NEE1",
             "RowNumber": 4,
             "SeatNumber": 3,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "42YHS6KK6LPGWMV5FOKT",
+            "TicketId": "S0YJCR6APP830DNBOWUY",
             "RowNumber": 4,
             "SeatNumber": 4,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "1AX4R47PPW8IBO2ASGH0",
+            "TicketId": "2GXWXQ9VSH6RABWNQ4IB",
             "RowNumber": 4,
             "SeatNumber": 5,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "KSDGOZ5RRDP8PXLQEBFJ",
+            "TicketId": "L2Z7DT7MYJ5C1HU6DPMU",
             "RowNumber": 4,
             "SeatNumber": 6,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "NEL7887DN7DEQGH4A0JB",
-            "RowNumber": 4,
-            "SeatNumber": 7,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "VMYY3WV02SGRC5SB419Q",
+            "TicketId": "VKN2ZAVR3TZQ9B46H89D",
+            "RowNumber": 4,
+            "SeatNumber": 7,
+            "OwnerLogin": "user123",
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "JELLJMGSJZDL50VP2L7F",
             "RowNumber": 4,
             "SeatNumber": 8,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "8X39ANE3UJ8HVBTO0Y3K",
+            "TicketId": "9Y2CCUMUNDVN9UIG32PW",
             "RowNumber": 4,
             "SeatNumber": 9,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "TL4O6OG1XWNRT099OURT",
+            "TicketId": "R2D8L8JKT8AZAMHF9DGH",
             "RowNumber": 4,
             "SeatNumber": 10,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "IH82AQT482IYY9SSPPAX",
+            "TicketId": "5VND48N7D1GQ0XE8C533",
             "RowNumber": 4,
             "SeatNumber": 11,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "062SP3HF2PRM0OT9UVGA",
+            "TicketId": "FT6RNI0NJD5WY85ZHIE8",
             "RowNumber": 4,
             "SeatNumber": 12,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "9TJ3Z0XO131RS0E176TF",
+            "TicketId": "S3EP25JV57V4UP7JZMAY",
             "RowNumber": 4,
             "SeatNumber": 13,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "GNZENBLIAZ9UDDRWX06X",
+            "TicketId": "20ALKY04ZZ3B2A9N5MFC",
             "RowNumber": 4,
             "SeatNumber": 14,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "IBT0ECWUAZOE4MUVKTGN",
+            "TicketId": "4E93TBEWSOZBKOBEMSUY",
             "RowNumber": 4,
             "SeatNumber": 15,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "PZLSIWD0K7L6M1UQCYDG",
+            "TicketId": "AVPNYLKSR0CLXVKKIF7Y",
             "RowNumber": 5,
             "SeatNumber": 1,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "A6Q4A8F2SOR73GYEH7KC",
+            "TicketId": "P67VR35NCPFX7DLFT1YS",
             "RowNumber": 5,
             "SeatNumber": 2,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "XO3GECKWZKOGMSOHXLI8",
+            "TicketId": "R3VI67M3LKSCPPF04N4A",
             "RowNumber": 5,
             "SeatNumber": 3,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "XC9LLYQ7YS6YT6VHHYUK",
+            "TicketId": "55ZDL76GQWU4OWW0SUVT",
             "RowNumber": 5,
             "SeatNumber": 4,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "MI9HZ5LZDL5FMRNUTGHI",
-            "RowNumber": 5,
-            "SeatNumber": 5,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "26N7HAKCXQ34RJPMM9E3",
+            "TicketId": "02XRIN564BAGA054KCG3",
+            "RowNumber": 5,
+            "SeatNumber": 5,
+            "OwnerLogin": "user123",
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "VKRXSTZI3KQ55ZCBG78Z",
             "RowNumber": 5,
             "SeatNumber": 6,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "8HF9QY0D7ATK1H6J7LUH",
+            "TicketId": "XXHW3C8449M763WZCCJJ",
             "RowNumber": 5,
             "SeatNumber": 7,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "L5OAN4GDXWX9LUXTEGOX",
+            "TicketId": "HLGH5E6D8JKOOKA70YCR",
             "RowNumber": 5,
             "SeatNumber": 8,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "L8DKJJQ3OXNROTHRKCZL",
+            "TicketId": "NGQ7TRSV24HH79BQ5R1G",
             "RowNumber": 5,
             "SeatNumber": 9,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "WAGS9Y20TC8ZDJRML92F",
+            "TicketId": "1XHB0E0ILFUGGW7CP0OW",
             "RowNumber": 5,
             "SeatNumber": 10,
-            "OwnerLogin": null,
+            "OwnerLogin": "user123",
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "D4Y8OSU2M754V2F8VP03",
+            "TicketId": "Z8QCHLHI3N830SEJ74B3",
             "RowNumber": 5,
             "SeatNumber": 11,
-            "OwnerLogin": "admin",
-            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
-          },
-          {
-            "TicketId": "V9N8SJDOO8NX1ZY6W0RY",
-            "RowNumber": 5,
-            "SeatNumber": 12,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "3R8Z8CYTHAHIOLM956AS",
+            "TicketId": "2P0GNSWM6KNVFOC8H6S9",
+            "RowNumber": 5,
+            "SeatNumber": 12,
+            "OwnerLogin": "user123",
+            "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+            "ScreeningDate": "2025-07-16T15:50:00"
+          },
+          {
+            "TicketId": "6G20QD4ZFZG3QEQF52KA",
             "RowNumber": 5,
             "SeatNumber": 13,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "O95ZPVOW9WX96KNXTYBA",
+            "TicketId": "NNIGN4LRNQD8ZFWXF0YE",
             "RowNumber": 5,
             "SeatNumber": 14,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "BEK2X67I2WBHLNXJ5X3S",
+            "TicketId": "K3DVBKSWHP60PW3SHH28",
             "RowNumber": 5,
             "SeatNumber": 15,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "JQUYZLGA4H2I928TY4CC",
+            "TicketId": "CUU5G3NDTECUC3RA3TB9",
             "RowNumber": 6,
             "SeatNumber": 1,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "6JG4ID2HIJ1RC84CH15Q",
+            "TicketId": "6DH7RRGGEXYTOORKJVE3",
             "RowNumber": 6,
             "SeatNumber": 2,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "VGSV3KIGUSHYX47XZYPR",
+            "TicketId": "PD8EEW89S0PJM40RHKLY",
             "RowNumber": 6,
             "SeatNumber": 3,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "LGT7MZ50VJFEKJG59M14",
+            "TicketId": "P4N7TRRB2QCP22K1DH82",
             "RowNumber": 6,
             "SeatNumber": 4,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "ROMDGEFP01BN4RLMTFGW",
+            "TicketId": "NKJ0381ZZZSLBBZU0BQM",
             "RowNumber": 6,
             "SeatNumber": 5,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "W2ISZ10P11UUHBBE2QAJ",
+            "TicketId": "23IHYNVZLRKCBO021X01",
             "RowNumber": 6,
             "SeatNumber": 6,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "EOCIBDP1XZFVQM4NPH2F",
+            "TicketId": "ZV22TGPZ6HHQXQLOR6QL",
             "RowNumber": 6,
             "SeatNumber": 7,
-            "OwnerLogin": "admin",
+            "OwnerLogin": "user123",
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "K4NSXEKOH7LXLNAJJMEN",
+            "TicketId": "H1QI5IWPZJGWVQ9X962R",
             "RowNumber": 6,
             "SeatNumber": 8,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "1P36SXBUCKY4X52NF56B",
+            "TicketId": "BZCN2ZCMTJLHJKLX6ZE0",
             "RowNumber": 6,
             "SeatNumber": 9,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "OM4JMOPSYUUUJ7NVDBM2",
+            "TicketId": "73OHBIY31IQ3HTLMZSZY",
             "RowNumber": 6,
             "SeatNumber": 10,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "LMO4PBSQ0F8KE4NX5W10",
+            "TicketId": "ZTM2U0PFULY3BAWK77J7",
             "RowNumber": 6,
             "SeatNumber": 11,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "AWZXV2FRL19QH1UJY4SH",
+            "TicketId": "1FTJ4IN8JRQDI3M00STC",
             "RowNumber": 6,
             "SeatNumber": 12,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "W4T1G4UV2VQWOJV76BXI",
+            "TicketId": "1LXL71ZFHUM7ATFNX7ZU",
             "RowNumber": 6,
             "SeatNumber": 13,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "H7M7EDE2PVILHV3LQ50U",
+            "TicketId": "WIYSPHSBO6X0EI4B3HHZ",
             "RowNumber": 6,
             "SeatNumber": 14,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "27SRIPLATUXEYGC0SQID",
+            "TicketId": "BPDKRI8ICFO6J0HP3WEG",
             "RowNumber": 6,
             "SeatNumber": 15,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "3MGWTJ7GR8EGHCJ8Y2NU",
+            "TicketId": "ZC4GW0CR1KXY65MK1JIG",
             "RowNumber": 7,
             "SeatNumber": 1,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "3IMEXN79LSXCBAUPKK80",
+            "TicketId": "QYZDQPC8KFVAR8NFQZ3J",
             "RowNumber": 7,
             "SeatNumber": 2,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "KES0ZEU5UEPDW0M6N00L",
+            "TicketId": "M229YU4BCZLIJHPZ9P53",
             "RowNumber": 7,
             "SeatNumber": 3,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "A2YQVPKTJTRXWP6M0TZE",
+            "TicketId": "R1B30DYMI1QQPZESU6SC",
             "RowNumber": 7,
             "SeatNumber": 4,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "OYXUEIQHFCRKWP2XKVFK",
+            "TicketId": "PI1NCDM46SRFTC7QMU1E",
             "RowNumber": 7,
             "SeatNumber": 5,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "1WB9QND5SUKUBIK25CR4",
+            "TicketId": "6ILWG4MGBJEN8QU9OPIN",
             "RowNumber": 7,
             "SeatNumber": 6,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "XIHD1FR55NY2B4FHIR4Q",
+            "TicketId": "IY49YSZQ9V68J69Y210U",
             "RowNumber": 7,
             "SeatNumber": 7,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "5NQ4KNIKJ2TR4J2UW72K",
+            "TicketId": "UQG4N6Y8ZSZSFZ46N27G",
             "RowNumber": 7,
             "SeatNumber": 8,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "9P3XQBCCGW60D2AZAF6W",
+            "TicketId": "YXR7DPWVNMZGKD3VBOWO",
             "RowNumber": 7,
             "SeatNumber": 9,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "B3JUHE4QK0PGSDPUJCIG",
+            "TicketId": "F68U8V5DUZ244M5TWY1M",
             "RowNumber": 7,
             "SeatNumber": 10,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "GT37KZ20IZOT9XCVMJ1I",
+            "TicketId": "EUGSPJT94727DORO1HZ5",
             "RowNumber": 7,
             "SeatNumber": 11,
-            "OwnerLogin": "admin",
+            "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "3RHXHIH0L49F29C5FFBU",
+            "TicketId": "AQA4VJAP890VUCAKP0OX",
             "RowNumber": 7,
             "SeatNumber": 12,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "5YOZK3PZW4EY85CQXQ5V",
+            "TicketId": "WUMKAGI03WEQ386EQJ0Q",
             "RowNumber": 7,
             "SeatNumber": 13,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "182G2P7RP3PBPJ46CNAZ",
+            "TicketId": "8AT72LL0PDQ5PTCBUYHZ",
             "RowNumber": 7,
             "SeatNumber": 14,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           },
           {
-            "TicketId": "OGXR0OQ3DASFEHSMWRK6",
+            "TicketId": "J9ZPJUAOT5L9SQO6QDN0",
             "RowNumber": 7,
             "SeatNumber": 15,
             "OwnerLogin": null,
             "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
-            "ScreeningDate": "2025-06-18T16:00:00"
+            "ScreeningDate": "2025-07-16T15:50:00"
           }
         ]
       }

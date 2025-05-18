@@ -63,10 +63,10 @@ namespace OOP_Project.Models
                 DateTime now = DateTime.Now;
 
                 if (value < minDate)
-                    throw new ArgumentOutOfRangeException(nameof(DateOfBirth), "Дата народження не може бути раніше 01.01.1900.");
+                    throw new ArgumentOutOfRangeException("Дата народження не може бути раніше 01.01.1900.");
 
                 if (value >= now)
-                    throw new ArgumentOutOfRangeException(nameof(DateOfBirth), "Дата народження не може бути пізніше поточного моменту часу.");
+                    throw new ArgumentOutOfRangeException("Дата народження не може бути пізніше поточного моменту часу.");
 
                 _dateOfBirth = value;
             }

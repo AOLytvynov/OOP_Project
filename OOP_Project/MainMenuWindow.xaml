@@ -459,7 +459,7 @@ VerticalAlignment="Center" HorizontalAlignment="Center">
 
         <Grid x:Name="DeleteScreeningModal" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="100">
             <Border Background="#F0F0F0" CornerRadius="12" Padding="20" BorderBrush="Gray" BorderThickness="1"
-            Width="400" Height="250" VerticalAlignment="Center" HorizontalAlignment="Center">
+            Width="400" Height="200" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -478,8 +478,6 @@ VerticalAlignment="Center" HorizontalAlignment="Center">
 
                     <!-- ComboBox + Текст помилки -->
                     <StackPanel Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0">
-                        <TextBlock Text="Оберіть сеанс для видалення:" 
-                           FontFamily="Georgia" FontSize="14" FontWeight="Bold" Margin="0,0,0,5"/>
 
                         <ComboBox x:Name="DeleteScreeningComboBox" Width="320" Height="30"
                           FontFamily="Georgia" FontSize="14"

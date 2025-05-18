@@ -12,5 +12,7 @@ namespace OOP_Project.Interfaces
         Film Film { get; }
         DateTime Date { get; }
         IReadOnlyList<Ticket> Tickets { get; }
+
+        public void AddTickets(List<Ticket> tickets);
     }
 }

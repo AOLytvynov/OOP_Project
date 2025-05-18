@@ -15,5 +15,7 @@ namespace OOP_Project.Interfaces
         int Seat { get; }
 
         RegisteredUser? Owner { get; }
+
+        void AssignToUser(RegisteredUser user);
     }
 }

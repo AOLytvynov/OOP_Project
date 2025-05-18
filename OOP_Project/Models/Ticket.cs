@@ -13,7 +13,7 @@ namespace OOP_Project.Models
         int _seatNumber;
         Screening _screening;
         string _ticketId;
-        RegisteredUser _owner;
+        RegisteredUser? _owner;
 
         public Screening Screening 
         {
@@ -58,10 +58,7 @@ namespace OOP_Project.Models
         public RegisteredUser? Owner 
         {
             get => _owner;
-            set
-            {
-                _owner = value;
-            }
+            set => _owner = value;
         }
 
         public Ticket(Screening screening, string ticketId, int rowNumber, int seatNumber)

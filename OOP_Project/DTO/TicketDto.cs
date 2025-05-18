@@ -11,6 +11,10 @@ namespace OOP_Project.DTO
         public string TicketId { get; set; }
         public int RowNumber { get; set; }
         public int SeatNumber { get; set; }
-        public string? OwnerLogin { get; set; }
+
+        public string OwnerLogin { get; set; }
+        public string FilmName { get; set; }
+        public DateTime ScreeningDate { get; set; }
     }
+
 }

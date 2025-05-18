@@ -28,6 +28,7 @@ namespace OOP_Project
             AddButton.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
             DeleteButton.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
             DisplaySchedules();
+            this.Closing += (s, e) => Application.Current.Shutdown();
         }
 
         private void ProfileButton_Click(object sender, RoutedEventArgs e)
@@ -215,67 +216,35 @@ namespace OOP_Project
         private void CloseAddScreeningModal_Click(object sender, RoutedEventArgs e)
         {
             AddScreeningModal.Visibility = Visibility.Collapsed;
+            FilmComboBox.SelectedItem = null;
+            DateTextBox.Text = "Дата";
+            TimeTextBox.Text = "Час";
+            AddScreeningErrorText.Text = "";
         }
 
         private void ConfirmAddScreening_Click(object sender, RoutedEventArgs e)
         {
             AddScreeningErrorText.Visibility = Visibility.Collapsed;
             AddScreeningErrorText.Text = "";
+
             bool hasError = false;
+            Film selectedFilm = FilmComboBox.SelectedItem as Film;
 
-            Film selectedFilm = null;
-            DateTime date = default;
-            TimeSpan time = default;
-
-            if (FilmComboBox.SelectedItem is not Film selected)
+            if (selectedFilm == null)
             {
-                AddScreeningErrorText.Text = "Фільм не було обрано";
-                hasError = true;
-            }
-            else
-            {
-                selectedFilm = selected;
-            }
-
-            if (!hasError && !DateTime.TryParse(DateTextBox.Text, out date))
-            {
-                AddScreeningErrorText.Text = "Неправильний формат введення дати";
+                AddScreeningErrorText.Text = "Фільм не було обрано.";
                 hasError = true;
             }
 
-            if (!hasError && !TimeSpan.TryParse(TimeTextBox.Text, out time))
+            if (!DateTime.TryParse(DateTextBox.Text, out DateTime date))
             {
-                AddScreeningErrorText.Text = "Неправильний формат введення часу";
+                AddScreeningErrorText.Text = "Неправильний формат дати.";
                 hasError = true;
             }
 
-            DateTime fullDateTime = date.Date + time;
-
-            if (!hasError && fullDateTime <= DateTime.Now)
+            if (!TimeSpan.TryParse(TimeTextBox.Text, out TimeSpan time))
             {
-                AddScreeningErrorText.Text = "Сеанс не може бути в минулому.";
-                hasError = true;
-            }
-            else if (!hasError && fullDateTime > DateTime.Now.AddYears(1))
-            {
-                AddScreeningErrorText.Text = "Сеанс не може бути пізніше ніж через рік.";
-                hasError = true;
-            }
-
-            TimeSpan openingTime = new TimeSpan(9, 0, 0);   // 09:00
-            TimeSpan closingTime = new TimeSpan(22, 0, 0);  // 22:00
-
-            TimeSpan screeningStart = time;
-            TimeSpan screeningEnd = time.Add(TimeSpan.FromMinutes(selectedFilm.Duration));
-
-            if (!hasError && screeningStart < openingTime)
-            {
-                AddScreeningErrorText.Text = "Кінотеатр відкривається о 09:00. Сеанс не може початися раніше.";
-                hasError = true;
-            }
-            else if (!hasError && screeningEnd > closingTime)
-            {
-                AddScreeningErrorText.Text = $"Кінотеатр закривається о 22:00. Оберіть раніший час.";
+                AddScreeningErrorText.Text = "Неправильний формат часу.";
                 hasError = true;
             }
 
@@ -285,8 +254,42 @@ namespace OOP_Project
                 return;
             }
 
-            var schedule = AppData.Schedules.FirstOrDefault(s => s.Film == selectedFilm);
+            DateTime fullDateTime = date.Date + time;
 
+            if (fullDateTime <= DateTime.Now)
+            {
+                AddScreeningErrorText.Text = "Сеанс не може бути в минулому.";
+                AddScreeningErrorText.Visibility = Visibility.Visible;
+                return;
+            }
+
+            if (fullDateTime > DateTime.Now.AddYears(1))
+            {
+                AddScreeningErrorText.Text = "Сеанс не може бути пізніше ніж через рік.";
+                AddScreeningErrorText.Visibility = Visibility.Visible;
+                return;
+            }
+
+            TimeSpan openingTime = new(9, 0, 0);   // 09:00
+            TimeSpan closingTime = new(22, 0, 0);  // 22:00
+            TimeSpan screeningStart = time;
+            TimeSpan screeningEnd = time.Add(TimeSpan.FromMinutes(selectedFilm.Duration));
+
+            if (screeningStart < openingTime)
+            {
+                AddScreeningErrorText.Text = "Кінотеатр відкривається о 09:00.";
+                AddScreeningErrorText.Visibility = Visibility.Visible;
+                return;
+            }
+
+            if (screeningEnd > closingTime)
+            {
+                AddScreeningErrorText.Text = "Сеанс виходить за межі робочого часу (до 22:00).";
+                AddScreeningErrorText.Visibility = Visibility.Visible;
+                return;
+            }
+
+            var schedule = AppData.Schedules.FirstOrDefault(s => s.Film == selectedFilm);
             if (schedule != null)
             {
                 foreach (var existing in schedule.Screenings)
@@ -304,21 +307,29 @@ namespace OOP_Project
                         return;
                     }
                 }
+
+                var screening = new Screening(selectedFilm, fullDateTime);
+                var tickets = TicketHelper.GenerateTicketsForScreening(screening, 5, 10);
+                screening.AddTickets(tickets);
+                schedule.Add(screening);
+
+                JsonStorage.SaveSchedules(AppData.Schedules);
+
+                AddScreeningModal.Visibility = Visibility.Collapsed;
+                FilmComboBox.SelectedItem = null;
+                DateTextBox.Text = "Дата";
+                TimeTextBox.Text = "Час";
+                AddScreeningErrorText.Text = "";
+
+                DisplaySchedules();
             }
-
-            var screening = new Screening(selectedFilm, fullDateTime);
-            var tickets = TicketHelper.GenerateTicketsForScreening(screening, 5, 10);
-            screening.AddTickets(tickets);
-            schedule?.Add(screening);
-            JsonStorage.SaveSchedules(AppData.Schedules);
-
-            AddScreeningModal.Visibility = Visibility.Collapsed;
-            FilmComboBox.SelectedItem = null;
-            DateTextBox.Text = "Дата";
-            TimeTextBox.Text = "Час";
-            AddScreeningErrorText.Text = "";
-            DisplaySchedules();
+            else
+            {
+                AddScreeningErrorText.Text = "Не вдалося знайти розклад для цього фільму.";
+                AddScreeningErrorText.Visibility = Visibility.Visible;
+            }
         }
+
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
@@ -603,12 +614,6 @@ namespace OOP_Project
             OrderConfirmationModal.Visibility = Visibility.Collapsed;
         }
 
-        private void OpenOrderConfirmation(Screening screening, List<Ticket> selectedTickets)
-        {
-            // TODO: заповнення модального вікна на основі даних
-            OrderConfirmationModal.Visibility = Visibility.Visible;
-        }
-
         private void CloseTicketsModal_Click(object sender, RoutedEventArgs e)
         {
             TicketsModal.Visibility = Visibility.Collapsed;
@@ -616,6 +621,7 @@ namespace OOP_Project
 
         private void OpenTickets_Click(object sender, RoutedEventArgs e)
         {
+            ProfilePopup.IsOpen = false;
             TicketListPanel.Children.Clear();
 
             foreach (var ticket in AppData.CurrentUser.PurchasedTickets)

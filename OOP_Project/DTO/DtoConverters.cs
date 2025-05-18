@@ -33,7 +33,9 @@ namespace OOP_Project.DTO
             TicketId = ticket.TicketId,
             RowNumber = ticket.Row,
             SeatNumber = ticket.Seat,
-            OwnerLogin = ticket.Owner?.Login
+            OwnerLogin = ticket.Owner?.Login,
+            FilmName = ticket.Screening?.Film?.Name,     // нове
+            ScreeningDate = ticket.Screening?.Date ?? default
         };
 
         public static Ticket FromDto(this TicketDto dto, Screening screening) =>
@@ -84,10 +86,34 @@ namespace OOP_Project.DTO
             Login = user.Login,
             Password = user.Password,
             PhoneNumber = user.PhoneNumber,
-            DateOfBirth = user.DateOfBirth
+            DateOfBirth = user.DateOfBirth,
+            PurchasedTickets = user.PurchasedTickets.Select(t => t.ToDto()).ToList()
         };
 
         public static RegisteredUser FromDto(this RegisteredUserDto dto)
-            => new RegisteredUser(dto.Login, dto.Password, dto.PhoneNumber, dto.DateOfBirth);
+        {
+            var user = new RegisteredUser(dto.Login, dto.Password, dto.PhoneNumber, dto.DateOfBirth);
+
+            foreach (var dtoTicket in dto.PurchasedTickets)
+            {
+                var screening = AppData.Schedules
+                    .FirstOrDefault(s => s.Film.Name == dtoTicket.FilmName)?
+                    .Screenings.FirstOrDefault(sc => sc.Date == dtoTicket.ScreeningDate);
+
+                if (screening != null)
+                {
+                    var ticket = screening.Tickets
+                        .FirstOrDefault(t => t.Row == dtoTicket.RowNumber && t.Seat == dtoTicket.SeatNumber);
+
+                    if (ticket != null)
+                    {
+                        ticket.AssignToUser(user);
+                    }
+                }
+            }
+
+            return user;
+        }
+
     }
 }

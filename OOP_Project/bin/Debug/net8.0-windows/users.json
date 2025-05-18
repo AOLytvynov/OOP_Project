@@ -1,14 +1,49 @@
 [
   {
-    "Login": "Altmr",
+    "Login": "user123",
     "Password": "12121212",
-    "PhoneNumber": "0992542159",
-    "DateOfBirth": "2005-12-13T00:00:00"
+    "PhoneNumber": "0996673223",
+    "DateOfBirth": "2005-05-14T00:00:00",
+    "PurchasedTickets": [
+      {
+        "TicketId": "731A35R736SOATBAWJSD",
+        "RowNumber": 1,
+        "SeatNumber": 2,
+        "OwnerLogin": "user123",
+        "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+        "ScreeningDate": "2025-06-17T17:15:00"
+      },
+      {
+        "TicketId": "PRDV9W13VCMLSPIEEQJ2",
+        "RowNumber": 1,
+        "SeatNumber": 3,
+        "OwnerLogin": "user123",
+        "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+        "ScreeningDate": "2025-06-17T17:15:00"
+      },
+      {
+        "TicketId": "G6PI4ZSYGGAEMF6SIN3L",
+        "RowNumber": 1,
+        "SeatNumber": 4,
+        "OwnerLogin": "user123",
+        "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+        "ScreeningDate": "2025-06-17T17:15:00"
+      },
+      {
+        "TicketId": "ILNZ3CAQ3RJR7RBCIVSP",
+        "RowNumber": 2,
+        "SeatNumber": 4,
+        "OwnerLogin": "user123",
+        "FilmName": "\u041D\u0430\u0437\u0432\u0430 \u0424\u0456\u043B\u044C\u043C\u0443",
+        "ScreeningDate": "2025-06-17T17:15:00"
+      }
+    ]
   },
   {
-    "Login": "sugar",
+    "Login": "admin",
     "Password": "12121212",
-    "PhoneNumber": "0669966229",
-    "DateOfBirth": "2000-01-01T00:00:00"
+    "PhoneNumber": "0000000000",
+    "DateOfBirth": "1990-01-01T00:00:00",
+    "PurchasedTickets": []
   }
 ]

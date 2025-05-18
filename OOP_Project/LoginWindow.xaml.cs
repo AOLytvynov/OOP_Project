@@ -23,9 +23,7 @@ namespace OOP_Project
         public LoginWindow()
         {
             InitializeComponent();
-            AppData.Users = JsonStorage.LoadUsers();
-            AppData.Schedules = JsonStorage.LoadSchedules();
-
+            AppData.Initialize();
         }
 
         private void OpenRegisterWindow(object sender, MouseButtonEventArgs e)

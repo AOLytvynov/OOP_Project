@@ -13,6 +13,8 @@ namespace OOP_Project.DTO
         public string Password { get; set; }
         public string PhoneNumber { get; set; }
         public DateTime DateOfBirth { get; set; }
+
+        public List<TicketDto> PurchasedTickets { get; set; } = new();
     }
 
 }

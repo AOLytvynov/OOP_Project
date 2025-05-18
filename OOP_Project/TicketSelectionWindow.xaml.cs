@@ -62,12 +62,23 @@ namespace OOP_Project
                         Tag = (row, seat)
                     };
 
-                    button.Click += SeatButton_Click;
+                    var ticket = _screening.Tickets.FirstOrDefault(t => t.Row == row && t.Seat == seat);
+
+                    if (ticket != null && ticket.Owner != null)
+                    {
+                        button.Background = new SolidColorBrush(Color.FromRgb(90, 90, 90));
+                    }
+                    else
+                    {
+                        button.Click += SeatButton_Click;
+                    }
+
                     SeatsGrid.Children.Add(button);
                     seatButtons.Add(button);
                 }
             }
         }
+
 
         private void SeatButton_Click(object sender, RoutedEventArgs e)
         {
@@ -128,6 +139,7 @@ namespace OOP_Project
             }
 
             JsonStorage.SaveSchedules(AppData.Schedules);
+            JsonStorage.SaveUsers(AppData.Users);
             MessageBox.Show("Квитки успішно замовлено!", "Вітаємо", MessageBoxButton.OK, MessageBoxImage.Information);
             this.Close();
 

@@ -23,7 +23,7 @@ namespace OOP_Project.Models
             }
         }
 
-        public DateTime Date 
+        public DateTime Date
         {
             get => _date;
             private set
@@ -54,10 +54,8 @@ namespace OOP_Project.Models
             return this.Date.CompareTo(other.Date);
         }
 
-        public override string ToString()
-        {
-            return $"{Film.Name} — {Date:dd.MM.yyyy HH:mm}";
-        }
+        public override string ToString() => $"{Film.Name} — {Date:dd.MM.yyyy HH:mm}";
 
+        public string GetDateString => $"{Date:dd.MM.yyyy HH:mm}";
     }
 }

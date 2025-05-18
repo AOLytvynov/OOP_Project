@@ -35,7 +35,7 @@ namespace OOP_Project.Models
             }
         }
 
-        public int RowNumber
+        public int Row
         {
             get => _rowNumber;
             private set
@@ -45,7 +45,7 @@ namespace OOP_Project.Models
             }
         }
 
-        public int SeatNumber
+        public int Seat
         {
             get => _seatNumber;
             private set
@@ -68,8 +68,8 @@ namespace OOP_Project.Models
         {
             Screening = screening;
             TicketId = ticketId;
-            RowNumber = rowNumber;
-            SeatNumber = seatNumber;
+            Row = rowNumber;
+            Seat = seatNumber;
         }
 
         public void AssignToUser(RegisteredUser user)

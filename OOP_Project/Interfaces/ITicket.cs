@@ -11,8 +11,8 @@ namespace OOP_Project.Interfaces
     {
         Screening Screening { get; }
         string TicketId { get; }
-        int RowNumber { get; }
-        int SeatNumber { get; }
+        int Row { get; }
+        int Seat { get; }
 
         RegisteredUser? Owner { get; }
     }

@@ -1,0 +1,84 @@
+﻿<Window x:Class="OOP_Project.TicketSelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Вибір місць" Height="576" Width="1024"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+
+    <Grid Background="#EEE">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Ліва частина: екран і місця -->
+        <StackPanel Grid.Column="0" Margin="20">
+
+            <!-- Назва -->
+            <TextBlock x:Name="FilmTitle" Text="Назва фільму" FontFamily="Georgia" FontSize="24" FontWeight="Bold" Margin="0,0,0,10"/>
+
+            <!-- Дата і час -->
+            <StackPanel Orientation="Vertical" Margin="0,0,0,20">
+                <TextBlock x:Name="ScreeningDate" Text="Дата:" FontFamily="Georgia" FontSize="16" Margin="0,5"/>
+                <TextBlock x:Name="ScreeningTime" Text="Час:" FontFamily="Georgia" FontSize="16" Margin="0,5"/>
+            </StackPanel>
+
+            <!-- Екран -->
+            <TextBlock Text="Екран" FontFamily="Georgia" FontSize="16" FontWeight="Bold"
+                       Foreground="Gray" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+            <Rectangle Height="2" Width="506" Fill="Black" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+            <UniformGrid x:Name="SeatsGrid"
+             Rows="7" Columns="15"
+             HorizontalAlignment="Center"
+             VerticalAlignment="Top"
+             Margin="0,20,0,0"/>
+
+        </StackPanel>
+
+        <Border Grid.Column="1" Background="#CCC" CornerRadius="10" Margin="20" Padding="15">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- Обрані місця -->
+                <ItemsControl x:Name="SelectedSeatsPanel" Grid.Row="0" />
+
+                <!-- Нижній блок -->
+                <StackPanel Grid.Row="1" Margin="0,20,0,0">
+                    <TextBlock x:Name="TotalText" Text="Всього до сплати: 0 грн."
+                       FontFamily="Georgia" FontSize="16" FontWeight="Bold"
+                       Margin="0,0,0,10" Width="253" />
+
+                    <Button Content="Замовити" Width="200" Height="45"
+                    FontFamily="Georgia" FontSize="16" FontWeight="Bold"
+                    Background="#D3D3D3" BorderBrush="Gray" BorderThickness="1"
+                    HorizontalAlignment="Center" Click="ConfirmOrder_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="10"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <Button Content="✕"
+        Width="30" Height="30"
+        FontWeight="Bold"
+        FontSize="16"
+        HorizontalAlignment="Right"
+        VerticalAlignment="Top"
+        Margin="0,10,10,0"
+        Background="Transparent"
+        BorderThickness="0"
+        Cursor="Hand"
+        Click="CloseWindow_Click"/>
+
+    </Grid>
+</Window>

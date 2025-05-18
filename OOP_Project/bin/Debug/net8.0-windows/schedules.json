@@ -232,13 +232,13 @@
             "TicketId": "0YYSM8ZP6D46JOB8XMRJ",
             "RowNumber": 4,
             "SeatNumber": 4,
-            "OwnerLogin": null
+            "OwnerLogin": "admin"
           },
           {
             "TicketId": "KJ5XTRSK28W6FJN37HNE",
             "RowNumber": 4,
             "SeatNumber": 5,
-            "OwnerLogin": null
+            "OwnerLogin": "admin"
           },
           {
             "TicketId": "4D6CVGDDOPUBT5Y6BXFM",

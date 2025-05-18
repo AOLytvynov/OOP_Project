@@ -31,8 +31,8 @@ namespace OOP_Project.DTO
         public static TicketDto ToDto(this Ticket ticket) => new TicketDto
         {
             TicketId = ticket.TicketId,
-            RowNumber = ticket.RowNumber,
-            SeatNumber = ticket.SeatNumber,
+            RowNumber = ticket.Row,
+            SeatNumber = ticket.Seat,
             OwnerLogin = ticket.Owner?.Login
         };
 

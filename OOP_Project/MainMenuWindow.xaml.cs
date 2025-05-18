@@ -58,12 +58,6 @@ namespace OOP_Project
             this.Close();
         }
 
-        private void OpenTickets_Click(object sender, RoutedEventArgs e)
-        {
-            //var ticketsWindow = new TicketsWindow();
-            //ticketsWindow.ShowDialog();
-        }
-
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
             AddMenu.Visibility = Visibility.Visible;
@@ -542,6 +536,20 @@ namespace OOP_Project
                     FilmInfoModal.Visibility = Visibility.Visible;
                 };
 
+                orderButton.Click += (s, e) =>
+                {
+                    var relevantScreenings = schedule.Screenings
+                        .Where(s => s.Date > DateTime.Now)
+                        .ToList();
+
+                    SelectScreeningComboBox.ItemsSource = relevantScreenings;
+                    SelectScreeningComboBox.DisplayMemberPath = "GetDateString";
+                    SelectScreeningComboBox.SelectedIndex = -1;
+                    SelectScreeningModal.Visibility = Visibility.Visible;
+                };
+
+
+
                 Grid.SetColumn(orderButton, 0);
                 Grid.SetColumn(centerStack, 1);
                 Grid.SetColumn(aboutButton, 2);
@@ -555,10 +563,113 @@ namespace OOP_Project
             }
         }
 
+        private void CloseSelectScreeningModal_Click(object sender, RoutedEventArgs e)
+        {
+            SelectScreeningModal.Visibility = Visibility.Collapsed;
+            SelectScreeningErrorText.Text = "";
+            SelectScreeningErrorText.Visibility = Visibility.Collapsed;
+        }
+
+        private void ConfirmSelectScreening_Click(object sender, RoutedEventArgs e)
+        {
+            if (SelectScreeningComboBox.SelectedItem is not Screening selectedScreening)
+            {
+                SelectScreeningErrorText.Text = "Сеанс не обрано.";
+                SelectScreeningErrorText.Visibility = Visibility.Visible;
+                return;
+            }
+
+            SelectScreeningModal.Visibility = Visibility.Collapsed;
+
+            var ticketWindow = new TicketSelectionWindow(selectedScreening, this);
+            this.Hide(); 
+            ticketWindow.Show();
+        }
+
+
+
         private void CloseFilmInfoModal_Click(object sender, RoutedEventArgs e)
         {
             FilmInfoModal.Visibility = Visibility.Collapsed;
         }
+
+        private void CloseOrderConfirmationModal_Click(object sender, RoutedEventArgs e)
+        {
+            OrderConfirmationModal.Visibility = Visibility.Collapsed;
+        }
+
+        private void ConfirmOrder_Click(object sender, RoutedEventArgs e)
+        {
+            OrderConfirmationModal.Visibility = Visibility.Collapsed;
+        }
+
+        private void OpenOrderConfirmation(Screening screening, List<Ticket> selectedTickets)
+        {
+            // TODO: заповнення модального вікна на основі даних
+            OrderConfirmationModal.Visibility = Visibility.Visible;
+        }
+
+        private void CloseTicketsModal_Click(object sender, RoutedEventArgs e)
+        {
+            TicketsModal.Visibility = Visibility.Collapsed;
+        }
+
+        private void OpenTickets_Click(object sender, RoutedEventArgs e)
+        {
+            TicketListPanel.Children.Clear();
+
+            foreach (var ticket in AppData.CurrentUser.PurchasedTickets)
+            {
+                var ticketBorder = new Border
+                {
+                    Margin = new Thickness(10),
+                    Padding = new Thickness(10),
+                    Background = Brushes.White,
+                    BorderBrush = Brushes.Gray,
+                    BorderThickness = new Thickness(1),
+                    CornerRadius = new CornerRadius(8)
+                };
+
+                var stack = new StackPanel();
+
+                stack.Children.Add(new TextBlock
+                {
+                    Text = $"Фільм: {ticket.Screening.Film.Name}",
+                    FontFamily = new FontFamily("Georgia"),
+                    FontWeight = FontWeights.Bold,
+                    FontSize = 14
+                });
+
+                stack.Children.Add(new TextBlock
+                {
+                    Text = $"Дата: {ticket.Screening.Date:dd.MM.yyyy}  Час: {ticket.Screening.Date:HH:mm}",
+                    FontFamily = new FontFamily("Georgia"),
+                    FontSize = 13
+                });
+
+                stack.Children.Add(new TextBlock
+                {
+                    Text = $"Ряд: {ticket.Row}  Місце: {ticket.Seat}",
+                    FontFamily = new FontFamily("Georgia"),
+                    FontSize = 13
+                });
+
+                stack.Children.Add(new TextBlock
+                {
+                    Text = $"ID квитка: {ticket.TicketId}",
+                    FontFamily = new FontFamily("Georgia"),
+                    FontSize = 12,
+                    Foreground = Brushes.Gray
+                });
+
+                ticketBorder.Child = stack;
+                TicketListPanel.Children.Add(ticketBorder);
+            }
+
+            TicketsModal.Visibility = Visibility.Visible;
+        }
+
+
     }
 
 }

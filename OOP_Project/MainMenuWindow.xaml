@@ -98,13 +98,8 @@
                     </Grid>
                 </Button>
 
-                <Popup x:Name="ProfilePopup"
-       Placement="Bottom"
-       PlacementTarget="{Binding ElementName=ProfileButton}"
-       StaysOpen="False"
-       AllowsTransparency="True"
-       PopupAnimation="Fade"
-       HorizontalOffset="-50">
+                <Popup x:Name="ProfilePopup" Placement="Bottom" PlacementTarget="{Binding ElementName=ProfileButton}" StaysOpen="False" AllowsTransparency="True"
+                       PopupAnimation="Fade" HorizontalOffset="-50">
 
                     <Border Background="White" CornerRadius="12" Padding="10" BorderBrush="Gray" BorderThickness="1">
                         <StackPanel>
@@ -147,11 +142,36 @@
                         </StackPanel>
                     </Border>
                 </Popup>
-
-
-
             </StackPanel>
         </DockPanel>
+
+        <Grid x:Name="TicketsModal" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="100">
+            <Border Background="#F0F0F0" CornerRadius="12" Padding="20"
+BorderBrush="Gray" BorderThickness="1"
+Width="600" Height="400"
+VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Заголовок + кнопка закриття -->
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="Ваші квитки" FontFamily="Georgia" FontSize="20" FontWeight="Bold"
+               HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                        <Button Content="✕" Width="25" Height="25" Click="CloseTicketsModal_Click"
+            FontWeight="Bold" Background="Transparent" BorderThickness="0"
+            HorizontalAlignment="Right" VerticalAlignment="Top" Cursor="Hand"/>
+                    </Grid>
+
+                    <!-- Список квитків -->
+                    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                        <StackPanel x:Name="TicketListPanel" Orientation="Vertical"/>
+                    </ScrollViewer>
+                </Grid>
+            </Border>
+        </Grid>
 
         <Grid x:Name="AddMenu" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="99">
             <Border Background="#FFF" CornerRadius="12" Width="250" Height="200"
@@ -180,7 +200,7 @@
 
                     <!-- Кнопки -->
                     <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-                        
+
                         <!--Додати фільм-->
                         <Button Content="Фільм" Click="AddFilm_Click"
                         Width="180" Height="40" Margin="0,0,0,10"
@@ -209,44 +229,44 @@
             </Border>
         </Grid>
 
-            <!-- Вікно для додавання фільму -->
-            <Grid x:Name="AddFilmModal" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="100">
-                <Border Background="#F0F0F0" CornerRadius="12" Padding="20" BorderBrush="Gray" BorderThickness="1"
+        <!-- Вікно для додавання фільму -->
+        <Grid x:Name="AddFilmModal" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="100">
+            <Border Background="#F0F0F0" CornerRadius="12" Padding="20" BorderBrush="Gray" BorderThickness="1"
                     Width="750" Height="470"
                     VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                        </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
 
-                        <!-- Заголовок і кнопка закриття -->
-                        <Grid Grid.Row="0">
-                            <TextBlock Text="Додати фільм" FontFamily="Georgia" FontSize="22" FontWeight="Bold"
+                    <!-- Заголовок і кнопка закриття -->
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="Додати фільм" FontFamily="Georgia" FontSize="22" FontWeight="Bold"
                                    HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,10" TextAlignment="Center"/>
-                            <Button Content="✕" Width="25" Height="25" Click="CloseAddFilmModal_Click"
+                        <Button Content="✕" Width="25" Height="25" Click="CloseAddFilmModal_Click"
                                 FontWeight="Bold" Background="Transparent" BorderThickness="0"
                                 HorizontalAlignment="Right" VerticalAlignment="Top" Cursor="Hand"/>
-                        </Grid>
+                    </Grid>
 
-                        <!-- Поля вводу -->
-                        <Grid Grid.Row="1" Margin="0,20,0,10">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="Auto"/>
+                    <!-- Поля вводу -->
+                    <Grid Grid.Row="1" Margin="0,20,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
 
-                            <!-- Ліва колонка -->
+                        <!-- Ліва колонка -->
                         <TextBox x:Name="NameTextBox" Grid.Row="0" Grid.Column="0" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Назва Фільму" Text="Назва Фільму"/>
                         <TextBox x:Name="YearTextBox" Grid.Row="1" Grid.Column="0" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Рік" Text="Рік"/>
                         <TextBox x:Name="DirectorTextBox" Grid.Row="2" Grid.Column="0" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Режисер" Text="Режисер"/>
@@ -260,26 +280,26 @@
                         <TextBox x:Name="AgeRestrictionTextBox" Grid.Row="2" Grid.Column="1" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Вікові обмеження" Text="Вікові обмеження"/>
                         <TextBox x:Name="GenreTextBox" Grid.Row="3" Grid.Column="1" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Жанр" Text="Жанр"/>
                         <TextBox x:Name="DescriptionTextBox" Grid.Row="4" Grid.Column="1" Margin="10" Height="30" FontFamily="Georgia" FontSize="15" ToolTip="Опис" Text="Опис"/>
-                        </Grid>
+                    </Grid>
 
-                        <!-- Текст помилки -->
-                        <TextBlock x:Name="AddFilmErrorText" Grid.Row="2" Margin="0,0,0,10"
+                    <!-- Текст помилки -->
+                    <TextBlock x:Name="AddFilmErrorText" Grid.Row="2" Margin="0,0,0,10"
                                Foreground="Red" FontFamily="Georgia" FontSize="14"
                                Text="" TextWrapping="Wrap" HorizontalAlignment="Center"/>
 
-                        <!-- Кнопка додавання -->
-                        <Button Grid.Row="3" Content="Додати фільм" Width="200" Height="45" Margin="0,0,0,0"
+                    <!-- Кнопка додавання -->
+                    <Button Grid.Row="3" Content="Додати фільм" Width="200" Height="45" Margin="0,0,0,0"
                             HorizontalAlignment="Center" FontFamily="Georgia" FontSize="16" FontWeight="Bold"
                             Background="#D3D3D3" BorderBrush="Gray" BorderThickness="1" Click="ConfirmAddFilm_Click">
-                            <Button.Resources>
-                                <Style TargetType="Border">
-                                    <Setter Property="CornerRadius" Value="10"/>
-                                </Style>
-                            </Button.Resources>
-                        </Button>
-                    </Grid>
-                </Border>
-            </Grid>
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="10"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </Grid>
+            </Border>
+        </Grid>
 
         <!-- Вікно для додавання сеансу -->
         <Grid x:Name="AddScreeningModal" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="100">
@@ -573,9 +593,98 @@
             </Border>
         </Grid>
 
-        <!-- ScrollViewer з фільмами -->
-            <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="20,80,20,20">
-                <StackPanel x:Name="ScheduleListPanel" Orientation="Vertical" Background="White"/>
-            </ScrollViewer>
+        <Grid x:Name="OrderConfirmationModal" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="100">
+            <Border Background="#F0F0F0" CornerRadius="12" Padding="20"
+            BorderBrush="Gray" BorderThickness="1"
+            Width="350" Height="250"
+            VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Заголовок + закриття -->
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="Підтвердити замовлення" FontFamily="Georgia" FontSize="20" FontWeight="Bold"
+                           HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                        <Button Content="✕" Width="25" Height="25" Click="CloseOrderConfirmationModal_Click"
+                        FontWeight="Bold" Background="Transparent" BorderThickness="0"
+                        HorizontalAlignment="Right" VerticalAlignment="Top" Cursor="Hand"/>
+                    </Grid>
+
+                    <!-- Повідомлення або список квитків -->
+                    <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="Ви впевнені, що хочете замовити ці квитки?" 
+                           FontFamily="Georgia" FontSize="14" TextAlignment="Center" Margin="0,10"/>
+                        <TextBlock x:Name="OrderSummaryText" FontFamily="Georgia" FontSize="14"
+                           Foreground="Black" TextWrapping="Wrap" TextAlignment="Center" Margin="0,10"/>
+                    </StackPanel>
+
+                    <!-- Кнопка підтвердження -->
+                    <Button Grid.Row="2" Click="ConfirmOrder_Click"
+                    Width="200" Height="40"
+                    HorizontalAlignment="Center" FontFamily="Georgia" FontSize="16" FontWeight="Bold"
+                    Background="#D3D3D3" BorderBrush="Gray" BorderThickness="1">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="10"/>
+                            </Style>
+                        </Button.Resources>
+                        Підтвердити
+                    </Button>
+                </Grid>
+            </Border>
         </Grid>
+
+        <!-- Вікно для вибору сеансу перед покупкою квитків -->
+        <Grid x:Name="SelectScreeningModal" Background="#80000000" Visibility="Collapsed" Panel.ZIndex="100">
+            <Border Background="#F0F0F0" CornerRadius="12" Padding="20" BorderBrush="Gray" BorderThickness="1"
+            Width="300" Height="220" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Заголовок і кнопка закриття -->
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="Обрати сеанс" FontFamily="Georgia" FontSize="20" FontWeight="Bold"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,10"/>
+                        <Button Content="✕" Width="25" Height="25" Click="CloseSelectScreeningModal_Click"
+                        FontWeight="Bold" Background="Transparent" BorderThickness="0"
+                        HorizontalAlignment="Right" VerticalAlignment="Top" Cursor="Hand"/>
+                    </Grid>
+
+                    <!-- ComboBox для вибору сеансу -->
+                    <StackPanel Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0">
+                        <ComboBox x:Name="SelectScreeningComboBox" Width="220" Height="30"
+                          FontFamily="Georgia" FontSize="14" ToolTip="Оберіть сеанс"
+                          HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+
+                        <TextBlock x:Name="SelectScreeningErrorText" Margin="0,10,0,0" Foreground="Red"
+                           FontFamily="Georgia" FontSize="13" Visibility="Collapsed" TextWrapping="Wrap"/>
+                    </StackPanel>
+
+                    <!-- Кнопка підтвердження -->
+                    <Button Grid.Row="2" Content="Продовжити" Width="200" Height="40" Margin="0,10,0,0"
+                    HorizontalAlignment="Center" FontFamily="Georgia" FontSize="16" FontWeight="Bold"
+                    Background="#D3D3D3" BorderBrush="Gray" BorderThickness="1" Click="ConfirmSelectScreening_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="10"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- ScrollViewer з фільмами -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="20,80,20,20">
+            <StackPanel x:Name="ScheduleListPanel" Orientation="Vertical" Background="White"/>
+        </ScrollViewer>
+    </Grid>
 </Window>

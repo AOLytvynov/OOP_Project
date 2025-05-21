@@ -34,7 +34,7 @@ namespace OOP_Project.Models
             set
             {
                 if (string.IsNullOrEmpty(value)) throw new ArgumentException("Логін не може бути порожнім.");
-                if (value.Length <= 5 || value.Length >= 32) throw new ArgumentException("Довжина паролю повинна бути від 8 до 32 символів.");
+                if (value.Length <= 5 || value.Length > 32) throw new ArgumentException("Довжина паролю повинна бути від 5 до 32 символів.");
                 if (!System.Text.RegularExpressions.Regex.IsMatch(value, @"^[a-zA-Z0-9!@#$%^&*()_\-+=\[\]{}|\\:;""'<>,.?/~`]+$"))
                     throw new ArgumentException("Для паролю допустимі тільки великі та малі латинські літери, цифри та спеціальні символи.");
                     _password = value;

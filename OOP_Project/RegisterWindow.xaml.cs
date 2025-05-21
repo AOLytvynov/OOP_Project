@@ -101,13 +101,13 @@ namespace OOP_Project
             }
             else if (parsedDate < new DateTime(1900, 1, 1))
             {
-                BirthDateError.Text = "Дата народження не може бути раніше 1900 року";
+                BirthDateError.Text = "Не може бути раніше 1900 року";
                 BirthDateError.Visibility = Visibility.Visible;
                 hasError = true;
             }
             else if (parsedDate >= DateTime.Now)
             {
-                BirthDateError.Text = "Дата народження не може бути з майбутнього";
+                BirthDateError.Text = "Не може бути з майбутнього";
                 BirthDateError.Visibility = Visibility.Visible;
                 hasError = true;
             }
@@ -115,19 +115,19 @@ namespace OOP_Project
             // Телефон
             if (!phone.All(char.IsDigit))
             {
-                PhoneError.Text = "Номер телефону повинен містити лише цифри";
+                PhoneError.Text = "Повинен містити лише цифри";
                 PhoneError.Visibility = Visibility.Visible;
                 hasError = true;
             }
             else if (phone.Length != 10)
             {
-                PhoneError.Text = "Номер телефону має містити рівно 10 цифр";
+                PhoneError.Text = "Має містити рівно 10 цифр";
                 PhoneError.Visibility = Visibility.Visible;
                 hasError = true;
             }
             else if (!phone.StartsWith("0"))
             {
-                PhoneError.Text = "Номер телефону повинен починатися з '0'";
+                PhoneError.Text = "Повинен починатися з '0'";
                 PhoneError.Visibility = Visibility.Visible;
                 hasError = true;
             }

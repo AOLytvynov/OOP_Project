@@ -436,11 +436,8 @@ VerticalAlignment="Center" HorizontalAlignment="Center">
                         <ComboBox x:Name="DeleteFilmComboBox" Width="200" Height="30"
                           FontFamily="Georgia" FontSize="14" ToolTip="Оберіть фільм"
                           HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+                        <TextBlock x:Name="DeleteFilmErrorText" Text="" Foreground="Red" FontFamily="Georgia" FontSize="13" Margin="0,5,0,10" Visibility="Collapsed" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                     </StackPanel>
-
-                    <TextBlock x:Name="DeleteFilmErrorText" Text="" Foreground="Red" FontFamily="Georgia" FontSize="13"
-           Margin="0,5,0,10" Visibility="Collapsed" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-
 
                     <!-- Кнопка підтвердження -->
                     <Button Grid.Row="2" Content="Видалити" Width="200" Height="40"

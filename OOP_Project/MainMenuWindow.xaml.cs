@@ -140,7 +140,7 @@ namespace OOP_Project
             }
             else if (string.IsNullOrEmpty(originalTitle))
             {
-                AddFilmErrorText.Text = "Студія не може бути порожньою.";
+                AddFilmErrorText.Text = "Оригінальна назва не може бути порожньою.";
                 hasError = true;
             }
             else if (string.IsNullOrEmpty(production))
@@ -277,7 +277,7 @@ namespace OOP_Project
 
             if (screeningStart < openingTime)
             {
-                AddScreeningErrorText.Text = "Кінотеатр відкривається о 09:00.";
+                AddScreeningErrorText.Text = "Сеанс виходить за межі робочого часу (з 9:00).";
                 AddScreeningErrorText.Visibility = Visibility.Visible;
                 return;
             }
@@ -592,7 +592,8 @@ namespace OOP_Project
                 return;
             }
 
-            SelectScreeningModal.Visibility = Visibility.Collapsed;
+                SelectScreeningModal.Visibility = Visibility.Collapsed;
+            SelectScreeningErrorText.Visibility = Visibility.Collapsed;
 
             var ticketWindow = new TicketSelectionWindow(selectedScreening, this);
             this.Hide();
@@ -604,6 +605,7 @@ namespace OOP_Project
         private void CloseFilmInfoModal_Click(object sender, RoutedEventArgs e)
         {
             FilmInfoModal.Visibility = Visibility.Collapsed;
+            SelectScreeningErrorText.Visibility = Visibility.Collapsed;
         }
 
         private void CloseOrderConfirmationModal_Click(object sender, RoutedEventArgs e)

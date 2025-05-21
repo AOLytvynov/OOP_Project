@@ -34,7 +34,7 @@ namespace OOP_Project.DTO
             RowNumber = ticket.Row,
             SeatNumber = ticket.Seat,
             OwnerLogin = ticket.Owner?.Login,
-            FilmName = ticket.Screening?.Film?.Name,     // нове
+            FilmName = ticket.Screening?.Film?.Name,
             ScreeningDate = ticket.Screening?.Date ?? default
         };
 

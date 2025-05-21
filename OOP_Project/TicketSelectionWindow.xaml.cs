@@ -129,6 +129,12 @@ namespace OOP_Project
                 return;
             }
 
+            if(selectedSeats.Count() == 0)
+            {
+                MessageBox.Show("Місця не було обрано. Будь ласка, оберіть місце", "Помилка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             foreach (var (row, seat) in selectedSeats)
             {
                 var ticket = _screening.Tickets.FirstOrDefault(t => t.Row == row && t.Seat == seat);

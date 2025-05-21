@@ -60,6 +60,38 @@
       <FileName>Models\User.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OOP_Project.LoginWindow">
+    <Position X="3.75" Y="8.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>LoginWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Project.RegisterWindow">
+    <Position X="3.75" Y="10.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegisterWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Project.TicketSelectionWindow">
+    <Position X="16.25" Y="8.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAAQCAAABEAAAAACwABACCAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>TicketSelectionWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Project.MainMenuWindow">
+    <Position X="9.75" Y="8.5" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>BAhEAAIQgAQAEACQAAAhAEAEAAAAACEAAEAEAQUYAkI=</HashCode>
+      <FileName>MainMenuWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="OOP_Project.Interfaces.IScreening">
     <Position X="24.5" Y="0.75" Width="2.5" />
     <TypeIdentifier>

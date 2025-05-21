@@ -25,23 +25,22 @@ namespace OOP_Project
 
             var loadedAdmin = Users.FirstOrDefault(u => u.Login == "admin");
 
-            if (loadedAdmin is Admin realAdmin)
+            if (loadedAdmin != null)
             {
-                AdminUser = realAdmin;
+                AdminUser = new Admin("admin", "12121212", "0000000000", new DateTime(1990, 1, 1));
+                foreach (var ticket in loadedAdmin.PurchasedTickets)
+                {
+                    ticket.AssignToUser(AdminUser);
+                }
+                Users.Remove(loadedAdmin);
+                Users.Add(AdminUser);
             }
             else
             {
-                if (loadedAdmin != null)
-                    Users.Remove(loadedAdmin);
-
-                var newAdmin = new Admin("admin", "12121212", "0000000000", new DateTime(1990, 1, 1));
-                Users.Add(newAdmin);
-                AdminUser = newAdmin;
-
-                JsonStorage.SaveUsers(Users);
+                AdminUser = new Admin("admin", "12121212", "0000000000", new DateTime(1990, 1, 1));
+                Users.Add(AdminUser);
             }
+            JsonStorage.SaveUsers(Users);
         }
-
-
     }
 }

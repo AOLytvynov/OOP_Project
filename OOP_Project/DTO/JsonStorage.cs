@@ -13,6 +13,7 @@ namespace OOP_Project.DTO
     {
         private const string ScheduleFilePath = "schedules.json";
         private const string UserFilePath = "users.json";
+
         public static void SaveSchedules(List<ScreeningSchedule> schedules)
         {
             var dtoList = schedules.Select(s => s.ToDto()).ToList();

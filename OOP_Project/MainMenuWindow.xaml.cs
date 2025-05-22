@@ -596,6 +596,12 @@ namespace OOP_Project
             SelectScreeningErrorText.Visibility = Visibility.Collapsed;
 
             var ticketWindow = new TicketSelectionWindow(selectedScreening, this);
+
+            ticketWindow.TicketsPurchased += () =>
+            {
+                MessageBox.Show("Квитки успішно замовлено!", "Вітаємо", MessageBoxButton.OK, MessageBoxImage.Information);
+            };
+
             this.Hide();
             ticketWindow.Show();
         }

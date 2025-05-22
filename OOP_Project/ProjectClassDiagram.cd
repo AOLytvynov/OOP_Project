@@ -78,8 +78,18 @@
   </Class>
   <Class Name="OOP_Project.TicketSelectionWindow">
     <Position X="16.25" Y="8.5" Width="5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="OOP_Project.TicketSelectionWindow.TicketsPurchasedDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TicketSelectionWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>BAABAAAQCAAABEAAAAACwABACCAAAAAAAAAAAAgAAAA=</HashCode>
+      <HashCode>BAABAAAQCAAABEAAAAACwABACCAACAAAAAAAAAgAAAA=</HashCode>
       <FileName>TicketSelectionWindow.xaml.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -91,6 +101,55 @@
       <FileName>MainMenuWindow.xaml.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Project.DTO.JsonStorage">
+    <Position X="8" Y="15.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAIAAAEQCAA=</HashCode>
+      <FileName>DTO\JsonStorage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Project.DTO.DtoConverters">
+    <Position X="12.25" Y="15.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DTO\DtoConverters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Project.DTO.TicketDto">
+    <Position X="10.25" Y="19" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAACAAAIAAAAAAAAAAAAAAIAABAAAAAAAEAAAAA=</HashCode>
+      <FileName>DTO\TicketDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Project.DTO.FilmDto">
+    <Position X="13.25" Y="19" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAADAAiAABAAAIAAAQAAAAAAAACAAQAAAAAAEA=</HashCode>
+      <FileName>DTO\FilmDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Project.DTO.RegisteredUserDto">
+    <Position X="8.75" Y="24.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAQAAAAAAQAAACAAAQAAAAAAA=</HashCode>
+      <FileName>DTO\RegisteredUserDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Project.DTO.ScreeningDto">
+    <Position X="8.75" Y="23" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAABAABAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\ScreeningDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Project.DTO.ScreeningScheduleDto">
+    <Position X="11.75" Y="23" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\ScreeningScheduleDto.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Interface Name="OOP_Project.Interfaces.IScreening">
     <Position X="24.5" Y="0.75" Width="2.5" />

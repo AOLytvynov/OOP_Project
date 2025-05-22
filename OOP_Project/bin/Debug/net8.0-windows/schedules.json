@@ -194,7 +194,7 @@
             "TicketId": "T707PK0LH0ITVBDI1BQH",
             "RowNumber": 2,
             "SeatNumber": 6,
-            "OwnerLogin": null,
+            "OwnerLogin": "user12345",
             "FilmName": "\u0411\u0430\u043B\u0435\u0440\u0438\u043D\u0430",
             "ScreeningDate": "2025-06-18T12:40:00"
           },
@@ -370,7 +370,7 @@
             "TicketId": "1DY671LB8LXHU3APU6E8",
             "RowNumber": 3,
             "SeatNumber": 13,
-            "OwnerLogin": null,
+            "OwnerLogin": "user12345",
             "FilmName": "\u0411\u0430\u043B\u0435\u0440\u0438\u043D\u0430",
             "ScreeningDate": "2025-06-18T12:40:00"
           },
@@ -378,7 +378,7 @@
             "TicketId": "6FRRTWHUFOSTV70EYTKD",
             "RowNumber": 3,
             "SeatNumber": 14,
-            "OwnerLogin": null,
+            "OwnerLogin": "user12345",
             "FilmName": "\u0411\u0430\u043B\u0435\u0440\u0438\u043D\u0430",
             "ScreeningDate": "2025-06-18T12:40:00"
           },
